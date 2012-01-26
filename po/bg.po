@@ -1,0 +1,982 @@
+# Bulgarian translation of mate-nettool po-file.
+# This file is distributed under the same license as the mate-nettool package.
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# Rostislav "zbrox" Raykov <zbrox@i-space.org>, 2004, 2005
+# Iassen Pramatarov <turin@fsa-bg.org>, 2005.
+# Alexander Shopov <ash@contact.bg>, 2006, 2007, 2009.
+# Yavor Doganov <yavor@gnu.org>, 2008.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-18 11:15+0300\n"
+"PO-Revision-Date: 2009-08-18 11:15+0300\n"
+"Last-Translator: Alexander Shopov <ash@contact.bg>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
+"Ясен Праматаров <turin@fsa-bg.org>\n"
+"Александър Шопов <ash@contact.bg>\n"
+"\n"
+"Проектът за превод на MATE има нужда от подкрепа.\n"
+"Научете повече за нас на http://mate.cult.bg\n"
+"Докладвайте за грешки на http://mate.cult.bg/bugs"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Авторски права © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "Мрежови инструменти"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "Графична среда на разпространени мрежови инструменти"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "Бездействие"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s — мрежови инструменти"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "Файлът с помощта не може да бъде отворен"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0 %"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>Данни за IP</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>Данни за интерфейса</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Статистика на интерфейса</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Статистика на закъсненията</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Статистика на пакетите</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "Активни мрежови услуги"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "Средно:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "Звук при ping"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "Изчистване на _историята"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "Колизии:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "Копиране като _текст"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "Подробности"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "Устройства"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "Устройства — мрежови инструменти"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "Показване с netstat на:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "Адрес на домейна:"
+
+#: ../src/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"Въведете адрес на домейн, чиято данни в базата whois искате да потърсите. "
+"Напр. www.domain.com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Въведете мрежовия адрес за проверката на потребител чрез finger. Напр. www."
+"domain.com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"Въведете мрежовия адрес, който да се потърси. Напр. www.domain.com или "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"Въведете мрежовия адрес, който да се запита чрез ping. Напр. www.domain.com "
+"или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"Въведете мрежовия адрес, чиито портове да с сканират. Напр. www.domain.com "
+"или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Въведете мрежовия адрес, който да се проследи чрез trace. Напр. www.domain."
+"com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "Въведете потребител, който да се провери"
+
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Проверка на потребител"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "Изход от проверка на потребител"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "Хардуерен адрес:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "Хост"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "Скорост на връзката:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "Търсене"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "Изход от търсенето"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "МксмРмрПкт (MTU):"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "Най-много:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "Най-малко:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Данни за разпръскване (mutlicast)"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Разпръскване:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Мрежови връзки"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Изход от мрежовите връзки"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "Мрежови адрес"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "Не е налично"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "Само"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "Изход от проверката на потребител"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "Изход от търсенето"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "Изход от мрежовите връзки"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "Изход от сканирането на портове"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "Изход от проследяването"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "Изход от данните за домейна"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "Получени пакети:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "Изпратени пакети:"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Запитване"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Сканиране на портове"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "Изход от сканирането на портове"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "Получени байтове:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "Получени пакети:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "Грешки при получаване:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "Таблица на пътищата"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "Сканиране"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "Изпращане:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "Състояние:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "Успешни пакети:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Проследяване"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Проследяване"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Изход от проследяването"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "Грешки при изпращане:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "Изпратени байтове:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "Изпратени пакети:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "Неограничен брой запитвания"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "Потребител"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "Потребителско име"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Данни за домейн"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Изход от данните за домейн"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_Настройки"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_Адрес на домейна:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "Помо_щ"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "_Вид данни:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_Мрежов адрес:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "_Мрежово устройство:"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_Инструменти"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_Потребителско име:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "запитвания"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "Друг вид"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Етернет интерфейс"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "Безжичен интерфейс"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "Модемен интерфейс"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "Паралелен интерфейс"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "Инфрачервен интерфейс"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Локален интерфейс"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "Непознат интерфейс"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "Не са открити мрежови устройства"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "Непознат"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "Активно"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "Неактивно"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Локален"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "Изключено"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Мрежово устройство:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Хардуерен адрес:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Адрес за разпръскване:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Скорост на връзката:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Състояние:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Изпратени пакети:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Грешки при изпращане:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Получени пакети:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Грешки при получаване:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Колизии:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "не е налично"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "Търсене на %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "Име"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "Време за живот"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "Вид на адреса"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "Вид на записа"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "Адрес"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Източник\tВреме за живот\tВид адрес\tВид запис 1\tРезултат\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Зареждане на данни за мрежово устройство"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "УСТРОЙСТВО"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "Проверка активността на мрежови адрес"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "ХОСТ"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr ""
+"Вид данни за получаване. Възможните стойности са:\n"
+"                              route, active, multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "КОМАНДА"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Проследяване на пътя до мрежови адрес"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Прослушване портовете на мрежови адрес"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Търсене на мрежови адрес"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Команда за откриване на потребител"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "ПОТРЕБИТЕЛ"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr ""
+"Изпълняване на заявка „whois“ за откриване на данни\n"
+"                              за домейна"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "ДОМЕЙН"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"Файлът %s не съществува. Проверете дали mate-nettool е инсталиран правилно."
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "Протокол"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "Адрес на IP"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Мрежова маска/префикс"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Адрес за оповестяване"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "Обхват"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "Стандартна информация"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "Интернет адрес"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "Канонично име"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "Вид процесор/ОС"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "Запис „MX“"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "Информация за пощенска кутия"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "Запис „NS“"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "Хост за адрес"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Запис „SOA“"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "Запис „TXT“"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "Известни услуги"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "Всякаква информация"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "Получаване на таблицата с пътищата"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "Откриване на активните връзки към Интернет"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "Получаване списъка с членове на групи"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "Източник по IP"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "Порт/услуга"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "Състояние"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "Дестинация/префикс"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "Дестинация"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Мрежова маска"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "Член"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "Група"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Протокол\tИзточник по IP\tПорт/Услуга\tСъстояние\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Назначение\tШлюз\tМрежова маска\tИнтерфейс\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Интерфейс\tЧлен\tГрупа\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "Не беше указан мрежови адрес"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "Въведете валиден мрежови адрес и опитайте отново."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Адресът „%s“ не може да бъде намерен."
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "Не беше указан домейн адрес."
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "Въведете валиден домейн адрес и опитайте отново."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "Данните не са налични."
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "Стоп"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "Старт"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "Време [ms]:"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Пор. №:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Изпращане на запитвания до %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "Байтове"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "Източник"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Поредност"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "Време"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "Единици"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Байтове\tИзточник\tПоредност\tВреме\tЕдиници\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Най-малко време:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Средно време:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Най-голямо време:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Изпратени пакети:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Получени пакети:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Успешни пакети:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Сканиране на %s за отворени портове"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "непознат"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "отворен"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "Порт"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "Услуга"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Порт\tСъстояние\tУслуга\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Проследяване на %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "Скок"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "Име на хоста"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "Адрес на IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "Време 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "Време 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Скок\tИме на хост\tАдрес на IP\tВреме 1\tВреме 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"За да можете да използвате тази възможност на програмата, трябва да сте "
+"инсталирали %s на вашия компютър"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "Разглеждане на информация за мрежата ви"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "Получаване на данни за %s на „%s“"
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "Получаване на данни за всички потребители на „%s“"
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Получаване на данните за домейна %s"

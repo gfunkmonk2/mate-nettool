@@ -1,0 +1,969 @@
+# translation of mate-nettool.master.te.po to Telugu
+# Telugu translation of mate-nettool.
+# Copyright (C) Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the mate-nettool package.
+#
+# Pramod <pramod@swecha.net>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-nettool&component=general\n"
+"POT-Creation-Date: 2009-05-04 03:50+0000\n"
+"PO-Revision-Date: 2009-09-17 15:22+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Pramod <pramod@swecha.net> "
+"కృష్ణబాబు కె <kkrothap@redhat.com> "
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "కాపీహక్కు © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "అల్లిక పనిముట్లు"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "సాధారణమైన అల్లిక సౌలభ్యాల కొరకు చిత్రరూప వినియోగదారు సంవిధానం"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:461
+msgid "Idle"
+msgstr "స్థిరమైన"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - అల్లిక పనిముట్లు"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "సహాయ దస్త్రమును తెరువలేక పోయింది"
+
+#: ../src/mate-nettool.glade.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.glade.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.glade.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.glade.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP సమాచారము</b>"
+
+#: ../src/mate-nettool.glade.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>సంవిధాన సమాచారము</b>"
+
+#: ../src/mate-nettool.glade.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>సంవిధాన గణాంకాలు</b>"
+
+#: ../src/mate-nettool.glade.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>గుండ్రని యాత్ర సమయ గణాంకాలు</b>"
+
+#: ../src/mate-nettool.glade.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>ప్రసరణ గణాంకాలు</b>"
+
+#: ../src/mate-nettool.glade.h:10
+msgid "Active Network Services"
+msgstr "అల్లిక సేవను క్రియాశీలంచేయు"
+
+#: ../src/mate-nettool.glade.h:11
+msgid "Average:"
+msgstr "సగటు:"
+
+#: ../src/mate-nettool.glade.h:12
+msgid "Beep on ping"
+msgstr "పింగ్ పై బీప్ శబ్ధం"
+
+#: ../src/mate-nettool.glade.h:13
+msgid "Clear _History"
+msgstr "_చరిత్ర శుభ్రంచేయు"
+
+#: ../src/mate-nettool.glade.h:14
+msgid "Collisions:"
+msgstr "ఢీకొనుట:"
+
+#: ../src/mate-nettool.glade.h:15
+msgid "Copy as text _report"
+msgstr "పాఠ్యపు నివేదికవలె నకలుతీయుము (_r)"
+
+#: ../src/mate-nettool.glade.h:16
+msgid "Details"
+msgstr "వివరములు"
+
+#: ../src/mate-nettool.glade.h:17
+msgid "Devices"
+msgstr "పరికరాలు"
+
+#. Dear Translator: This is the Window Title
+#: ../src/mate-nettool.glade.h:19
+msgid "Devices - Network Tools"
+msgstr "పరికరాలు - అల్లిక పనిముట్లు"
+
+#: ../src/mate-nettool.glade.h:20
+msgid "Display:"
+msgstr "ప్రదర్శించు:"
+
+#: ../src/mate-nettool.glade.h:21
+msgid "Domain address"
+msgstr "డొమైన్ చిరునామా"
+
+#: ../src/mate-nettool.glade.h:22
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"whois సమాచారమును చూడుటకు డొమైన్ చిరునామాను ప్రవేశపెట్టండి. ఉదాహరణకు: www."
+"domain.com లేదా 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:23
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"వినియోగదారిని చూపుటకు నెట్వర్కు చిరునామాను ప్రవేశపెట్టండి. ఉదాహరణకు: www.domain.com "
+"లేదా 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:24
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"చూడుటకు నెట్వర్కు చిరునామాను ప్రవేశపెట్టుము. ఉదాహరణకు: www.domain.com లేదా "
+"192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:25
+msgid "Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"పింగ్ చేయుటకు నెట్వర్కు చిరునామాను ప్రవేశపెట్టుము. ఉదాహరణకు: www.domain.com లేదా "
+"192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:26
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr "తెరిచిన పోర్టులను స్కానుచేయుటకు నెట్వర్కు చిరునామాను ప్రవేశపెట్టండి. ఉదాహరణకు: www.domain.com లేదా 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:27
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"దీనికి రూట్‌ను ట్రేస్ చేయుటకు నెట్వర్కు చిరునామాను ప్రవేశపెట్టుము. ఉదాహరణకు: www.domain.com లేదా "
+"192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:28
+msgid "Enter the user to finger"
+msgstr "చూపుటకు వినియోగదారిని ప్రవేశపెట్టుము"
+
+#: ../src/mate-nettool.glade.h:29 ../src/main.c:814
+msgid "Finger"
+msgstr "వేలు"
+
+#: ../src/mate-nettool.glade.h:30
+msgid "Finger output"
+msgstr "వేలు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:31
+msgid "Hardware address:"
+msgstr "గట్టిసరుకు సమాచారము:"
+
+#: ../src/mate-nettool.glade.h:32
+msgid "Host"
+msgstr "ఆతిథ్యం"
+
+#: ../src/mate-nettool.glade.h:33
+msgid "Link speed:"
+msgstr "జోడి వేగము:"
+
+#: ../src/mate-nettool.glade.h:34 ../src/main.c:734
+msgid "Lookup"
+msgstr "వెతుకుటకై"
+
+#: ../src/mate-nettool.glade.h:35
+msgid "Lookup output"
+msgstr "లుకప్ అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:36
+msgid "MTU:"
+msgstr "ఎంటియు:"
+
+#: ../src/mate-nettool.glade.h:37
+msgid "Maximum:"
+msgstr "అత్యధిక:"
+
+#: ../src/mate-nettool.glade.h:38
+msgid "Minimum:"
+msgstr "అత్యల్ప:"
+
+#: ../src/mate-nettool.glade.h:39
+msgid "Multicast Information"
+msgstr "జంటచేయు సమాచారము"
+
+#: ../src/mate-nettool.glade.h:40
+msgid "Multicast:"
+msgstr "జంటచేయు:"
+
+#: ../src/mate-nettool.glade.h:41 ../src/main.c:446
+msgid "Netstat"
+msgstr "నెట్ స్టాట్"
+
+#: ../src/mate-nettool.glade.h:42
+msgid "Netstat output"
+msgstr "నెట్‌స్టాట్ అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:43
+msgid "Network address"
+msgstr "నెట్వర్కు చిరునామా"
+
+#: ../src/mate-nettool.glade.h:44
+msgid "Not Available"
+msgstr "లభించలేదు"
+
+#: ../src/mate-nettool.glade.h:45
+msgid "Only"
+msgstr "మాత్రమే"
+
+#: ../src/mate-nettool.glade.h:46
+msgid "Output for finger"
+msgstr "వేలు కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:47
+msgid "Output for lookup"
+msgstr "లుకప్ కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:48
+msgid "Output for net stat"
+msgstr "నెట్ స్టాట్ కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:49
+msgid "Output for port scan"
+msgstr "పోర్టు స్కాన్ కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:50
+msgid "Output for traceroute"
+msgstr "ట్రేస్‌రూట్ కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:51
+msgid "Output for whois"
+msgstr "హూఈజ్ కొరకు అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:52
+msgid "Packets received:"
+msgstr "పొట్లాలు తీసుకొనబడినవి:"
+
+#: ../src/mate-nettool.glade.h:53
+msgid "Packets transmitted:"
+msgstr "పొట్లాలు ప్రసరింపబడినవి:"
+
+#: ../src/mate-nettool.glade.h:54 ../src/main.c:290
+msgid "Ping"
+msgstr "పింగ్"
+
+#: ../src/mate-nettool.glade.h:55
+msgid "Port Scan"
+msgstr "రేవు సంశోధన"
+
+#: ../src/mate-nettool.glade.h:56
+msgid "Port scan output"
+msgstr "పోర్టు స్కాన్ అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:57
+msgid "Received bytes:"
+msgstr "తీసుకొనబడిన బైట్స్:"
+
+#: ../src/mate-nettool.glade.h:58
+msgid "Received packets:"
+msgstr "తీసుకొనబడిన పొట్లాలు:"
+
+#: ../src/mate-nettool.glade.h:59
+msgid "Reception errors:"
+msgstr "స్వీకరించిన దోషాలు:"
+
+#: ../src/mate-nettool.glade.h:60
+msgid "Routing Table Information"
+msgstr "త్రోవచూపు పట్టిక సమాచారము"
+
+#: ../src/mate-nettool.glade.h:61 ../src/main.c:619
+msgid "Scan"
+msgstr "సంశోధన"
+
+#: ../src/mate-nettool.glade.h:62
+msgid "Send:"
+msgstr "పంపు:"
+
+#: ../src/mate-nettool.glade.h:63
+msgid "State:"
+msgstr "స్థితి:"
+
+#: ../src/mate-nettool.glade.h:64
+msgid "Successful packets:"
+msgstr "విజయవంతమైన పొట్లాలు:"
+
+#: ../src/mate-nettool.glade.h:65 ../src/main.c:375
+msgid "Trace"
+msgstr "జాడ"
+
+#: ../src/mate-nettool.glade.h:66
+msgid "Traceroute"
+msgstr "జాడ త్రోవ వెతుకు"
+
+#: ../src/mate-nettool.glade.h:67
+msgid "Traceroute output"
+msgstr "ట్రేస్‌రూట్ అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:68
+msgid "Transmission errors:"
+msgstr "ప్రసరణ దోషము:"
+
+#: ../src/mate-nettool.glade.h:69
+msgid "Transmitted bytes:"
+msgstr "ప్రసరించబడిన బైట్స్:"
+
+#: ../src/mate-nettool.glade.h:70
+msgid "Transmitted packets:"
+msgstr "ప్రసరించబడిన పొట్లాలు:"
+
+#: ../src/mate-nettool.glade.h:71
+msgid "Unlimited requests"
+msgstr "హద్దులులేని మనవిలు"
+
+#: ../src/mate-nettool.glade.h:72
+msgid "User"
+msgstr "వినియోగదారు"
+
+#: ../src/mate-nettool.glade.h:73
+msgid "User name"
+msgstr "వినియోగదారి నామము"
+
+#: ../src/mate-nettool.glade.h:74 ../src/main.c:920
+msgid "Whois"
+msgstr "హూయిస్"
+
+#: ../src/mate-nettool.glade.h:75
+msgid "Whois output"
+msgstr "హూఈజ్ అవుట్‌పుట్"
+
+#: ../src/mate-nettool.glade.h:76
+msgid "_Configure"
+msgstr "_రూపకరణ"
+
+#: ../src/mate-nettool.glade.h:77
+msgid "_Domain address:"
+msgstr "_అధికారక్షేత్ర చిరునామా:"
+
+#: ../src/mate-nettool.glade.h:78
+msgid "_Edit"
+msgstr "_సరిచేయు"
+
+#: ../src/mate-nettool.glade.h:79
+msgid "_Help"
+msgstr "_సహాయము"
+
+#: ../src/mate-nettool.glade.h:80
+msgid "_Information type:"
+msgstr "_సమాచార రకము:"
+
+#: ../src/mate-nettool.glade.h:81
+msgid "_Network address:"
+msgstr "_అల్లిక చిరునామా:"
+
+#: ../src/mate-nettool.glade.h:82
+msgid "_Network device:"
+msgstr "_అల్లిక పరికరం:"
+
+#: ../src/mate-nettool.glade.h:83
+msgid "_Tool"
+msgstr "_పనిముట్లు"
+
+#: ../src/mate-nettool.glade.h:84
+msgid "_Username:"
+msgstr "_వినియోగదారు నామము:"
+
+#. Translators: this is the abbreviation for milliseconds
+#: ../src/mate-nettool.glade.h:86
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.glade.h:87
+msgid "requests"
+msgstr "మనవిలు"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "వేరొక రకము"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "ఈథర్ నెట్ సంవిధానం"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "తీగలేని సంవిధానం"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "మోడెమ్ సంవిధానం"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "సమాంతర రేఖా సంవిధానం"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "అదృశ్యకర సంవిధానం"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "లూప్ వెనుక సంవిధానం"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "తెలియని సంవిధానం"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "అల్లిక పరికరాలు దొరకలేదు"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "తెలియనిది"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "క్రియాశీలంచేయు"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "క్రియాహీనంచేయు"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "లూప్ వెనక్కి"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "ఉపయోగించు"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "నిరుపయోగించు"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "అల్లిక పరికరం:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "చిరునామా:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "జంటచేయు:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "ఎంటియు:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "జోడి వేగము:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "స్థితి:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "ప్రసరింపబడిన పొట్లాలు:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "ప్రసరింపబడిన దోషాలు:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "తీసుకొనబడిన పొట్లాలు:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "స్వీకరించు దోషములు:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "ఢీకొట్టుటలు:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "లభించలేదు"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "%s వెతుకుటకై"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "నామము"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "టిటియల్"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "చిరునామా విధము"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "రికార్డు రకము"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "చిరునామా"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "వనరు\tటిటియల్\tచిరునామా రకము\tరికార్డు రకము1\tనిశ్చయము\n"
+
+#: ../src/main.c:83
+msgid "Load information for a network device"
+msgstr "అల్లిక పరికరముల కొరకు సమాచారమును నింపుము"
+
+#: ../src/main.c:84
+msgid "DEVICE"
+msgstr "పరికరం"
+
+#: ../src/main.c:87
+msgid "Send a ping to a network address"
+msgstr "అల్లిక చిరునామాకు పింగ్ పంపుము"
+
+#: ../src/main.c:88 ../src/main.c:96 ../src/main.c:100 ../src/main.c:104
+msgid "HOST"
+msgstr "ఆతిథ్యం"
+
+#: ../src/main.c:91
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "నెట్ స్టాట్ సమాచారమును పొందుము. వర్తించు ఇఛ్ఛాపూర్వకములు: త్రొవ, క్రియాశీలం, మల్టీక్యాస్ట్."
+
+#: ../src/main.c:92
+msgid "COMMAND"
+msgstr "ఆదేశము"
+
+#: ../src/main.c:95
+msgid "Trace a route to a network address"
+msgstr "ఒక అల్లిక చిరునామాకు జాడ త్రోవ వెతుకు"
+
+#: ../src/main.c:99
+msgid "Port scan a network address"
+msgstr "అల్లిక చిరునామాకు రేవు సంశోధించు"
+
+#: ../src/main.c:103
+msgid "Look up a network address"
+msgstr "అల్లిక చిరునామాకు వెతుకుటకై"
+
+#: ../src/main.c:107
+msgid "Finger command to run"
+msgstr "పనిచేయుటకు వ్రేలు ఆదేశం"
+
+#: ../src/main.c:108
+msgid "USER"
+msgstr "వినియోగదారు"
+
+#: ../src/main.c:111
+msgid "Perform a whois lookup for a network domain"
+msgstr "ఒక అల్లిక అధికారక్షేత్రం కొరకు హూయిస్ వెతుకుటను ప్రదర్శించు"
+
+#: ../src/main.c:112
+msgid "DOMAIN"
+msgstr "అథికారక్షేత్రం"
+
+#: ../src/main.c:131
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr "%s కలిగి లేదు, దయచేసి ఒకవేళ గ్నో మ్-నెట్ పనిముట్టు సరియైన విధంగా నెలకొల్పబడినదా తనిఖీచేయుము"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "ప్రోటోకాల్"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP చిరునామా"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "నెట్ మాస్క్ / ఉపసర్గ"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "ప్రసారంచేయు"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "లక్ష్యం"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "అప్రమేయ సమాచారము"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "ఇంటర్నెట్ చిరునామా"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "కెనోనికల్ నామము"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPU / OS రకము"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "మెయిల్‌బాక్సు మార్పిడి"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "మెయిల్‌బాక్సు సమాచారము"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "నామపు సేవిక"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "చిరునామా కొరకు అతిధేయ నామము"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "అధికారికం-యొక్క-ప్రారంభం"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "పాఠ్యము సమాచారము"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "బాగా తెలిసిన సేవలు"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "ఏదైనా / మొత్తం సమాచారము"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "త్రోవచూపు పట్టిక పొందుచున్నది"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "క్రియాశీలించు ఇంటర్ నెట్ సంవిధానములు పొందుచున్నది"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "సముదాయ సభ్యత్వమును పొందుచున్నది"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP వనరు"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "రేవు/సేవ"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "స్థితి"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "గమ్యం/ఉపసర్గ"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "గమ్యం"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "సింహాద్వారము"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "నెట్ మాస్క్"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "సంవిధానం"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "సభ్యుడు"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "సముదాయం"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "ప్రోటోకాల్\tIP వనరు\tరేవు/సేవ\tస్థితి\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "గమ్యం\tసింహాద్వారము\tనెట్ మాస్క్\tసంవిధానం\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "సంవిధానం\tసభ్యుడు\tసముదాయం\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "అల్లిక చిరునామా నిర్థేశించబడలేదు"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "దయచేసి వర్తించు అల్లిక చిరునామాను చేర్చుము మరియు మరలా ప్రయత్నించుము."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "'%s' చిరునామా దొరకలేదు"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "అధికారక్షేత్ర చిరునామా నిర్థేశింపబడలేదు"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "దయచేసి వర్తించు అధికారక్షేత్ర చిరునామాను చేర్చుము మరియు మరలా ప్రయత్నించు."
+
+#: ../src/nettool.c:406
+msgid "Information not available"
+msgstr "సమాచారము లభించలేదు"
+
+#: ../src/nettool.c:526
+msgid "Stop"
+msgstr "ఆగు"
+
+#: ../src/nettool.c:532
+msgid "Run"
+msgstr "పరుగు"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "సమయం(ms):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Seq. No.:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "%s కు పింగ్ మనవిలు పంపుచున్నది"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "బైట్స్"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "వనరు"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Seq"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "సమయం"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "ప్రమాణాలు"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "బైట్స్\tవనరు\tSeq\tసమయం\tUnits\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "అత్యల్ప సమయం:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "సమయ సగటు:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "అత్యధిక సమయం:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "పొట్లాలు ప్రసరించబడినవి:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "పొట్లాలు స్వీకరించబడినది:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "విజయవంతమైన పొట్లాలు:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "రేవులు తెరుచుట కొరకు %s సంశోధించు"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "తెలియనిది"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "తెరువుము"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "రేవు"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "సేవ"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "రేవు\tస్థితి\tసేవ\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "%s కు త్రోవ జోడించుచున్నది"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "హాప్"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "ఆతిథ్య నామము"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "సమయం 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "సమయం 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "హప్\tఆతిథ్య నామము\tIP\tసమయం 1\tసమయం 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "ఈ కార్యక్రమం యొక్క విశిష్టతను క్రమంలో వాడుట కొరకు, మీ యొక్క వ్యవస్థలో ఖశ్చితంగా %sనెలకొల్పబడాలి"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "మీ యొక్క అల్లిక గురించి సమాచారమును దర్శించుము"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "\"%s\" పై %s సమాచారము పొందుతున్నది"
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "\"%s\" పై అందరి వినియోగదారుల యొక్క సమాచారము పొందుతున్నది"
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "%s యొక్క సమాచారము పొందుతున్నది"

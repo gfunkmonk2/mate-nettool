@@ -1,0 +1,1058 @@
+# translation of mate-nettool.HEAD.po to Bangla
+# This file is distributed under the same license as the mate-nettool package.
+# Copyright (C) 2004 Free Software Foundation.
+# Runa Bhattacharjee <runa@bengalinux.org>, 2004.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
+"nettool&component=general\n"
+"POT-Creation-Date: 2009-12-14 20:18+0000\n"
+"PO-Revision-Date: 2010-01-25 19:43+0600\n"
+"Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
+"Language-Team: Bangla <ankur-bd-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"রুণা ভট্টাচার্য্য (runa@bengalinux.org)\n"
+"ইসরাত জাহান (israt@ankur.org.bd)"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "কপি রাইট © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "নেটওয়ার্ক সংক্রান্ত টুল"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "সাধারণ নেটওয়ার্ক ইউটিলিটির জন্য গ্রাফিক্যাল ইউজার ইন্টারফেস"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "নিষ্ক্রিয়"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#| msgid "Network Tools"
+msgid "%s - Network Tools"
+msgstr "%s - নেটওয়ার্ক সংক্রান্ত টুল"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "সহায়তা ফাইল খুলতে ব্যর্থ"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP সংক্রান্ত তথ্য</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>ইন্টারফেস সংক্রান্ত তথ্য</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>ইন্টারফেস সংক্রান্ত পরিসংখ্যান</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>রাউন্ড ট্রিপ সময় সংক্রান্ত পরিসংখ্যান</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>পরিবহন সংক্রান্ত পরিসংখ্যান</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "সক্রিয় নেটওয়ার্ক পরিসেবা"
+
+# msgstr "সক্রিয় নেটওয়ার্ক পরিসেবা"
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "গড়:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "পিং এ বীপ"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "হিস্ট্রি মুছে ফেলা হবে (_H)"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "দ্বন্দ্ব (কলিশন):"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "পাঠ্য প্রতিবেদন অনুযায়ী অনুলিপি করুন"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "বিস্তারিত"
+
+# msgstr "দ্বন্দ্ব:"
+# Technical term - better keep it as it is
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "ডিভাইস"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "ডিভাইস - নেটওয়ার্ক সংক্রান্ত টুল"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "প্রদর্শন:"
+
+# msgstr "কনফিগার করো (_ক)"
+#: ../src/mate-nettool.ui.h:20
+#| msgid "_Domain address:"
+msgid "Domain address"
+msgstr "ডোমেইনের ঠিকানা"
+
+#: ../src/mate-nettool.ui.h:21
+#| msgid ""
+#| "Enter a domain address to lookup its whois information.\n"
+#| "For example: www.domain.com or 192.168.2.1"
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"whois তথ্য lookup করার জন্য ডোমেইননের ঠিকানা লিখুন।\nউদাহরণস্বরূপ: "
+"www.domain.com অথবা 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"ব্যবহারকারীকে finger করার জন্য নেটওয়ার্ক ঠিকানা লিখুন।\nউদাহরণস্বরূপ: "
+"www.domain.com অথবা 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+#| msgid ""
+#| "Enter the network address to lookup.\n"
+#| "For example: www.domain.com or 192.168.2.1"
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"lookup করার জন্য নেটওয়ার্ক ঠিকানা লিখুন।\nউদাহরণস্বরূপ: www.domain.com অথবা "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+#| msgid ""
+#| "Enter the network address to ping.\n"
+#| "For example: www.domain.com or 192.168.2.1"
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"ping করার জন্য নেটওয়ার্ক ঠিকানা লিখুন।\nউদাহরণস্বরূপ: www.domain.com অথবা "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+#| msgid ""
+#| "Enter the network address to scan for open ports.\n"
+#| "For example: www.domain.com or 192.168.2.1"
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"খোলা পোর্ট scan করার জন্য নেটওয়ার্ক ঠিকানা লিখুন।\nউদাহরণস্বরূপ: "
+"www.domain.com অথবা 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+#| msgid ""
+#| "Enter the network address to trace a route to.\n"
+#| "For example: www.domain.com or 192.168.2.1"
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"route trace করার জন্য নেটওয়ার্ক ঠিকানা লিখুন।\nউদাহরণস্বরূপ: www.domain.com "
+"অথবা 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+#| msgid "Enter the user to finger."
+msgid "Enter the user to finger"
+msgstr "finger করার জন্য ব্যবহারকারী উল্লেখ করুন।"
+
+# FIXME: Context check required
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+# FIXME: Context check required
+#: ../src/mate-nettool.ui.h:29
+#| msgid "Finger"
+msgid "Finger output"
+msgstr "Finger আউটপুট"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "হার্ডওয়্যার ঠিকানা:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "হোস্ট"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "সংযোগের গতি:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "লুকআপ"
+
+#: ../src/mate-nettool.ui.h:34
+#| msgid "Lookup"
+msgid "Lookup output"
+msgstr "লুকআপ আউটপুট"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+# msgstr "MTU:"
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "সর্বোচ্চ:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "সর্বনিম্ন:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "মাল্টিকাস্ট সংক্রান্ত তথ্য"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "মাল্টিকাস্ট:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.ui.h:41
+#| msgid "Netstat"
+msgid "Netstat output"
+msgstr "Netstat আউটপুট"
+
+#: ../src/mate-nettool.ui.h:42
+#| msgid "_Network address:"
+msgid "Network address"
+msgstr "নেটওয়ার্কের ঠিকানা"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "উপস্থিত নেই"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "শুধুমাত্র"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "finger এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "lookup এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "net stat এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "port scan এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "traceroute এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "whois এর জন্য আউটপুট"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "প্রাপ্ত প্যাকেট:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "প্রেরিত প্যাকেট"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Port Scan"
+
+#: ../src/mate-nettool.ui.h:55
+#| msgid "Port Scan"
+msgid "Port scan output"
+msgstr "Port Scan আউটপুট"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "প্রাপ্ত বাইট:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "প্রাপ্ত প্যাকেট:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "আহরণের সময়কার সমস্যা:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "রুটিং (routing) টেবিল সংক্রান্ত তথ্য"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "স্ক্যান করা হবে"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "প্রেরণ করুন:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "অবস্থা:"
+
+#: ../src/mate-nettool.ui.h:63
+#| msgid "Received packets:"
+msgid "Successful packets:"
+msgstr "প্রাপ্ত প্যাকেট:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Trace"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.ui.h:66
+#| msgid "Traceroute"
+msgid "Traceroute output"
+msgstr "Traceroute আউটপুট"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "প্রেরণের সময়কার সমস্যা:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "প্রেরিত বাইট:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "প্রেরিত প্যাকেট"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "সীমাহীন অনুরোধ"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "ব্যবহারকারী"
+
+#: ../src/mate-nettool.ui.h:72
+#| msgid "_Username:"
+msgid "User name"
+msgstr "ব্যবহারকারীর নাম"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Whois আউটপুট"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "কনফিগার করুন (_C)"
+
+# msgstr "কনফিগার করো (_ক)"
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "ডোমেইনের ঠিকানা: (_D)"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "সম্পাদনা (_E)"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "তথ্যের ধরন:(_I)"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "নেটওয়ার্কের ঠিকানা:(_N)"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "নেটওয়ার্ক ডিভাইস:(_N)"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "সরঞ্জাম (_T)"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "ব্যবহারকারীর নাম:(_U)"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "আবেদন"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "অন্য ধরন"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "ইথারনেট ইন্টারফেস"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "বেতার (Wireless) ইন্টারফেস"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "মোডেমের ইন্টারফেস"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "প্যারালেল লাইন ইন্টারফেস"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "ইন্ফ্রারেড ইন্টারফেস"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "লুপব্যাক ইন্টারফেস"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "অজানা ইন্টারফেস"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "নেটওয়ার্ক ডিভাইস পাওয়া যায়নি"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "অজানা"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "নিষ্ক্রিয়"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "লুপব্যাক"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "সক্রিয়"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "নিষ্ক্রিয়"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "নেটওয়ার্ক ডিভাইস:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "হার্ডওয়্যার ঠিকানা:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "মাল্টিকাস্ট:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "সংযোগের গতি:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "অবস্থা:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "প্রেরিত প্যাকেট:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "প্রেরণ করতে সমস্যা:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "প্রাপ্ত প্যাকেট:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "আহরণের সময়কার সমস্যা:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "দ্বন্দ্ব (কলিশন):\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "উপস্থিত নেই"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "%s অনুসন্ধান করা হচ্ছে"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "নাম"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "ঠিকানার ধরন"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "রেকর্ডের ধরন"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "ঠিকানা"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+
+# FIXME
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "নেটওয়ার্ক ডিভাইস সংক্রান্ত তথ্য লোড করা হবে"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "DEVICE"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "একটি নেটওয়ার্ক অ্যাড্রেসে পিং করা হবে"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "HOST"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr ""
+"netstat সংক্রান্ত তথ্য আহরণ করা হবে।  বৈধ অপশন হল: route, active, multicast ।"
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "একটি নেটওয়ার্ক অ্যাড্রেসের রুট অনুসরণ করা হবে"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "একটি নেটওয়ার্ক অ্যাড্রেসের পোর্ট স্ক্যান করা হবে"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "নেটওয়ার্ক অ্যাড্রেস অনুসন্ধান করা হবে"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Finger কমান্ড চালানো হবে"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "USER"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "একটি নেটওয়ার্ক ডোমেইনে whois lookup করা হবে"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "DOMAIN"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"%s ফাইলটি উপস্থিত নেই, অনুগ্রহ করে পরীক্ষা করুন mate-nettool সঠিকভাবে ইনস্টল করা "
+"আছে কি না"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "প্রোটোকল"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP অ্যাড্রেস"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "নেটমাস্ক / উপপদ (প্রেফিক্স)"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "ব্রডকাস্ট"
+
+# msgstr "সম্প্রচার"
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "পরিধি"
+
+#: ../src/main.c:669
+#| msgid "Multicast Information"
+msgid "Default Information"
+msgstr "ডিফল্ট তথ্য"
+
+#: ../src/main.c:670
+#| msgid "IP Address"
+msgid "Internet Address"
+msgstr "ইন্টারনেট ঠিকানা"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "ক্যানোনিক্যাল নাম"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPU / OS ধরণ"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "মেইলবাক্স পরিবর্তন"
+
+#: ../src/main.c:675
+#| msgid "Multicast Information"
+msgid "Mailbox Information"
+msgstr "মেইলবাক্স তথ্য"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "নেম সার্ভার"
+
+#: ../src/main.c:678
+#| msgid "Port scan a network address"
+msgid "Host name for Address"
+msgstr "ঠিকানার জন্য হোস্ট নাম"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "অনুমোদনের প্রারম্ভ"
+
+#: ../src/main.c:680
+#| msgid "Multicast Information"
+msgid "Text Information"
+msgstr "পাঠ্য সংক্রান্ত তথ্য"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "সুপরিচিত সার্ভিস"
+
+#: ../src/main.c:682
+#| msgid "Routing Table Information"
+msgid "Any / All Information"
+msgstr "যেকোনো / সব তথ্য"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "রুটিং (routing) টেবিল আহরণ করা হচ্ছে"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "সক্রিয় ইন্টারনেট সংযোগ আহরণ করা হচ্ছে"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "দলের সদস্যতা আহরণ করা হচ্ছে"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP-র উত্‍স"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "পোর্ট/পরিসেবা"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "অবস্থা"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "গন্তব্য/উপপদ"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "গন্তব্য"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "গেটওয়ে"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "নেটমাস্ক"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "ইন্টারফেস"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "সদস্য"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "দল"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protocol\tIP Source\tPort/Service\tState\n"
+
+# FIXME
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Destination\tGateway\tNetmask\tInterface\n"
+
+# FIXME
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Interface\tMember\tGroup\n"
+
+# FIXME
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "নেটওয়ার্কের অ্যাড্রেস উল্লেখ করা হয়নি"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "অনুগ্রহ করে একটি বৈধ নেটওয়ার্ক অ্যাড্রেস লিখে পুনরায় চেষ্টা করুন।"
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "'%s' ঠিকানাটি পাওয়া যায়নি"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "ডোমেইনের অ্যাড্রেস উল্লেখ করা হয়নি"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "অনুগ্রহ করে একটি বৈধ ডোমেইন অ্যাড্রেস লিখে পুনরায় চেষ্টা করুন।"
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "তথ্য উপলব্ধ নয়"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "থামানো হবে"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "চালানো হবে"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+#| msgid "Time 1"
+msgid "Time (ms):"
+msgstr "সময় (মিলিসেকেন্ড):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Seq. No.:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "%s-এ ping অনুরোধ জানানো হচ্ছে"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "বাইট"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "উত্‍স"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Seq"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "সময়"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "একক"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Bytes\tSource\tSeq\tTime\tUnits\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "সর্বনিম্ন সময়:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "গড় সময়:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "সর্বোচ্চ সময়:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "প্রেরিত প্যাকেট:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "প্রাপ্ত প্যাকেট:\t%s\n"
+
+#: ../src/ping.c:652
+#| msgid "Received packets:\t%s\n"
+msgid "Successful packets:\t%s\n"
+msgstr "প্রাপ্ত প্যাকেট:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "খোলা পোর্টের সন্ধানে %s-এ অনুসন্ধান করা হচ্ছে"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "অজানা"
+
+# msgstr "সম্প্রচার"
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+#| msgid "Scope"
+msgid "open"
+msgstr "খুলুন"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "পোর্ট"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "পরিসেবা"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Port\tState\tService\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "%s অবধি রুট (route) অনুসরণ করা হচ্ছে"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "হপ"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "হোস্ট-নেম"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "সময় ১"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "সময় ২"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"এই প্রোগ্রামের এইন বৈশিষ্টটি ব্যবহার করতে, %s কে অবশ্যই আপনার সিস্টেমে "
+"ইনস্টল থাকতে হবে।"
+
+# FIXME
+#: ../src/mate-nettool.desktop.in.in.h:2
+#| msgid "Load information for a network device"
+msgid "View information about your network"
+msgstr "আপনার নেটওয়ার্ক ডিভাইস সংক্রান্ত তথ্য দেখুন"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "%s সক্রান্ত তথ্য। যা \"%s\"-এ আছে, তা আহরণ করা হচ্ছে"
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "\"%s\"-এ উপস্থিত সকল ব্যবহারকারী সংক্রান্ত তথ্য আহরণ করা হচ্ছে"
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "%s-র জন্য whois তথ্য আহরণ করা হচ্ছে"
+
+#~ msgid "Broadcast:"
+#~ msgstr "ব্রডকাস্ট:"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP অ্যাড্রেস:"
+
+#~ msgid "Netmask:"
+#~ msgstr "নেটমাস্ক:"
+
+#~ msgid "Packets loss:"
+#~ msgstr "ক্ষতিগ্রস্ত প্যাকেট:"
+
+#~ msgid "IP address:\t%s\n"
+#~ msgstr "IP অ্যাড্রেস:\t%s\n"
+
+#~ msgid "Netmask:\t%s\n"
+#~ msgstr "নেটমাস্ক:\t%s\n"
+
+#~ msgid "Broadcast:\t%s\n"
+#~ msgstr "ব্রডকাস্ট:\t%s\n"
+
+#~ msgid "Packet loss:\t%s\n"
+#~ msgstr "ক্ষতিগ্রস্ত প্যাকেট:\t%s\n"
+
+#~ msgid "%s: Command not found"
+#~ msgstr "%s: কমান্ড পাওয়া যায়নি"
+
+#~ msgid "Network Information Tools"
+#~ msgstr "নেটওয়ার্কের তথ্য সংক্রান্ত টুল"
+
+# msgstr "Netstat"
+#~ msgid "Network Tools - Devices"
+#~ msgstr "নেটওয়ার্কের সরঞ্জাম - ডিভাইস"

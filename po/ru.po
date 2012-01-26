@@ -1,0 +1,970 @@
+# translation of mate-nettool.master.ru.po to Russian
+# translation of mate-nettool to Russian
+# Copyright (C) 1999, 2006, 2010 Free Software Foundation, Inc.
+#
+# Valek Filippov <val@comptek.ru>, 1999.
+# Leonid Kanter <leon@asplinux.ru>, 2006.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-nettool&component=general\n"
+"POT-Creation-Date: 2009-12-14 20:18+0000\n"
+"PO-Revision-Date: 2010-03-17 20:15+0300\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Валек Филиппов <val@comptek.ru>\n"
+"Сергей Панов <sipan@mit.edu>\n"
+"Сергей Квято <kvantos@plotinka.ru>\n"
+"Дмитрий Яценко <d.yacenko@gmail.com>"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Авторское право © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "Сетевые инструменты"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "Графический пользовательский интерфейс для сетевых инструментов"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "Бездействует"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - Сетевые инструменты"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "Не удалось открыть файл справки"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>Информация об IP</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>Информация об интерфейсе</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Статистика интерфейса</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Статистика задержек</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Статистика переданных/принятых пакетов</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "Активные сетевые сервисы"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "Среднее:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "Проигрывать сигнал при запросе ping"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "Удалить _историю"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "Коллизии:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "Копировать как текстовый _отчёт"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "Детали"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "Устройства"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "Устройства - Сетевые инструменты"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "Показать:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "Адрес домена"
+
+#: ../src/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"Введите адрес домена для поиска информации whois. Например: www.domain.com "
+"или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Введите сетевой адрес для тестирования фингер по пользователю . Например: "
+"www.domain.com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr "Введите сетевой адрес для поиска. Например: www.domain.com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid "Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr "Введите сетевой адрес для пинга. Например: www.domain.com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"Введите сетевой адрес для сканирования открытых портов. Например: www.domain."
+"com или 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Введите сетевой адрес для трассировки. Например: www.domain.com или "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "Введите пользователя"
+
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Пользователи"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "Результат запроса пользователей"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "Аппаратный адрес"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "Хост"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "Скорость соединения:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "Преобразование имён"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "Результат преобразования имён"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "Наибольшее"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "Наименьшее"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Данные широковещательной рассылки"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Multicast:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Сеть"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Результат запроса сетевой конфигурации"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "Сетевой адрес"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "Нет данных"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "Только"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "Вывод команды finger"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "Вывод команды lookup"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "Вывод команды netstat"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "Вывод сканирования портов"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "Вывод команды traceroute"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "Вывод команды whois"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "Получено пакетов:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "Передано пакетов:"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Связность"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Сканирование портов"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "Результат сканирования портов"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "Получено байт:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "Получено пакетов:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "Ошибки приёма:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "Таблицу маршрутизации"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "Сканировать"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "Отправить:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "Состояние:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "Успешных пакетов:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Трассировать"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Трассировка маршрута"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Результат трассировки маршрута"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "Ошибки передачи:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "Передано байт:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "Передано пакетов:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "Неограниченное число запросов"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "Пользователь"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Домены"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Результат запроса информации о сетевом имени"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_Настроить"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_Доменный адрес:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "_Тип информации:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "Сетевой _адрес:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "Сетевое _устройство:"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_Инструменты"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "Имя _пользователя:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "мс"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "запросов"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "Другой тип"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Сетевой интерфейс"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "Интерфейс беспроводного доступа"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "Модемный интерфейс"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "Параллельный интерфейс"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "Инфракрасный интерфейс"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Локальный интерфейс"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "Неизвестный интерфейс"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "Не обнаружено ни одно сетевое устройство"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "Активен"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "Неактивен"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Локальный"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "Выключено"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Сетевое устройство:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Аппаратный адрес:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Multicast:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Скорость соединения:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Состояние:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Передано пакетов:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Ошибки передачи:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Получено пакетов:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Ошибки приёма:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Коллизии:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "нет данных"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "Ищу информацию об %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "Имя"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "Тип адреса"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "Тип записи"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "Адрес"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Исходный\tTTL\tТип адреса\tТип записи 1\tРезультат\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Загрузить информацию про сетевое устройство"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "УСТРОЙСТВО"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "Послать ping запрос на адрес"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "ХОСТ"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "Получить информацию netstat. Возможные опции: route, active, multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "КОМАНДА"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Произвести трассировку маршрута к сетевому адресу"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Произвести сканирование портов сетевого адреса"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Произвести поиск в DNS реверсного имени адреса"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Команда для запуска finger"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "ПОЛЬЗОВАТЕЛЬ"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "Показать информацию RIPE базы о сетевом домене"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "ДОМЕН"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"Файл %s отсутствует, пожалуйста, удостоверьтесь в корректной установке "
+"mate-nettool"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "Протокол"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP адрес"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Маска подсети / префикс"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Широковещательный"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "Область"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "Информация по умолчанию"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "IP адрес"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "Каноническое имя"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "Тип ЦП и операционная система"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "Запись MX почтовой службы"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "Информация о почтовой доставке"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "Сервер имён"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "Имя узла для адреса IP"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Авторитетный узел"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "Текстовая информация"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "Доступные сервисы"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "Вся информация"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "Получаю таблицу маршрутизации"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "Изучаю какие сетевые соединения активны"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "Получения членства в группах"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "Исходный IP"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "Порт/Сервис"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "Состояние"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "Назначение/Префикс"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "Назначение"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Маска"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "Участник"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "Группа"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Протокол\tИсходный IP\tПорт/Сервис\tСостояние\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Получатель\tШлюз\tМаска\tИнтерфейс\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Интерфейс\tУчастник\tГруппа\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "Сетевой адрес не был указан"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "Пожалуйста, введите корректный сетевой адрес, а затем попробуйте ещё раз."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Невозможно найти адрес: '%s'"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "Доменный адрес не был указан"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "Пожалуйста введите корректный доменный адрес, а затем попробуйте ещё раз."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "Информация не доступна"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "Остановить"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "Запустить"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "Время (мс)"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Номер:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Посылаю пинг-запросы на %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "Байты"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "Цель"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Запрос"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "Время"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "Единицы измерения"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Байты\tЦель\tЗапрос\tВремя\tЕдиницы измерения\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Минимальное время:\t%s мс\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Среднее время:\t%s мс\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Максимальное время:\t%s мс\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Передано пакетов:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Получено пакетов:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Успешные пакеты:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Сканирую порты, открытые на узле %s"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "неизвестно"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "открыт"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "Порт"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "Сервис"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Порт\tСостояние\tСервис\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Трассировка маршрута до %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "Шаг"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "Имя узла"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "Время 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "Время 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Хоп\tХост\tIP\tВремя 1\tВремя 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"Необходимо установить %s для того, чтобы использовать эту возможность "
+"программы"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "Просмотреть информацию о сети"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "Получение информации о %s на «%s»"
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "Получение информации обо всех пользователях на «%s»"
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Получение информацию о домене %s"

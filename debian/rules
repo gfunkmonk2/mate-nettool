@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+# Author: Andrew Lau <netsnipe@users.sourceforge.net>
+# $Id: rules 39 2003-10-27 17:33:22Z netsnipe-guest $
+
+export DH_ALWAYS_EXCLUDE=CVS:.svn
+
+# CDBS classes & rules
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/cdbs/1/rules/autoreconf.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+# Compile options
+LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
+
+# Record build-time version information
+binary-post-install/mate-nettool::
+	dh_buildinfo

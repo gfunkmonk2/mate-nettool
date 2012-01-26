@@ -1,0 +1,975 @@
+# Slovenian translations for mate-nettool.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-nettool package.
+#
+# Matjaž Horvat <m@owca.info>, 2006.
+# Matej Urbančič <mateju@svn.mate.org>, 2005 - 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-nettool&component=general\n"
+"POT-Creation-Date: 2009-09-13 01:26+0000\n"
+"PO-Revision-Date: 2010-07-15 14:57+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.mate.org>\n"
+"Language-Team: Slovenian MATE Translation Team <mate-si@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Matjaž Horvat <m@owca.info>\n"
+"Matej Urbančič <mateju@svn.mate.org>"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Avtorske pravice © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334
+#: ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "Omrežna orodja"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "Grafični vmesnik splošnih omrežnih orodij"
+
+#: ../src/callbacks.c:450
+#: ../src/main.c:142
+#: ../src/nettool.c:483
+msgid "Idle"
+msgstr "Nedejavno"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - omrežna orodja"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "Ni mogoče odpreti datoteke pomoči"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>Podrobnosti IP naslova</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>Podrobnosti vmesnika</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Statistika vmesnika</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Časovna statistika povratne poti</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Statistika pošiljanja</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "Dejavne omrežne storitve"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "Povprečje:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "Zapiskaj med izvršenim ukazom ping"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "Počisti _zgodovino"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "Trki:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "Kopiraj kot besedilno poročilo"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "Naprave"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "Naprave - omrežna orodja"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "Pokaži:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "Naslov domene"
+
+#: ../src/mate-nettool.ui.h:21
+msgid "Enter a domain address to lookup its whois information. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za poizvedbo whois podatkov. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid "Enter the network address to finger that user. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za poizvedbo finger uporabnika. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid "Enter the network address to lookup. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za poizvedbo. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid "Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za ping. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid "Enter the network address to scan for open ports. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za preiskovanje odprtih vrat. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid "Enter the network address to trace a route to. For example: www.domain.com or 192.168.2.1"
+msgstr "Vnesite omrežni naslov za sledenje poti. Primer: www.domena.si ali 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "Vnesite uporabnika za finger poizvedbo."
+
+#: ../src/mate-nettool.ui.h:28
+#: ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "Finger odvod"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "Naslov strojne opreme:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "Gost"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "Hitrost povezave:"
+
+#: ../src/mate-nettool.ui.h:33
+#: ../src/main.c:734
+msgid "Lookup"
+msgstr "Iskalna preglednica"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "Lookup odvod"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "Največ:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "Najmanj:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Podrobnosti oddajanja več prejemnikom"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Oddajanje več prejemnikom:"
+
+#: ../src/mate-nettool.ui.h:40
+#: ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Netstat odvod"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "Omrežni naslov"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "Ni na voljo"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "Samo"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "Odvod ukaza finger"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "Odvod ukaza lookup"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "Odvod ukaza net stat"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "Odvod ukaza preiskovanja vrat"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "Odvod ukaza traceroute"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "Odvod ukaza whois"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "Prejeti paketi:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "Oddani paketi:"
+
+#: ../src/mate-nettool.ui.h:53
+#: ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Preiskovanje vrat"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "Odvod ukaza preiskovanja vrat"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "Prejeti bajti:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "Prejeti paketi:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "Napake med sprejemanjem:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "Podatki usmerjevalne preglednice"
+
+#: ../src/mate-nettool.ui.h:60
+#: ../src/main.c:619
+msgid "Scan"
+msgstr "Preišči"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "Poslano:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "Stanje:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "Uspešno poslani paketi:"
+
+#: ../src/mate-nettool.ui.h:64
+#: ../src/main.c:375
+msgid "Trace"
+msgstr "Sledenje"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Sledenje poti"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Odvod ukaza traceroute"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "Napake med oddajanjem:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "Oddani bajti:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "Oddani paketi:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "Neomejene zahteve"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "Uporabnik"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "Uporabniško ime"
+
+#: ../src/mate-nettool.ui.h:73
+#: ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Odvod ukaza whois"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_Nastavitve"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "Naslov _domene:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "Pomo_č"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "Vrsta _podrobnosti:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_Mrežni naslov:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "Mrežna _naprava:"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_Orodje"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_Uporabniško ime:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "zahteve"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "Druga vrsta"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Eternet vmesnik"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "Brezžični vmesnik"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "Modemski vmesnik"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "Paralelni vmesnik"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "Infrardeči vmesnik"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Vmesnik povratne zanke"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "Neznan vmesnik"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "Mrežne naprave ni mogoče najti."
+
+#: ../src/info.c:392
+#: ../src/info.c:395
+msgid "Unknown"
+msgstr "Neznano"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "dejavno"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "ni dejavno"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Povratna zanka"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "omogočeno"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "ni omogočeno"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Mrežna naprava:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Strojni naslov:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Oddajanje več prejemnikom:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Hitrost povezave:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Stanje:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Oddani paketi:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Napake med oddajanjem:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Prejeti paketi:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Napake med prejemanjem:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Trki:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "ni na voljo"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "Iskanje %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "Ime"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "Vrsta naslova"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "Vrsta zapisa"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "Naslov"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Vir\tTTL\tVrsta naslova\tVrsta zapisa1\tLočljivost\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Naloži podatke omrežne naprave"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "NAPRAVA"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "Pošlji ukaz ping mrežnemu naslovu"
+
+#: ../src/main.c:87
+#: ../src/main.c:95
+#: ../src/main.c:99
+#: ../src/main.c:103
+msgid "HOST"
+msgstr "GOSTITELJ"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "Pridobi netstat podrobnosti. Veljavne možnosti so: route (potek poti), active (dejavno) in multicast (oddajanje več prejemnikom)."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "UKAZ"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Izsledi pot do omrežnega naslova"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Preišči vrata omrežnega naslova"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Poišči omrežni naslov"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Finger ukaz"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "UPORABNIK"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "Izvedi whois poizvedbo za domeno omrežja"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "DOMENA"
+
+#: ../src/main.c:130
+#, c-format
+msgid "The file %s doesn't exist, please check if mate-nettool is correctly installed"
+msgstr "Datoteka %s ne obstaja. Preverite, da je program mate-nettool pravilno nameščen"
+
+#: ../src/main.c:482
+#: ../src/netstat.c:443
+msgid "Protocol"
+msgstr "Protokol"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "Naslov IP"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Omrežna maska / Predpona"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Razpršeno oddajanje"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "Obseg"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "Privzete podrobnosti"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "Spletni naslov"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "Kanonsko ime"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPE / Vrsta OS"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "Exchange poštni predal"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "Podrobnosti poštnega predala"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "Imenski strežnik"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "Ime gostitelja za naslov"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Zapis SOA (Start-of-authority)"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "Besedilne podrobnosti"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "Dobro znane storitve"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "Katerekoli / Vse podrobnosti"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "Branje usmerjevalne preglednice"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "Zbiranje podatkov o dejavnih spletnih povezavah"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "Zbiranje podatkov o članstvu skupin"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP Izvor"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "Vrata/Storitev"
+
+#: ../src/netstat.c:466
+#: ../src/scan.c:314
+msgid "State"
+msgstr "Stanje"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "Cilj/Predpona"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "Cilj"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Prehod"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Omrežna maska"
+
+#: ../src/netstat.c:634
+#: ../src/netstat.c:741
+msgid "Interface"
+msgstr "Vmesnik"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "Član"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "Skupina"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protokol\tVir IP\tVrata/Storitev\tStanje\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Cilj\tPrehod\tOmrežna maska\tVmesnik\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Vmesnik\tČlan\tSkupina\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "Omrežni naslov ni določen"
+
+#: ../src/nettool.c:200
+#: ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "Vnesite veljaven omrežni naslov in poskusite znova."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Ni mogoče najti naslova '%s'"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "Ime domene ni določeno"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "Vnesite veljavni naslov domene in poskusite znova."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "Podrobnosti niso na voljo"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "Zaženi"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "Čas (ms):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Zap. št.:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Pošiljanje ping zahteve na %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "Bajti"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "Izvor"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Zap"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "Čas"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "Enote"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Bajtov\tVir\tSekv\tČas\tEnote\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Najkrajši čas:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Povprečni čas:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Najdaljši čas:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Poslani paketi:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Prejeti paketi:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Uspešno prejeti paketi:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Preiskovanje %s za odprta vrata"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "neznano"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "odpri"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "Vrata"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "Storitev"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Vrata\tStanje\tStoritev\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Sledi pot do %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "Hop"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "Ime gostitelja"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "Čas 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "Čas 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Hop\tIme gostitelja\tIP\tČas 1\tČas 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid "In order to use this feature of the program, %s must be installed in your system"
+msgstr "Za uporabo možnosti, mora biti nameščen %s"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "Pregled omrežnih podatkov"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "Zbiranje podrobnosti o %s na \"%s\""
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "Zbiranje podrobnosti o vseh uporabnikih na \"%s\""
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Zbiranje podrobnosti whois poizvedbe o %s"
+
+#~ msgid "Broadcast:"
+#~ msgstr "Razpršeno oddajanje:"
+#~ msgid "IP Address:"
+#~ msgstr "IP naslov:"
+#~ msgid "Netmask:"
+#~ msgstr "Omrežna maska:"
+#~ msgid "IP address:\t%s\n"
+#~ msgstr "IP naslov:\t%s\n"
+#~ msgid "Netmask:\t%s\n"
+#~ msgstr "Omrežna maska:\t%s\n"
+#~ msgid "Broadcast:\t%s\n"
+#~ msgstr "Razpršeno oddajanje:\t%s\n"

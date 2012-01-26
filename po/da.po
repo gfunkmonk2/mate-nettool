@@ -1,0 +1,1018 @@
+# Danish translation of mate-nettool
+# Copyright (C) 1999-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-nettool package.
+# Henrik Hansen <hh@mailserver.dk>, 1999.
+# Kenneth Christiansen <kenneth@ripen.dk>, 1999
+# Birger Langkjer <birger.langkjer@image.dk>, 1999
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004-2005.
+# Peter Bach <bach.peter@gmail.com>, 2007.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2008.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2009.
+#
+# Husk at tilføje dig i credit-listen (besked id "translator_credits")
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-13 03:26+0200\n"
+"PO-Revision-Date: 2009-09-13 02:41+0200\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Birger Langkjer\n"
+"Henrik Hansen\n"
+"Kenneth Christiansen\n"
+"Martin Willemoes Hansen\n"
+"Peter Bach\n"
+"Kenneth Nielsen\n"
+"Ask Hjorth Larsen\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Ophavsret © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "Netværksværktøjer"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "Grafisk brugergrænseflade for almindelige netværksværktøjer"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "Ubenyttet"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - Netværksværktøjer"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "Kan ikke åbne hjælpefil"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP-information</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>Information om grænsefladen</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Statistik for grænsefladen</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Statistik for tiden tur-retur</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Transmissionsstatistik</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "Aktive netværkstjenester"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "Gennemsnit:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "Bip ved ping"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "Ryd _historik"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "Sammenstød:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "Kopiér som tekst_rapport"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "Detaljer"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "Enheder"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "Enheder - Netværksværktøjer"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "Vis:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "Domæneadresse"
+
+#: ../src/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"Angiv en domæneadresse for at slå dens \"whois\"-information op. F.eks. www."
+"domaene.dk eller 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Angiv netværksadressen for at få \"finger\"-informationer om brugeren. F."
+"eks. auth.domaene.dk eller 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"Angiv netværksadressen for \"lookup\"-opslaget. F.eks. www.domaene.dk eller "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"Angiv netværksadressen der skal pinges. F.eks. www.domaene.dk eller "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"Angiv netværksadressen der skal skannes for åbne porte. F.eks. www.domaene."
+"dk eller 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Angiv netværksadressen hvortil du vil spore en rute. F.eks. www.domaene.dk "
+"eller 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "Angiv brugeren du vil have information på"
+
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "Uddata fra finger"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "Hardwareadresse:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "Vært"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "Forbindelsens hastighed:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "Opslag"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "Uddata fra lookup"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "Maksimum:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "Minimum:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Multisendingsinformation"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Multisending:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Uddata fra netstat"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "Netværksadresse"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "Ikke tilgængelig"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "Kun"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "Uddata fra finger"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "Uddata fra lookup"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "Uddata fra netstat"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "Uddata fra portscanning"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "Uddata fra traceroute"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "Uddata fra whois"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "Pakker modtaget:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "Pakker sendt:"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Portskanning"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "Uddata fra portscanning"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "Byte modtaget:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "Pakker modtaget:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "Modtagelsesfejl:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "Rutetabel-information"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "Skan"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "Send:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "Tilstand:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "Pakker modtaget:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Spor"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Uddata fra traceroute"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "Transmissionsfejl:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "Byte sendt:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "Pakker sendt:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "Ubegrænset antal forespørgsler"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "Bruger"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "Brugernavn"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Uddata fra whois"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_Konfigurér"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_Domæneadresse:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_Redigér"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "_Informationstype:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_Netværksadresse:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "_Netværksenhed:"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_Værktøj"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_Brugernavn:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "forespørgsler"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "Anden type"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Ethernet-grænseflade"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "Trådløs-grænseflade"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "Modem-grænseflade"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "Parallelport-grænseflade"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "Infrarødt-grænseflade"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Loopback-grænseflade"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "Ukendt grænseflade"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "Netværksenheder ikke fundet"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "Aktiv"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Loopback"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Netværksenhed:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Hardwareadresse:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Multisending:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Forbindelsens hastighed:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Tilstand:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Pakker sendt:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Transmissionsfejl:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Pakker modtaget:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Modtagelsesfejl:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Sammenstød:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "ikke tilgængelig"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "Slår %s op"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "Navn"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "Adressetype"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "Posttype"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "Adresse"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Kilde\tTTL\tAdressetype\tPosttype1\tOpløsning\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Indlæs information for en netværksenhed"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "ENHED"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "\"Ping\" en netværksadresse"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "VÆRT"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr ""
+"Hent netstat-information. Gyldige muligheder er: route, active, multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "KOMMANDO"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Spor ruten til en netværksadresse"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Portskan en netværksadresse"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Slå en netværksadresse op"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Finger-kommando som skal køres"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "BRUGER"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "Udfør et \"whois\"-opslag for et netværksdomæne"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "DOMÆNE"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"Filen %s findes ikke, kontrollér at mate-nettool er korrekt installeret"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "Protokol"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Netmaske / præfiks"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Rundsending"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "Virkefelt"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "Standardinformation"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "Internet-adresse"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "Kanonisk navn"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPU / OS-type"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "E-postkasse Exchange"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "E-postkasse-information"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "Navneserver"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "Værtsnavn for adresse"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Start-af-autoritet"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "Tekstinformation"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "Velkendte tjenester"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "Eventuel information"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "Henter rutetabel"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "Henter aktive internet-forbindelser"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "Henter gruppemedlemskaber"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP-kilde"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "Port/tjeneste"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "Tilstand"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "Destination / præfiks"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "Destination"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Adgangspunkt"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Netmaske"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "Grænseflade"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "Medlem"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "Gruppe"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protokol\tIP-kilde\tPort/Tjeneste\tTilstand\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Destination\tAdgangspunkt\tNetmaske\tGrænseflade\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Grænseflade\tMedlem\tGruppe\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "En netværksadresse blev ikke angivet"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "Angiv venligst en gyldig netværksadresse og prøv igen."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Adressen \"%s\" findes ikke"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "En domæneadresse blev ikke angivet"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "Angiv venligst en gyldig domæneadresse og prøv igen."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "Information ikke tilgængelig"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "Kør"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "Time (ms):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Sek. Nr.:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Sender ping-forespørgsler til %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "Byte"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "Kilde"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Sekv"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "Tid"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "Enheder"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Byte\tKilde\tSekvens\tTid\tEnheder\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Minimumstid:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Gennemsnitstid:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Maksimumstid:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Pakker sendt:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Pakker modtaget:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Pakker modtaget:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Skanner %s for åbne porte"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "ukendt"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "åbent"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "Port"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "Tjeneste"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Port\tTilstand\tTjeneste\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Sporer ruten til %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "Hop"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "Værtsnavn"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "Tid 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "Tid 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Hop\tVærtsnavn\tIP\tTid 1\tTid 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"For at bruge denne funktion af programmet, skal %s være installeret i dit "
+"system"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "Vis information om dit netværk"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "Henter information fra %s på \"%s\""
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "Henter information om alle brugere på \"%s\""
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Henter whois-informationen for %s"
+
+#~ msgid "Broadcast:"
+#~ msgstr "Rundsending:"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP-adresse:"
+
+#~ msgid "Netmask:"
+#~ msgstr "Netmaske:"
+
+#~ msgid "IP address:\t%s\n"
+#~ msgstr "IP-adresse:\t%s\n"
+
+#~ msgid "Netmask:\t%s\n"
+#~ msgstr "Netmaske:\t%s\n"
+
+#~ msgid "Broadcast:\t%s\n"
+#~ msgstr "Rundsending:\t%s\n"
+
+#~ msgid "Network Information Tools"
+#~ msgstr "Værktøjer til visning af netværksoplysninger"
+
+#~ msgid "Packets loss:"
+#~ msgstr "Pakketab:"
+
+#~ msgid "Packet loss:\t%s\n"
+#~ msgstr "Pakketab:\t%s\n"
+
+#~ msgid "%s: Command not found"
+#~ msgstr "%s: Kommando ikke fundet"
+
+#~ msgid "Network Tools - Devices"
+#~ msgstr "Netværksværktøj - Enheder"

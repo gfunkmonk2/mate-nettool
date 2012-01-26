@@ -1,0 +1,375 @@
+mate-nettool (1.0.0-3) oneiric; urgency=low
+
+  * Fork to MATE
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Mon, 16 Jan 2012 01:46:34 -0500
+
+mate-nettool (2.31.6-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+  * debian/control:
+    - Bump build-depends on libgtk2.0-dev
+    - Build-depend on dh-autoreconf
+  * debian/rules:
+    - Use autoreconf.mk
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Tue, 17 Aug 2010 16:44:37 +1000
+
+mate-nettool (2.30.0-1ubuntu2) maverick; urgency=low
+
+  * debian/control.in:
+    - Build-depend on mate-common
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 07 Jun 2010 14:57:49 +1000
+
+mate-nettool (2.30.0-1ubuntu1) maverick; urgency=low
+
+  * Merge from Debian unstable, remaining Ubuntu changes:
+  * debian/control.in:
+    - Build-depend on liblaunchpad-integration-dev
+    - Depend on "iputils-tracepath" rather than "tcptraceroute | traceroute"
+    - Make the description mention tracepath rather than traceroute
+    - Add Vcs-Bzr link
+  * debian/rules:
+    - Run autotools on build
+  * debian/patches/02_lpi.patch:
+    - Add Launchpad integration
+  * debian/patches/03_use_tracepath.patch:
+    - Use tracepath instead of tcptraceroute or traceroute
+  * debian/patches/04_menu_change.patch:
+    - Move from Utilities to Settings
+  * debian/watch:
+    - Watch for unstable versions
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Mon, 07 Jun 2010 14:24:05 +1000
+
+mate-nettool (2.30.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    - Updated Standards-Version to 3.8.4, no additional changes needed.
+  * Switch to source format 3.0 (quilt).
+    - Add debian/source/format.
+    - Add debian/patches/series.
+    - Remove /usr/share/cdbs/1/rules/simple-patchsys.mk include.
+  * debian/patches/01_network-manager.patch:
+    - Refreshed.
+  * debian/patches/02_kfreebsd.patch:
+    - Removed, applied upstream.  
+
+ -- Luca Bruno <lethalman88@gmail.com>  Sat, 10 Apr 2010 19:28:16 +0200
+
+mate-nettool (2.28.0-2) unstable; urgency=low
+
+  * 02_kfreebsd.patch: port to kFreeBSD by adding the correct macro 
+    checks.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 20 Nov 2009 11:15:02 +0100
+
+mate-nettool (2.28.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - bumped standards-version to 3.8.3. No changes needed.
+    - libglade2-dev B-D removed, it's no more needed according
+      to configure.in requirements.
+    - libgtk2.0-dev bumped to >= 2.12.0 as per configure.in
+      requirements.
+  * debian/copyright:
+    - added missing copyright holders.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Fri, 25 Sep 2009 12:38:00 +0200
+
+mate-nettool (2.26.2-3) unstable; urgency=low
+
+  * 01_network-manager.patch: new patch. Use NM instead of network-admin 
+    to configure the connection.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 15 Aug 2009 10:36:52 +0200
+
+mate-nettool (2.26.2-2) unstable; urgency=low
+
+  * Add missing build-dependency on docbook-xml.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 12 Jul 2009 11:14:12 +0200
+
+mate-nettool (2.26.2-1) unstable; urgency=low
+
+  [ Luca Bruno ]
+  * New upstream release.
+  * debian/control.in:
+    - Updated Standards-Version to 3.8.1, no additional changes needed.
+    - Use the new projects.mate.org in Homepage.
+    - Add libgtop-dev Build-Depend.
+  * debian/copyright:
+    - Specify GPL version 2 of the license.
+    - Add more upstream authors.
+
+  [ Josselin Mouette ]
+  * New upstream release.
+  * Require iputils-ping by default.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 24 Jun 2009 19:11:18 +0200
+
+mate-nettool (2.26.2-0ubuntu1) karmic; urgency=low
+
+  * New upstream version (LP: #388238)
+    - #583286: Compilation fixes for DragonFly BSD (Thomas Klausner)
+  * debian/control.in:
+  * debian/control:
+    - Added VCS link
+  * debian/patches/03_autoconf.patch:
+    - Updated
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 17 Jun 2009 12:49:15 +1000
+
+mate-nettool (2.26.1-0ubuntu2) karmic; urgency=low
+
+  * Drop unnecessary dependency on finger (LP: #354866).
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Sat, 18 Apr 2009 03:23:36 +0200
+
+mate-nettool (2.26.1-0ubuntu1) jaunty; urgency=low
+
+  * New upstream version (LP: #353491)
+     - Fix glibtop initialization order in order to
+       make it work on BSD (Joe Marcus Clarke)
+     - Removed warnings from the Glade UI (Diego Escalante)
+     - Remove deprecated gtk/gdk functions (Andre Klapper)
+     - Improved accesability (Germán Póo-Caamaño)
+     - Fixed support for unlimited pings (Germán Póo-Caamaño)
+     - Mate Nettool now is 1024x600 friendly (Germán Póo-Caamaño)
+     - Added basic NetBSD support (Thomas Klausner)
+     - Added menu for the documentation (Germán Póo-Caamaño)
+     - Restored the behaviour of 'Edit/Copy' as default in
+       Mate.  Added 'Copy as text report' to copy all the values
+       in a tab window (Germán Póo-Caamaño)
+     - Removed Linux-dependency on NIC Information through the
+       use of ligbtop instead of ioctl calls and reading from
+       /proc/net (Germán Póo-Caamaño)
+     - Updated About dialog (Alejandro Andrés)
+     - Use pinky instead of finger to reduce one dependency in
+       Linux systems (Germán Póo-Caamaño)
+     - Removed deprecated symbols from glib (Maxim Ermilov)
+     - Fixed unlocalized string in copyright (Claude Paroz)
+     - Fixed unlocalized string in port scan (Takao Fujiwara)
+     - Improved documentation metadata for library.mate.org
+       (Germán Póo-Caamaño)
+     - Clean up Gtk+ includes (Maxim Ermilov)
+     - Updated translations
+  * debian/patches
+    - update 02_lpi.patch to apply cleanly
+
+ -- Andreas Moog <andreas.moog@warperbbs.de>  Thu, 02 Apr 2009 01:52:30 +0200
+
+mate-nettool (2.25.3-0ubuntu1) jaunty; urgency=low
+
+  * New upstream version (LP: #315566)
+  * debian/control.in:
+    - add libgtop2-dev in Build-Depends
+  * debian/patches/02_lpi.patch:
+    - updated
+  * debian/patches/03_autoconf.patch:
+    - updated
+
+ -- Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>  Thu, 08 Jan 2009 21:11:25 +0100
+
+mate-nettool (2.22.1-1) unstable; urgency=low
+
+  [ Loic Minier ]
+  * Replace homepage pseudo-field in description with a real source field in
+    control.
+  * Put menu entry in the /Administration sub category.
+
+  [ Josselin Mouette ]
+  * New upstream release.
+  * Drop useless build-dependency on libxml-parser-perl.
+  * Standards version is 3.8.0.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 04 Jan 2009 11:17:51 +0100
+
+mate-nettool (2.22.1-0ubuntu1) intrepid; urgency=low
+
+  * New upstream version
+  * debian/patches/03_autoconf.patch:
+    - new version update
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 24 Sep 2008 18:21:16 +0200
+
+mate-nettool (2.22.0-1) unstable; urgency=low
+
+  * New upstream stable release.
+  * debian/control.in:
+    + Updated Standards-Version to 3.7.3, no additional changes needed.
+  * debian/menu:
+    + Fix section of the menu file.
+
+ -- Sebastian Dröge <slomo@debian.org>  Fri, 14 Mar 2008 12:46:50 +0100
+
+mate-nettool (2.22.0-0ubuntu1) hardy; urgency=low
+
+  * New upstream version:
+    - #470264: Added icon for size 24x24 
+    - #451925: Replace SIOCGMIIPHY definitions by including linux/sockios.h
+    - #508610: Translated DNS lookup type 
+
+ -- Sebastien Bacher <seb128@canonical.com>  Tue, 11 Mar 2008 12:33:15 +0100
+
+mate-nettool (2.20.0-1ubuntu1) hardy; urgency=low
+
+  * Merge from Debian unstable (LP: #164345) remaining changes:
+    - debian/control, debian/control.in:
+      - updated Maintainer field
+      - added liblaunchpad-integration-dev to Build-Depends
+      - depends on "iputils-tracepath" rather than "tcptraceroute | traceroute"
+      - make the description mention tracepath rather than traceroute
+    - debian/patches:
+      - 01_use_tracepath.patch: updated.
+      - 02_lpi.patch: updated.
+      - 03_autoconf.patch: updated.
+      - 04_menu_change.patch: updated.
+      - 05_gksu_for_network_admin.patch: updated.
+  
+ -- Mario Bonino <mariobonino@ubuntu-it.org>  Wed, 21 Nov 2007 14:53:49 +0100
+
+mate-nettool (2.20.0-1) unstable; urgency=low
+
+  [ Loic Minier ]
+  * Set maintainer to Debian MATE Maintainers.
+
+  [ Sebastian Dröge ]
+  * New upstream release:
+    + Fixes localization problems (Closes: #290684, #319610).
+
+ -- Sebastian Dröge <slomo@debian.org>  Sat, 29 Sep 2007 07:01:09 +0200
+
+mate-nettool (2.18.0-2) unstable; urgency=low
+
+  * Set LDFLAGS directly instead of via DEB_CONFIGURE_SCRIPT_ENV; build-dep on
+    cdbs >= 0.4.41.
+  * Preprend -Wl,-z,defs before -Wl,--as-needed in LDFLAGS.
+  * Upload to unstable; drop check-dist include.
+  * Wrap build-deps and deps.
+
+ -- Loic Minier <lool@dooz.org>  Tue, 17 Apr 2007 13:56:03 +0200
+
+mate-nettool (2.18.0-1) experimental; urgency=low
+
+  [ Loic Minier ]
+  * Add a get-orig-source target to retrieve the upstream tarball.
+  * Include the new check-dist Makefile to prevent accidental uploads to
+    unstable; bump build-dep on mate-pkg-tools to >= 0.10.
+
+  [ Marc 'HE' Brockschmidt ]
+  * New upstream release; no API to break
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Mon, 26 Mar 2007 23:08:04 +0200
+
+mate-nettool (2.16.0-2) experimental; urgency=low
+
+  * Add missing build-dependency on mate-doc-utils; thanks Frank Lichtenheld;
+    closes: #400832.
+
+ -- Loic Minier <lool@dooz.org>  Wed, 29 Nov 2006 08:33:52 +0100
+
+mate-nettool (2.16.0-1) experimental; urgency=low
+
+  [ Loic Minier ]
+  * Add a dep on whois, thanks Daniel Holbach.
+  * Fix watch file.
+
+  [ Oystein Gisnas ]
+  * New upstream release
+  * Bump debhelper compat to 5, no changes required. [debian/compat]
+  * Add build-dep on intltool. [debian/control.in]
+
+  [ Josselin Mouette ]
+  * Pass --disable-scrollkeeper to the configure script.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 27 Nov 2006 23:41:23 +0100
+
+mate-nettool (2.14.2-1) unstable; urgency=low
+
+  * Update watch file.
+    [debian/watch]
+  * New upstream versions.
+  * Bump up Standards-Versions to 3.7.2.
+    [debian/control, debian/control.in]
+
+ -- Loic Minier <lool@dooz.org>  Wed, 31 May 2006 17:28:13 +0200
+
+mate-nettool (1.4.1-1) unstable; urgency=low
+
+  * New upstream release (translation updates).
+  * Add CDBS' utils. [debian/rules]
+  * Clarify license versus copyright. [debian/copyright]
+
+ -- Loic Minier <lool@dooz.org>  Tue,  4 Oct 2005 21:38:20 +0200
+
+mate-nettool (1.4.0-1) unstable; urgency=low
+
+  [ Andrew Lau ]
+  * New upstream release 1.3.0.
+  * Debian Standards-Version: 3.6.2
+  * [debian/rules]:
+    - Don't overwrite $(DEB_CONFIGURE_SCRIPT_ENV) completely.
+      Thanks: Josselin Mouette <joss@debian.org>
+    - Record compile-time dependency versions using dh_buildinfo
+
+  [ Loic Minier ]
+  * New upstream release 1.4.0, misc changes below.
+  * Misc changes below taken from and to resync partially with 1.4.0-0ubuntu1.
+  * Update build-deps. [debian/control, debian/control.in]
+    - Bump CDBS version to >= 0.4.25.
+    - Drop libmateui-dev.
+    - Add libglade2-dev and libmateconf2-dev.
+
+ -- Loic Minier <lool@dooz.org>  Sun, 25 Sep 2005 17:21:35 +0200
+
+mate-nettool (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+    - Further HIG compliance.
+    - Updated translations.
+  * [debian/rules]:
+    - Deflate dependencies via ld's --as-needed option.
+
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Sat,  5 Mar 2005 14:44:17 +1100
+
+mate-nettool (1.1.0-1) experimental; urgency=low
+
+  * New upstream development release for MATE 2.10.
+    - Requires GTK+2.6.
+
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Wed, 26 Jan 2005 08:23:38 +1100
+
+mate-nettool (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+    - Patches merged: 00_nettool.patch
+  * Move Debian menu item to from Apps/Net to Apps/System in line with current
+    FreeDesktop.org menu category.
+
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Wed,  5 Jan 2005 16:05:07 +1100
+
+mate-nettool (0.99.3-2) unstable; urgency=medium
+
+  * Traceroute output now non-blocking.
+    + [debian/patches/00_nettool.patch]
+    (closes: #269396)
+    
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Tue,  7 Dec 2004 19:11:13 +1100
+
+mate-nettool (0.99.3-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Fixed crash on exit.
+
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Tue, 31 Aug 2004 21:50:02 +1000
+
+mate-nettool (0.99.2-1) unstable; urgency=low
+
+  * Initial release of the Debian GNU/Linux package.
+    - Replaces mate-network 1.99.5-2.
+
+ -- Andrew Lau <netsnipe@users.sourceforge.net>  Sat, 21 Aug 2004 01:48:16 +1000

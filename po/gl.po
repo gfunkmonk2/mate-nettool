@@ -1,0 +1,986 @@
+# translation of mate-nettool-master-po-gl.po to Galician
+# GALICIAN TRANSLATION OF THE PACKAGE MATE-NETWORK
+# Copyright (C) 1999 Roberto Suarez Soto
+#
+# Roberto Suarez Soto <ask4it@bigfoot.com>, 1999.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@svn.mate.org>, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Suso Baleato <suso.baleato@xunta.es>, 2009.
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool-master-po-gl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-20 12:15+0200\n"
+"PO-Revision-Date: 2010-07-20 12:32+0200\n"
+"Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
+"Language-Team: Galician <mate-gl-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.\n"
+"Antón Méixome <meixome@mancomun.org>, 2009.\n"
+"Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun."
+"org>, 2009.\n"
+"Suso Baleato <suso.baleato@xunta.es>, 2009.\n"
+"Ignacio Casal Quinteiro <icq@mate.org>, 2005, 2006, 2008\n"
+"Roberto Suarez Soto <ask4it@bigfoot.com>, 1999."
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Copyright © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../data/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "Ferramentas de rede"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "Interface gráfica de usuario para utilidades comúns de rede"
+
+#: ../src/callbacks.c:449 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "Inactivo"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:454
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - Ferramentas de rede"
+
+#: ../src/callbacks.c:478
+msgid "Unable to open help file"
+msgstr "Non é posíbel abrir o ficheiro de axuda"
+
+#: ../data/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "Ver a información sobre a súa rede"
+
+#: ../data/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../data/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../data/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../data/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>Información do IP</b>"
+
+#: ../data/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>Información da interface</b>"
+
+#: ../data/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Estatísticas da interface</b>"
+
+#: ../data/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Estatísticas de tempo de latencia (RTT)</b>"
+
+#: ../data/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Estatísticas de transmisión</b>"
+
+#: ../data/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "Ver os servizos de rede activos"
+
+#: ../data/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "Media:"
+
+#: ../data/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "Ton de aviso no ping"
+
+#: ../data/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "Limpar o _historial"
+
+#: ../data/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "Colisións:"
+
+#: ../data/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "Copiar como info_rme de texto"
+
+#: ../data/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "Detalles"
+
+#: ../data/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: ../data/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "Dispositivos - Ferramentas de rede"
+
+#: ../data/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "Pantalla:"
+
+#: ../data/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "Enderezo de dominio"
+
+#: ../data/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"Introduza un enderezo de dominio para buscar a súa información whois. Por "
+"exemplo: www.dominio.com ou 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Introduza o enderezo de rede para facer finger a ese usuario. Por exemplo: "
+"auth.dominio.com ou 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"Introduza un enderezo de rede para buscar. Por exemplo: www.dominio.com ou "
+"192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"Introduza o enderezo de rede para facer ping. Por exemplo: www.dominio.com "
+"ou 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"Introduza un enderezo de rede onde analizar os portos abertos. Por exemplo: "
+"www.dominio.com ou 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Introduza o enderezo de rede para o que rastrexar unha ruta. Por exemplo: "
+"www.dominio.com ou 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "Introduza o usuario sobre o que facer finger"
+
+#: ../data/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../data/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "Saída do Finger"
+
+#: ../data/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "Enderezo de hardware:"
+
+#: ../data/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "Host"
+
+#: ../data/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "Velocidade de ligazón:"
+
+#: ../data/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "Lookup"
+
+#: ../data/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "Saída do Lookup"
+
+#: ../data/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../data/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "Máximo:"
+
+#: ../data/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "Mínimo:"
+
+#: ../data/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Información multicast"
+
+#: ../data/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Multicast:"
+
+#: ../data/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../data/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Saída do Netstat"
+
+#: ../data/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "Enderezo de rede"
+
+#: ../data/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "Non dispoñíbel"
+
+#: ../data/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "Só"
+
+#: ../data/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "Saída para o Finger"
+
+#: ../data/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "Saída para o lookup"
+
+#: ../data/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "Saída para o estado da rede"
+
+#: ../data/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "Saída para a análise de portos"
+
+#: ../data/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "Saída para o traceroute"
+
+#: ../data/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "Saída para o whois"
+
+#: ../data/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "Paquetes recibidos:"
+
+#: ../data/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "Paquetes transmitidos:"
+
+#: ../data/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../data/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "Análise de portos"
+
+#: ../data/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "Saída da análise de portos"
+
+#: ../data/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "Bytes recibidos:"
+
+#: ../data/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "Paquetes recibidos:"
+
+#: ../data/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "Erros de recepción:"
+
+#: ../data/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "Información da táboa de encamiñamento"
+
+#: ../data/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "Análise"
+
+#: ../data/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "Enviar:"
+
+#: ../data/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "Estado:"
+
+#: ../data/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "Paquetes correctos:"
+
+#: ../data/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Rastro"
+
+#: ../data/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../data/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Saída do traceroute"
+
+#: ../data/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "Erros de transmisión:"
+
+#: ../data/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "Bytes transmitidos:"
+
+#: ../data/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "Paquetes transmitidos:"
+
+#: ../data/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "Solicitudes ilimitadas"
+
+#: ../data/mate-nettool.ui.h:71
+msgid "User"
+msgstr "Usuario"
+
+#: ../data/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "Nome de usuario"
+
+#: ../data/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../data/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Saída do Whois"
+
+#: ../data/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_Configurar"
+
+#: ../data/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "Enderezo de _dominio:"
+
+#: ../data/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../data/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_Axuda"
+
+#: ../data/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "Tipo de _información:"
+
+#: ../data/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "Enderezo de _rede:"
+
+#: ../data/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "Dispositivo de _rede:"
+
+#: ../data/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_Ferramenta"
+
+#: ../data/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_Nome usuario:"
+
+#: ../data/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../data/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "solicitudes"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "Outro tipo"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Interface Ethernet"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "Interface de rede sen fíos"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "Interface de módem"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "Interface de liña paralela"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "Interface de infravermellos"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Interface loopback"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "Interface descoñecida"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "Non se encontraron dispositivos de rede"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "Descoñecido"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "Activo"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Loopback"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "Desactivado"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Dispositivo de rede:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Enderezo de hardware:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Multicast:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Velocidade de ligazón:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Estado:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Paquetes transmitidos:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Erros de transmisión:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Paquetes recibidos:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Erros de recepción:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Colisións:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "non dispoñíbel"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "Buscando %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "Nome"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "Tipo de enderezo"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "Tipo de rexistro"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "Enderezo"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Orixe\tTTL\tTipo de enderezo\tRexistro Tipo1\tResolución\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Cargar a información para un dispositivo de rede"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "DISPOSITIVO"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "Enviar un ping a un enderezo de rede"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "HOST"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr ""
+"Obter información do netstat. As opcións válidas son: route, active, "
+"multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "ORDE"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Rastrexar un camiño a un enderezo de rede"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Analizar os portos dun enderezo de rede"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Resolver un enderezo de rede"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "A orde finger que se vai executar"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "USUARIO"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "Efectuar unha busca whois para un dominio de rede"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "DOMINIO"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"O ficheiro %s non existe. Verifique se o mate-nettool está instalado "
+"correctamente"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "Protocolo"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "Enderezo IP"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Máscara de rede / Prefixo"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Broadcast"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "Ámbito"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "Información predefinida"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "Enderezo de internet"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "Nome canónico"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "Tipo de CPU / SO"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "Caixa de correos Exchange"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "Información da caixa de correos"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "Nome do servidor"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "Nome do host para o enderezo"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Autoridade da zona"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "Texto de información"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "Servizos coñecidos"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "Calquera / Toda a información"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "Obtendo a táboa de encamiñamento"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "Obtendo as conexións a Internet activas"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "Obtendo as pertenzas a grupos"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP de orixe"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "Porto/Servizo"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "Estado"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "Destino/Prefixo"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "Destino"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Pasarela"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Máscara de rede"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "Interface"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "Membro"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "Grupo"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protocolo\tIP de orixe\tPorto/Servizo\tEstado\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Destino\tPasarela\tMáscara de rede\tInterface\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Interface\tMembro\tGrupo\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "Non se especificou un enderezo de rede"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "Introduza un enderezo de rede correcto e ténteo de novo."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Non foi posíbel encontrar o enderezo '%s'"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "Non se especificou o enderezo de dominio"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "Introduza un enderezo de dominio correcto e ténteo de novo."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "Información non dispoñíbel"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "Deter"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "Executar"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "Tempo (ms):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Núm. de sec:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Enviando solicitudes ping a %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "Bytes"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "Orixe"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Sec"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "Tempo"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "Unidades"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Bytes\tOrixe\tSec\tTempo\tUnids\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Tempo mínimo:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Tempo medio:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Tempo máximo:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Paquetes transmitidos:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Paquetes recibidos:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Paquetes correctos:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Analizando os portos abertos en %s"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "descoñecido"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "abrir"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "Porto"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "Servizo"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Porto\tEstado\tServizo\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Trazando o camiño a %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "Salto"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "Nome do host"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "Tempo 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "Tempo 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Salto\tNome do host\tIP\tTempo 1\tTempo 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"Para usar esta característica do programa, %s debe estar instalado no seu "
+"sistema"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "Obtendo a información de %s en \"%s\""
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "Obtendo a información de todos os usuarios en \"%s\""
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Obtendo a información whois de %s"

@@ -1,0 +1,46 @@
+Source: mate-nettool
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian MATE Maintainers <pkg-mate-maintainers@lists.alioth.debian.org>
+Build-Depends: autotools-dev,
+               cdbs (>= 0.4.41),
+               debhelper (>= 5),
+               dh-buildinfo,
+               dh-autoreconf,
+               mate-common,
+               intltool (>= 0.35.0),
+               libgtk2.0-dev (>= 2.19.7),
+               libmateconf-dev (>= 1.1.0),
+               libgtop2-dev,
+               mate-doc-utils (>= 1.1.0),
+               mate-doc-utils-gnome,
+               docbook-xml
+Uploaders: @MATE_TEAM@
+Vcs-Bzr: https://code.launchpad.net/~ubuntu-desktop/mate-nettool/ubuntu
+Standards-Version: 3.8.4
+Homepage: http://projects.mate.org/mate-network/
+
+Package: mate-nettool
+Architecture: any
+Replaces: mate-network (<= 1.99.5)
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         dnsutils,
+         net-tools,
+         iputils-ping | ping,
+         iputils-tracepath,
+         whois
+Suggests: mate-system-tools
+Conflicts: mate-network (<= 1.99.5)
+Description: network information tool for MATE
+ MATE Nettool is a network information tool which provides user interfaces for
+ some of the most common command line network tools including:
+    * ifconfig
+    * ping
+    * netstat
+    * tracepath
+    * port scanning
+    * DNS lookup
+    * finger
+    * whois

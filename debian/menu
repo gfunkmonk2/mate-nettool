@@ -1,0 +1,9 @@
+?package(mate-nettool):				\
+	needs="X11"					\
+	section="Applications/System/Administration"	\
+	title="MATE Network Tool"			\
+	command="/usr/bin/mate-nettool"		\
+	hints="Network"					\
+	icon="/usr/share/pixmaps/mate-nettool.xpm"	\
+	longtitle="Network Information Tools"		\
+	description="Front-end to various networking command-line tools"

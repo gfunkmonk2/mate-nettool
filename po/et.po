@@ -1,0 +1,765 @@
+# MATE võrgutööriistade eesti keele tõlge.
+# Estonian translation for mate-nettool.
+#
+# Copyright (C) 2005, 2006 The Free Software Foundation
+# Copyright (C) 2007-2009 The MATE Project.
+# This file is distributed under the same license as the mate-nettool package.
+#
+# Ivar Smolin <okul@linux.ee>, 2005-2009.
+# Priit Laes <amd@store20.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
+"nettool&component=general\n"
+"POT-Creation-Date: 2009-06-05 11:08+0000\n"
+"PO-Revision-Date: 2009-06-19 15:18+0300\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <mate-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "translator-credits"
+msgstr ""
+"Ivar Smolin <okul@linux.ee>, 2005-2009.\n"
+"Priit Laes <amd@store20.com>, 2005"
+
+#. Translators: %s is the name of the copyright holder
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Autoriõigused © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+msgid "Network Tools"
+msgstr "Võrgutööriistad"
+
+msgid "Graphical user interface for common network utilities"
+msgstr "Graafiline kasutajaliides üldiste võrguutiliitide jaoks"
+
+msgid "Idle"
+msgstr "Jõude"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - Võrgutööriistad"
+
+msgid "Unable to open help file"
+msgstr "Abiteabe faili pole võimalik avada"
+
+msgid "0"
+msgstr "0"
+
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+msgid "0.0"
+msgstr "0.0"
+
+msgid "<b>IP Information</b>"
+msgstr "<b>IP andmed</b>"
+
+msgid "<b>Interface Information</b>"
+msgstr "<b>Liidese andmed</b>"
+
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>Liidese statistika</b>"
+
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>Ringi läbimise ajaline statistika</b>"
+
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>Ülekandestatistika</b>"
+
+msgid "Active Network Services"
+msgstr "Aktiivsed võrguteenused"
+
+msgid "Average:"
+msgstr "Keskmine:"
+
+msgid "Beep on ping"
+msgstr "Piiksumine pingimisel"
+
+msgid "Clear _History"
+msgstr "Puhasta _ajalugu"
+
+msgid "Collisions:"
+msgstr "Kollisioone:"
+
+msgid "Copy as text _report"
+msgstr "Kopeeri teksti_raportina"
+
+msgid "Details"
+msgstr "Üksikasjad"
+
+msgid "Devices"
+msgstr "Seadmed"
+
+#. Dear Translator: This is the Window Title
+msgid "Devices - Network Tools"
+msgstr "Seadmed - Võrgutööriistad"
+
+msgid "Display:"
+msgstr "Kuvatakse:"
+
+msgid "Domain address"
+msgstr "Domeeni aadress"
+
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"Sisesta domeen või aadress, mille kohta soovid whois-päringut teha. Näiteks: "
+"www.domain.com või 192.168.2.1"
+
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Sisesta domeen või aadress, millelt soovid finger-päringut teha. Näiteks: "
+"www.domain.com või 192.168.2.1"
+
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"Sisesta võrguaadress, mida soovid lahendada. Näiteks: www.domain.com või "
+"192.168.2.1"
+
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"Sisesta võrguaadress, millele soovid ping-päringut saata. Näiteks: "
+"www.domain.com või 192.168.2.1"
+
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"Sisesta võrguaadress, mille avatud porte soovid kontrollida. Näiteks: "
+"www.domain.com või 192.168.2.1"
+
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"Sisesta võrguaadress, kuhu sa soovid pakettide liikumisdada tuvastada. "
+"Näiteks: www.domain.com või 192.168.2.1"
+
+msgid "Enter the user to finger"
+msgstr "Sisesta kasutaja, kelle kohta soovid finger-päringut teha"
+
+msgid "Finger"
+msgstr "Finger"
+
+msgid "Finger output"
+msgstr "Fingeri väljund"
+
+msgid "Hardware address:"
+msgstr "Riistvaraline aadress:"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Link speed:"
+msgstr "Ühenduskiirus:"
+
+msgid "Lookup"
+msgstr "Nimelahendus"
+
+msgid "Lookup output"
+msgstr "Nimelahenduse väljund"
+
+msgid "MTU:"
+msgstr "MTU:"
+
+msgid "Maximum:"
+msgstr "Suurim:"
+
+msgid "Minimum:"
+msgstr "Vähim:"
+
+msgid "Multicast Information"
+msgstr "Multicast'i andmed"
+
+msgid "Multicast:"
+msgstr "Multicast:"
+
+msgid "Netstat"
+msgstr "Võrgustatistika"
+
+msgid "Netstat output"
+msgstr "Võrgustatistika väljund"
+
+msgid "Network address"
+msgstr "Võrguaadress"
+
+msgid "Not Available"
+msgstr "Pole saadaval"
+
+msgid "Only"
+msgstr "Ainult"
+
+msgid "Output for finger"
+msgstr "Fingeri väljund"
+
+msgid "Output for lookup"
+msgstr "Nimelahenduse väljund"
+
+msgid "Output for net stat"
+msgstr "Võrgustatistika väljund"
+
+msgid "Output for port scan"
+msgstr "Pordiskannimise väljund"
+
+msgid "Output for traceroute"
+msgstr "Marsruudi leidmise väljund"
+
+msgid "Output for whois"
+msgstr "Whoisi väljund"
+
+msgid "Packets received:"
+msgstr "Vastuvõetud pakette:"
+
+msgid "Packets transmitted:"
+msgstr "Edastatud pakette:"
+
+msgid "Ping"
+msgstr "Ping"
+
+msgid "Port Scan"
+msgstr "Pordiskannimine"
+
+msgid "Port scan output"
+msgstr "Pordiskannimise väljund"
+
+msgid "Received bytes:"
+msgstr "Vastuvõetud baite:"
+
+msgid "Received packets:"
+msgstr "Vastuvõetud pakette:"
+
+msgid "Reception errors:"
+msgstr "Vastuvõtuvigu:"
+
+msgid "Routing Table Information"
+msgstr "Ruutingutabeli andmed"
+
+msgid "Scan"
+msgstr "Skanni"
+
+msgid "Send:"
+msgstr "Saadetakse:"
+
+msgid "State:"
+msgstr "Olek:"
+
+msgid "Successful packets:"
+msgstr "Vigadeta pakette:"
+
+msgid "Trace"
+msgstr "Leia marsruut"
+
+msgid "Traceroute"
+msgstr "Marsruudi leidmine"
+
+msgid "Traceroute output"
+msgstr "Marsruudi leidmise väljund"
+
+msgid "Transmission errors:"
+msgstr "Ülekandevigu:"
+
+msgid "Transmitted bytes:"
+msgstr "Ülekantud baite:"
+
+msgid "Transmitted packets:"
+msgstr "Ülekantud pakette:"
+
+msgid "Unlimited requests"
+msgstr "Piiramatu arv päringuid"
+
+msgid "User"
+msgstr "Kasutaja"
+
+msgid "User name"
+msgstr "Kasutaja nimi"
+
+msgid "Whois"
+msgstr "Whois"
+
+msgid "Whois output"
+msgstr "Whoisi väljund"
+
+msgid "_Configure"
+msgstr "_Seadista"
+
+msgid "_Domain address:"
+msgstr "_Domeeni aadress:"
+
+msgid "_Edit"
+msgstr "_Redaktor"
+
+msgid "_Help"
+msgstr "A_bi"
+
+msgid "_Information type:"
+msgstr "A_ndmete liik:"
+
+msgid "_Network address:"
+msgstr "Võr_guaadress:"
+
+msgid "_Network device:"
+msgstr "Võr_guseade:"
+
+msgid "_Tool"
+msgstr "_Vahendid"
+
+msgid "_Username:"
+msgstr "_Kasutajanimi:"
+
+#. Translators: this is the abbreviation for milliseconds
+msgid "ms"
+msgstr "ms"
+
+msgid "requests"
+msgstr "päringut"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+msgid "Other type"
+msgstr "Muu liik"
+
+msgid "Ethernet Interface"
+msgstr "Ethernet liides"
+
+msgid "Wireless Interface"
+msgstr "Traadita liides"
+
+msgid "Modem Interface"
+msgstr "Modemliides"
+
+msgid "Parallel Line Interface"
+msgstr "Paralleelliini liides"
+
+msgid "Infrared Interface"
+msgstr "Infrapunaliides"
+
+msgid "Loopback Interface"
+msgstr "Loopback liides"
+
+msgid "Unknown Interface"
+msgstr "Tundmatu liides"
+
+msgid "Network Devices Not Found"
+msgstr "Võrguseadmeid ei leitud"
+
+msgid "Unknown"
+msgstr "Tundmatu"
+
+msgid "Active"
+msgstr "Aktiivne"
+
+msgid "Inactive"
+msgstr "Mitteaktiivne"
+
+msgid "Loopback"
+msgstr "Loopback"
+
+msgid "Enabled"
+msgstr "Lubatud"
+
+msgid "Disabled"
+msgstr "Keelatud"
+
+#. The info output in a text format (to copy on clipboard)
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Võrguseade:\t%s\n"
+
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Riistvaraline aadress:\t%s\n"
+
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Multicast:\t%s\n"
+
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Ühenduskiirus:\t%s\n"
+
+#, c-format
+msgid "State:\t%s\n"
+msgstr "Olek:\t%s\n"
+
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Ülekantud pakette:\t%s\n"
+
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Ülekandevigu:\t%s\n"
+
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Vastuvõetud pakette:\t%s\n"
+
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Vastuvõtu vigu:\t%s\n"
+
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Kollisioone:\t%s\n"
+
+msgid "not available"
+msgstr "pole saadaval"
+
+#, c-format
+msgid "Looking up %s"
+msgstr "%s lahendamine"
+
+msgid "Name"
+msgstr "Nimi"
+
+#. Time To Live of a hostname in a name server
+msgid "TTL"
+msgstr "TTL"
+
+msgid "Address Type"
+msgstr "Aadressi liik"
+
+msgid "Record Type"
+msgstr "Kirje liik"
+
+msgid "Address"
+msgstr "Aadress"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Lähteaadress\tTTL\tAadressi liik\tKirje liik\tTulemus\n"
+
+msgid "Load information for a network device"
+msgstr "Võrguseadme kohta andmete laadimine"
+
+msgid "DEVICE"
+msgstr "SEADE"
+
+msgid "Send a ping to a network address"
+msgstr "Ping pakettide saatmine võrguaadressile"
+
+msgid "HOST"
+msgstr "HOST"
+
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr ""
+"Netstat andmete hankimine.  Lubatud võtmed on: route, active, multicast."
+
+msgid "COMMAND"
+msgstr "KÄSK"
+
+msgid "Trace a route to a network address"
+msgstr "Võrguaadressini viiva marsruudi jälgimine"
+
+msgid "Port scan a network address"
+msgstr "Võrguaadressi portide skannimine"
+
+msgid "Look up a network address"
+msgstr "Võrguaadressi lahendamine"
+
+msgid "Finger command to run"
+msgstr "Finger käsu täitmine"
+
+msgid "USER"
+msgstr "KASUTAJA"
+
+msgid "Perform a whois lookup for a network domain"
+msgstr "Võrgudomeeni lahendamiseks whois päringu teostamine"
+
+msgid "DOMAIN"
+msgstr "DOMEEN"
+
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"Faili %s pole olemas, palun veendu, et mate-nettool on korralikult "
+"paigaldatud"
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "IP Address"
+msgstr "IP-aadress"
+
+msgid "Netmask / Prefix"
+msgstr "Võrgumask / Eesliide"
+
+msgid "Broadcast"
+msgstr "Broadcast"
+
+msgid "Scope"
+msgstr "Skoop"
+
+msgid "Default Information"
+msgstr "Vaikimisi andmed"
+
+msgid "Internet Address"
+msgstr "Internetiaadress"
+
+msgid "Canonical Name"
+msgstr "Kanooniline nimi"
+
+msgid "CPU / OS Type"
+msgstr "Protsessori / opsüsteemi liik"
+
+#. When asking for MX record in DNS context
+msgid "Mailbox Exchange"
+msgstr "Postivahetaja"
+
+msgid "Mailbox Information"
+msgstr "Postkasti andmed"
+
+#. When asking for NS record in DNS context
+msgid "Name Server"
+msgstr "Nimeserver"
+
+msgid "Host name for Address"
+msgstr "Aadressi hostinimi"
+
+msgid "Start-of-authority"
+msgstr "Tsooni algusblokk (SOA)"
+
+msgid "Text Information"
+msgstr "Tekstilised andmed"
+
+msgid "Well Known Services"
+msgstr "Üldtuntud teenused"
+
+msgid "Any / All Information"
+msgstr "Kogu teave (Any / All Information)"
+
+msgid "Getting routing table"
+msgstr "Ruutingutabeli hankimine"
+
+msgid "Getting active Internet connections"
+msgstr "Aktiivsete internetiühenduste hankimine"
+
+msgid "Getting group memberships"
+msgstr "Grupikuuluvuste hankimine"
+
+msgid "IP Source"
+msgstr "IP lähteaadress"
+
+msgid "Port/Service"
+msgstr "Port/teenus"
+
+msgid "State"
+msgstr "Olek"
+
+msgid "Destination/Prefix"
+msgstr "Sihtkoht/Eesliide"
+
+msgid "Destination"
+msgstr "Sihtkoht"
+
+msgid "Gateway"
+msgstr "Värav"
+
+msgid "Netmask"
+msgstr "Võrgumask"
+
+msgid "Interface"
+msgstr "Liides"
+
+msgid "Member"
+msgstr "Liige"
+
+msgid "Group"
+msgstr "Grupp"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protokoll\tIP allikas\tPort/Teenus\tOlek\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Sihtkoht\tVärav\tVõrgumask\tLiides\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+msgid "Interface\tMember\tGroup\n"
+msgstr "Liides\tLiige\tGrupp\n"
+
+msgid "A network address was not specified"
+msgstr "Võrguaadress on määramata"
+
+msgid "Please enter a valid network address and try again."
+msgstr "Palun sisesta korrektne võrguaadress ja proovi uuesti."
+
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "Aadressi '%s' pole võimalik leida"
+
+msgid "A domain address was not specified"
+msgstr "Domeeniaadress on määramata"
+
+msgid "Please enter a valid domain address and try again."
+msgstr "Palun sisesta korrektne domeeni aadress ja proovi uuesti."
+
+msgid "Information not available"
+msgstr "Andmed pole saadaval"
+
+msgid "Stop"
+msgstr "Seiska"
+
+msgid "Run"
+msgstr "Käivita"
+
+#. Created up here so we can get the geometry info.
+msgid "Time (ms):"
+msgstr "Aeg (ms):"
+
+msgid "Seq. No.:"
+msgstr "Jrk Nr:"
+
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Ping päringu saatmine aadressile %s"
+
+msgid "Bytes"
+msgstr "Baiti"
+
+msgid "Source"
+msgstr "Allikas"
+
+msgid "Seq"
+msgstr "Jrk"
+
+msgid "Time"
+msgstr "Aeg"
+
+msgid "Units"
+msgstr "Ühik"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Baiti\tAllikas\tJrk\tAeg\tÜhik\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Vähim aeg:\t%s ms\n"
+
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Keskmine aeg:\t%s ms\n"
+
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Suurim aeg:\t%s ms\n"
+
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Ülekantud pakette:\t%s\n"
+
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Vastuvõetud pakette:\t%s\n"
+
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Vigadeta pakette:\t%s\n"
+
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "Avatud portide skannimine aadressil %s"
+
+msgid "unknown"
+msgstr "tundmatu"
+
+#. Translators: "open" is a network status and should be one word.
+msgid "open"
+msgstr "avatud"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Service"
+msgstr "Teenus"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+msgid "Port\tState\tService\n"
+msgstr "Port\tOlek\tTeenus\n"
+
+#, c-format
+msgid "Tracing route to %s"
+msgstr "Otsin marsruuti hostini %s"
+
+msgid "Hop"
+msgstr "Hop"
+
+msgid "Hostname"
+msgstr "Hostinimi"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Time 1"
+msgstr "Aeg 1"
+
+msgid "Time 2"
+msgstr "Aeg 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Hop\tHostinimi\tIP\tAeg 1\tAeg 2\n"
+
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr ""
+"Programmi selle võimaluse kasutamiseks peab sinu süsteemi olema paigaldatud %"
+"s"
+
+msgid "View information about your network"
+msgstr "Sinu võrgu kohta andmete vaatamine"
+
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "\"%s\" andmete hankimine hostilt \"%s\""
+
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "\"%s\" kõikide kasutajate kohta andmete hankimine"
+
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "Whois andmete hankimine %s kohta"

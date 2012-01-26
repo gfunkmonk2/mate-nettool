@@ -1,0 +1,921 @@
+# mate-nettool (a.k.a mate-network) ja.po.
+# Copyright (C) 1999-2009 Free Software Foundation, Inc.
+# Yuusuke Tahara <tahara@mate.gr.jp>, 1999.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-24 00:11+0900\n"
+"PO-Revision-Date: 2009-02-24 00:09+0900\n"
+"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
+"Language-Team: Japanese <mate-translation@mate.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"相花 毅 <takeshi.aihana@gmail.com>\n"
+"Yuusuke Tahara <tahara@mate.gr.jp>\n"
+"日本MATEユーザー会 http://www.mate.gr.jp"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Copyright © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "ネットワーク・ツール"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr ""
+"いろいろなネットワーク・ユーティリティに対応したグラフィカルなインタフェース"
+"を提供します。"
+
+#: ../src/callbacks.c:450 ../src/main.c:140 ../src/nettool.c:461
+msgid "Idle"
+msgstr "待機中です"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - ネットワーク・ツール"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "ヘルプ・ファイルを開けません"
+
+#: ../src/mate-nettool.glade.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.glade.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.glade.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.glade.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP (インターネット・プロトコル) の情報</b>"
+
+#: ../src/mate-nettool.glade.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>インタフェースの情報</b>"
+
+#: ../src/mate-nettool.glade.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>インタフェースの統計情報</b>"
+
+#: ../src/mate-nettool.glade.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>往復遅延時間の統計情報</b>"
+
+#: ../src/mate-nettool.glade.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>転送の統計情報</b>"
+
+#: ../src/mate-nettool.glade.h:10
+msgid "Active Network Services"
+msgstr "利用可能なネットワーク・サービス"
+
+#: ../src/mate-nettool.glade.h:11
+msgid "Average:"
+msgstr "平均:"
+
+#: ../src/mate-nettool.glade.h:12
+msgid "Beep on ping"
+msgstr "Ping 時に音を鳴らす"
+
+#: ../src/mate-nettool.glade.h:13
+msgid "Clear _History"
+msgstr "履歴のクリア(_H)"
+
+#: ../src/mate-nettool.glade.h:14
+msgid "Collisions:"
+msgstr "衝突した回数:"
+
+#: ../src/mate-nettool.glade.h:15
+msgid "Copy as text _report"
+msgstr "報告書の形式でコピー(_R)"
+
+#: ../src/mate-nettool.glade.h:16
+msgid "Details"
+msgstr "詳細"
+
+#: ../src/mate-nettool.glade.h:17
+msgid "Devices"
+msgstr "デバイス"
+
+#. Dear Translator: This is the Window Title
+#: ../src/mate-nettool.glade.h:19
+msgid "Devices - Network Tools"
+msgstr "デバイス - ネットワーク・ツール"
+
+#: ../src/mate-nettool.glade.h:20
+msgid "Display:"
+msgstr "表示する情報:"
+
+#: ../src/mate-nettool.glade.h:21
+msgid "Domain address"
+msgstr "ドメインのアドレス"
+
+#: ../src/mate-nettool.glade.h:22 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.glade.h:23
+msgid "Finger output"
+msgstr "Finger の結果"
+
+#: ../src/mate-nettool.glade.h:24
+msgid "Hardware address:"
+msgstr "ハードウェア (MAC) アドレス:"
+
+#: ../src/mate-nettool.glade.h:25
+msgid "Host"
+msgstr "ホスト"
+
+#: ../src/mate-nettool.glade.h:26
+msgid "Link speed:"
+msgstr "リンクのスピード:"
+
+#: ../src/mate-nettool.glade.h:27 ../src/main.c:734
+msgid "Lookup"
+msgstr "Lookup"
+
+#: ../src/mate-nettool.glade.h:28
+msgid "Lookup output"
+msgstr "Lookup の結果"
+
+#: ../src/mate-nettool.glade.h:29
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.glade.h:30
+msgid "Maximum:"
+msgstr "最大:"
+
+#: ../src/mate-nettool.glade.h:31
+msgid "Minimum:"
+msgstr "最小:"
+
+#: ../src/mate-nettool.glade.h:32
+msgid "Multicast Information"
+msgstr "マルチキャストの情報"
+
+#: ../src/mate-nettool.glade.h:33
+msgid "Multicast:"
+msgstr "マルチキャスト:"
+
+#: ../src/mate-nettool.glade.h:34 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.glade.h:35
+msgid "Netstat output"
+msgstr "Netstat の結果"
+
+#: ../src/mate-nettool.glade.h:36
+msgid "Network address"
+msgstr "ネットワークのアドレス"
+
+#: ../src/mate-nettool.glade.h:37
+msgid "Not Available"
+msgstr "利用不可"
+
+#: ../src/mate-nettool.glade.h:38
+msgid "Only"
+msgstr "要求数は "
+
+#: ../src/mate-nettool.glade.h:39
+msgid "Output for finger"
+msgstr "Finger を実行した結果です"
+
+#: ../src/mate-nettool.glade.h:40
+msgid "Output for lookup"
+msgstr "Lookup を実行した結果です"
+
+#: ../src/mate-nettool.glade.h:41
+msgid "Output for net stat"
+msgstr "Netstat を実行した結果です"
+
+#: ../src/mate-nettool.glade.h:42
+msgid "Output for port scan"
+msgstr "ポートスキャンを実行した結果です"
+
+#: ../src/mate-nettool.glade.h:43
+msgid "Output for traceroute"
+msgstr "Traceroute を実行した結果です"
+
+#: ../src/mate-nettool.glade.h:44
+msgid "Output for whois"
+msgstr "Whois を実行した結果です"
+
+#: ../src/mate-nettool.glade.h:45
+msgid "Packets received:"
+msgstr "受信したパケットの総数:"
+
+#: ../src/mate-nettool.glade.h:46
+msgid "Packets transmitted:"
+msgstr "送信したパケットの総数:"
+
+#: ../src/mate-nettool.glade.h:47 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.glade.h:48
+msgid "Port Scan"
+msgstr "ポートスキャン"
+
+#: ../src/mate-nettool.glade.h:49
+msgid "Port scan output"
+msgstr "ポートスキャンの結果"
+
+#: ../src/mate-nettool.glade.h:50
+msgid "Received bytes:"
+msgstr "受信したバイト数:"
+
+#: ../src/mate-nettool.glade.h:51
+msgid "Received packets:"
+msgstr "受信したパケットの総数:"
+
+#: ../src/mate-nettool.glade.h:52
+msgid "Reception errors:"
+msgstr "受信エラーの総数:"
+
+#: ../src/mate-nettool.glade.h:53
+msgid "Routing Table Information"
+msgstr "経路テーブルの情報"
+
+#: ../src/mate-nettool.glade.h:54 ../src/main.c:619
+msgid "Scan"
+msgstr "スキャン"
+
+#: ../src/mate-nettool.glade.h:55
+msgid "Send:"
+msgstr "送信要求の数:"
+
+#: ../src/mate-nettool.glade.h:56
+msgid "State:"
+msgstr "状態:"
+
+#: ../src/mate-nettool.glade.h:57
+msgid "Successful packets:"
+msgstr "到達したパケットの割合:"
+
+#: ../src/mate-nettool.glade.h:58 ../src/main.c:375
+msgid "Trace"
+msgstr "トレース"
+
+#: ../src/mate-nettool.glade.h:59
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.glade.h:60
+msgid "Traceroute output"
+msgstr "Traceroute の結果"
+
+#: ../src/mate-nettool.glade.h:61
+msgid "Transmission errors:"
+msgstr "転送エラーの総数:"
+
+#: ../src/mate-nettool.glade.h:62
+msgid "Transmitted bytes:"
+msgstr "転送したバイト数:"
+
+#: ../src/mate-nettool.glade.h:63
+msgid "Transmitted packets:"
+msgstr "転送したパケットの総数:"
+
+#: ../src/mate-nettool.glade.h:64
+msgid "Unlimited requests"
+msgstr "制限しない"
+
+#: ../src/mate-nettool.glade.h:65
+msgid "User"
+msgstr "ユーザ"
+
+#: ../src/mate-nettool.glade.h:66
+msgid "User name"
+msgstr "ユーザ名"
+
+#: ../src/mate-nettool.glade.h:67 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.glade.h:68
+msgid "Whois output"
+msgstr "Whois の結果"
+
+#: ../src/mate-nettool.glade.h:69
+msgid "_Configure"
+msgstr "設定(_C)"
+
+#: ../src/mate-nettool.glade.h:70
+msgid "_Domain address:"
+msgstr "ドメインのアドレス(_D):"
+
+#: ../src/mate-nettool.glade.h:71
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../src/mate-nettool.glade.h:72
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../src/mate-nettool.glade.h:73
+msgid "_Information type:"
+msgstr "情報の種類(_I):"
+
+#: ../src/mate-nettool.glade.h:74
+msgid "_Network address:"
+msgstr "ネットワークのアドレス(_N):"
+
+#: ../src/mate-nettool.glade.h:75
+msgid "_Network device:"
+msgstr "ネットワーク・デバイス(_N):"
+
+#: ../src/mate-nettool.glade.h:76
+msgid "_Tool"
+msgstr "ツール(_T)"
+
+#: ../src/mate-nettool.glade.h:77
+msgid "_Username:"
+msgstr "ユーザ名(_U):"
+
+#. Translators: this is the abbreviation for milliseconds
+#: ../src/mate-nettool.glade.h:79
+msgid "ms"
+msgstr "ミリ秒"
+
+#: ../src/mate-nettool.glade.h:80
+msgid "requests"
+msgstr "個だけ"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "その他の種類"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "Ethernet インタフェース"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "無線インタフェース"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "モデム・インタフェース"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "パラレル・ライン・インタフェース"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "赤外線インタフェース"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "ループバック・インタフェース"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "不明なインタフェース"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "ネットワーク・デバイスが見つかりませんでした"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "不明"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "有効"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "無効"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "ループバック"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "利用可"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "利用不可"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "ネットワーク・デバイス:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "ハードウェア (MAC) アドレス:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "マルチキャスト:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "リンク・スピード:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "状態:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "転送パケット数:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "転送エラー数:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "受信パケット数:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "受信エラー数:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "衝突した回数:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "利用不可"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "%s の問い合わせ中..."
+
+#: ../src/lookup.c:278
+msgid "Name"
+msgstr "名前"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:287
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:296
+msgid "Address Type"
+msgstr "アドレスの種類"
+
+#: ../src/lookup.c:306
+msgid "Record Type"
+msgstr "問い合わせの種類"
+
+#: ../src/lookup.c:315
+msgid "Address"
+msgstr "アドレス"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:343
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "ソース\tTTL\tアドレス 種類\t問い合わせの種類１\tアドレス解決\n"
+
+#: ../src/main.c:83
+msgid "Load information for a network device"
+msgstr "ネットワーク・デバイスの情報を読み込む"
+
+#: ../src/main.c:84
+msgid "DEVICE"
+msgstr "DEVICE"
+
+#: ../src/main.c:87
+msgid "Send a ping to a network address"
+msgstr "ネットワーク・アドレスへ ping を送信する"
+
+#: ../src/main.c:88 ../src/main.c:96 ../src/main.c:100 ../src/main.c:104
+msgid "HOST"
+msgstr "HOST"
+
+#: ../src/main.c:91
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "netstat 情報を取得する (利用可能なコマンド: route, active, multicast)"
+
+#: ../src/main.c:92
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: ../src/main.c:95
+msgid "Trace a route to a network address"
+msgstr "ネットワーク・アドレスへの経路をトレースする"
+
+#: ../src/main.c:99
+msgid "Port scan a network address"
+msgstr "ネットワーク・アドレスのポートをスキャンする"
+
+#: ../src/main.c:103
+msgid "Look up a network address"
+msgstr "ネットワーク・アドレスを問い合わせる"
+
+#: ../src/main.c:107
+msgid "Finger command to run"
+msgstr "指定したユーザに対して Finger を実行する"
+
+#: ../src/main.c:108
+msgid "USER"
+msgstr "USER"
+
+#: ../src/main.c:111
+msgid "Perform a whois lookup for a network domain"
+msgstr "ネットワーク・ドメインに対する whois 情報を取得する"
+
+#: ../src/main.c:112
+msgid "DOMAIN"
+msgstr "DOMAIN"
+
+#: ../src/main.c:129
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"ファイル %s が存在しません。`mate-nettool` が正しくインストールされているか"
+"確認して下さい。"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "プロトコル"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP-アドレス"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "ネットマスク/プレフィックス"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "ブロードキャスト"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "スコープ"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "デフォルトの情報"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "インターネット・アドレス (A)"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "カノニカル名 (CNAME)"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPU / OS の種類"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "メール受信箱の Exhange (MX)"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "メール受信箱の情報 (MINFO)"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "ネーム・サーバ (NS)"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "アドレスに対するホスト名 (HINFO)"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Start-Of-Authority (SOA)"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "文字列の情報 (T)"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "既知のサービス (WKS)"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "任意/全ての情報"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "経路テーブルの取得中..."
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "利用可能なインターネット接続情報の取得中..."
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "グループのメンバシップ情報の取得中..."
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP-ソース"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "ポート/サービス"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "状態"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "送信先/プレフィックス"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "送信先"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "ゲートウェイ"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "ネットマスク"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "インタフェース"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "メンバ"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "グループ"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "プロトコル\tIP-ソース\tポート/サービス\t状態\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "送信先\tゲートウェイ\tネットマスク\tインタフェース\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "インタフェース\tメンバ\tグループ\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "ネットワーク・アドレスが指定されていません"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "正しいネットワーク・アドレスを入力してもう一度実行して下さい。"
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "アドレス '%s' を見つけることができません"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "ドメイン・アドレスが指定されていません"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "正しいドメイン・アドレスを入力してもう一度実行して下さい。"
+
+#: ../src/nettool.c:406
+msgid "Information not available"
+msgstr "情報が利用可能ではありません"
+
+#: ../src/nettool.c:526
+msgid "Stop"
+msgstr "停止"
+
+#: ../src/nettool.c:532
+msgid "Run"
+msgstr "実行"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "時間 (ミリ秒):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "ICMP番号:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "Ping を %s へ送信中..."
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "バイト数"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "要求元"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "ICMP番号"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "往復時間"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "単位"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "バイト数\tIP-ソース\tICMP番号\t往復時間\t単位\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "往復時間の最小:\t%s ミリ秒\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "往復時間の平均:\t%s ミリ秒\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "往復時間の最大:\t%s ミリ秒\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "送信パケット数:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "受信パケット数:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "到達したパケットの割合:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "%s で開いているポートのスキャン中..."
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "不明"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "オープン"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "ポート番号"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "サービス"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "ポート番号\t状態\tサービス\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "%s に対する経路情報の追跡中..."
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "ホップ"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "ホスト名"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP-ソース"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "時間１"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "時間２"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "ホップ\tホスト名\tIP-ソース\t時間１\t時間２\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "この機能を利用するために %s をお使いのシステムにインストールして下さい"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "お使いのネットワークに関する情報を表示します"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "\"%2$s\" 上のユーザ %1$s の情報を取得しています..."
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "\"%s\" 上の全ユーザの情報を取得しています..."
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "%s の WhoIs 情報の取得中..."

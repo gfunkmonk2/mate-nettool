@@ -1,0 +1,960 @@
+# translation of mr.po to Marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2007, 2008.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: mr\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-nettool&component=general\n"
+"POT-Creation-Date: 2009-05-04 03:50+0000\n"
+"PO-Revision-Date: 2009-09-12 14:34+0530\n"
+"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
+"Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr "संदिप शेडमाके <sandeep.shedmake@gmail.com>, 2007, 2008, 2009; संदिप शेडमाके <sshedmak@redhat.com>, 2009."
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "कॉपीराइट © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "संजाळ साधन"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "साधारण संजाळ उपकार्यक्रमाकरीता चित्रलेख वापरकर्ता संवाद"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:461
+msgid "Idle"
+msgstr "रिकामे"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - संजाळ साधन"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "मदत फाइल उघडण्यास अशक्य"
+
+#: ../src/mate-nettool.glade.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.glade.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.glade.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.glade.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP माहिती</b>"
+
+#: ../src/mate-nettool.glade.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>संवाद माहिती</b>"
+
+#: ../src/mate-nettool.glade.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>संवाद सांख्यिकी</b>"
+
+#: ../src/mate-nettool.glade.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>राउंड ट्रीप वेळ सांख्यिकी</b>"
+
+#: ../src/mate-nettool.glade.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>प्रसारण सांख्यिकी</b>"
+
+#: ../src/mate-nettool.glade.h:10
+msgid "Active Network Services"
+msgstr "सक्रीय संजाळ सेवा"
+
+#: ../src/mate-nettool.glade.h:11
+msgid "Average:"
+msgstr "सरासरी:"
+
+#: ../src/mate-nettool.glade.h:12
+msgid "Beep on ping"
+msgstr "पींग केल्यास आवाज करा"
+
+#: ../src/mate-nettool.glade.h:13
+msgid "Clear _History"
+msgstr "इतिहास पुसून टाका (_H)"
+
+#: ../src/mate-nettool.glade.h:14
+msgid "Collisions:"
+msgstr "टक्कराव:"
+
+#: ../src/mate-nettool.glade.h:15
+msgid "Copy as text _report"
+msgstr "पाठ्य अहवाल नुरूप प्रतिकृत करा (_r)"
+
+#: ../src/mate-nettool.glade.h:16
+msgid "Details"
+msgstr "तपशील"
+
+#: ../src/mate-nettool.glade.h:17
+msgid "Devices"
+msgstr "उपकरण"
+
+#. Dear Translator: This is the Window Title
+#: ../src/mate-nettool.glade.h:19
+msgid "Devices - Network Tools"
+msgstr "उपकरण - संजाळ साधन"
+
+#: ../src/mate-nettool.glade.h:20
+msgid "Display:"
+msgstr "दर्शवा:"
+
+#: ../src/mate-nettool.glade.h:21
+msgid "Domain address"
+msgstr "क्षेत्र पत्ता"
+
+#: ../src/mate-nettool.glade.h:22
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr "whois माहिती शोधण्यासाठी क्षेत्र पत्ता द्या. उदाहरणार्थ: www.domain.com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:23
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr "वापरकर्त्याची माहिती प्राप्त करण्यासाठी नेटवर्क पत्ता द्या. उदाहरणार्थ: www.domain.com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:24
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr "शोधण्याकरीता नेटवर्क पत्ता द्या. उदाहरणार्थ: www.domain.com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:25
+msgid "Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr "पींगकरीता नेटवर्क पत्ता द्या. उदहारणार्थ: www.domain.com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:26
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"खुल्या पोर्टस् स्कॅन करण्यासाठी नेटवर्क पत्ता द्या. उदाहरणार्थ: www.domain."
+"com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:27
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr "route चे मार्ग शोधण्यासाठी नेटवर्क पत्ता द्या. उदाहरणार्थ: www.domain.com किंवा 192.168.2.1"
+
+#: ../src/mate-nettool.glade.h:28
+msgid "Enter the user to finger"
+msgstr "finger करीता वापरकर्ता द्या"
+
+#: ../src/mate-nettool.glade.h:29 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.glade.h:30
+msgid "Finger output"
+msgstr "Finger आउटपुट"
+
+#: ../src/mate-nettool.glade.h:31
+msgid "Hardware address:"
+msgstr "हार्डवेअर पत्ता:"
+
+#: ../src/mate-nettool.glade.h:32
+msgid "Host"
+msgstr "यजमान"
+
+#: ../src/mate-nettool.glade.h:33
+msgid "Link speed:"
+msgstr "जोडणी वेग:"
+
+#: ../src/mate-nettool.glade.h:34 ../src/main.c:734
+msgid "Lookup"
+msgstr "Lookup"
+
+#: ../src/mate-nettool.glade.h:35
+msgid "Lookup output"
+msgstr "Lookup आउटपुट"
+
+#: ../src/mate-nettool.glade.h:36
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.glade.h:37
+msgid "Maximum:"
+msgstr "कमाल:"
+
+#: ../src/mate-nettool.glade.h:38
+msgid "Minimum:"
+msgstr "कमीत कमी:"
+
+#: ../src/mate-nettool.glade.h:39
+msgid "Multicast Information"
+msgstr "बहुप्रसारण माहिती"
+
+#: ../src/mate-nettool.glade.h:40
+msgid "Multicast:"
+msgstr "बहुप्रसारण पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:41 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.glade.h:42
+msgid "Netstat output"
+msgstr "Netstat आउटपुट"
+
+#: ../src/mate-nettool.glade.h:43
+msgid "Network address"
+msgstr "नेटवर्क पत्ता"
+
+#: ../src/mate-nettool.glade.h:44
+msgid "Not Available"
+msgstr "उपलब्ध नाही"
+
+#: ../src/mate-nettool.glade.h:45
+msgid "Only"
+msgstr "फक्त"
+
+#: ../src/mate-nettool.glade.h:46
+msgid "Output for finger"
+msgstr "finger करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:47
+msgid "Output for lookup"
+msgstr "lookup करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:48
+msgid "Output for net stat"
+msgstr "net stat करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:49
+msgid "Output for port scan"
+msgstr "port scan करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:50
+msgid "Output for traceroute"
+msgstr "traceroute करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:51
+msgid "Output for whois"
+msgstr "whois करीता आउटपुट"
+
+#: ../src/mate-nettool.glade.h:52
+msgid "Packets received:"
+msgstr "प्राप्त पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:53
+msgid "Packets transmitted:"
+msgstr "स्थानांतरीत पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:54 ../src/main.c:290
+msgid "Ping"
+msgstr "पिंग"
+
+#: ../src/mate-nettool.glade.h:55
+msgid "Port Scan"
+msgstr "पोर्ट स्कॅन"
+
+#: ../src/mate-nettool.glade.h:56
+msgid "Port scan output"
+msgstr "पोर्ट स्कॅन आउटपुट"
+
+#: ../src/mate-nettool.glade.h:57
+msgid "Received bytes:"
+msgstr "प्राप्त बाईट्स:"
+
+#: ../src/mate-nettool.glade.h:58
+msgid "Received packets:"
+msgstr "प्राप्त पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:59
+msgid "Reception errors:"
+msgstr "प्राप्त करताना झालेल्या चुका:"
+
+#: ../src/mate-nettool.glade.h:60
+msgid "Routing Table Information"
+msgstr "राउटींग कोष्टक माहिती"
+
+#: ../src/mate-nettool.glade.h:61 ../src/main.c:619
+msgid "Scan"
+msgstr "स्कॅन"
+
+#: ../src/mate-nettool.glade.h:62
+msgid "Send:"
+msgstr "पाठवा:"
+
+#: ../src/mate-nettool.glade.h:63
+msgid "State:"
+msgstr "राज्य:"
+
+#: ../src/mate-nettool.glade.h:64
+msgid "Successful packets:"
+msgstr "यशस्वी पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:65 ../src/main.c:375
+msgid "Trace"
+msgstr "मार्ग"
+
+#: ../src/mate-nettool.glade.h:66
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.glade.h:67
+msgid "Traceroute output"
+msgstr "Traceroute आउटपुट"
+
+#: ../src/mate-nettool.glade.h:68
+msgid "Transmission errors:"
+msgstr "वहन करताना झालेल्या चुका:"
+
+#: ../src/mate-nettool.glade.h:69
+msgid "Transmitted bytes:"
+msgstr "वहन केलेल्या बाईट्स:"
+
+#: ../src/mate-nettool.glade.h:70
+msgid "Transmitted packets:"
+msgstr "वहन केलेले पॅकेट:"
+
+#: ../src/mate-nettool.glade.h:71
+msgid "Unlimited requests"
+msgstr "अमर्यादीत विनंत्या"
+
+#: ../src/mate-nettool.glade.h:72
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#: ../src/mate-nettool.glade.h:73
+msgid "User name"
+msgstr "वापरकर्त्याचे नाव"
+
+#: ../src/mate-nettool.glade.h:74 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.glade.h:75
+msgid "Whois output"
+msgstr "Whois आउटपुट"
+
+#: ../src/mate-nettool.glade.h:76
+msgid "_Configure"
+msgstr "संकलन करा"
+
+#: ../src/mate-nettool.glade.h:77
+msgid "_Domain address:"
+msgstr "मुख्य केंद्राचा पत्ता:"
+
+#: ../src/mate-nettool.glade.h:78
+msgid "_Edit"
+msgstr "संपादन करा"
+
+#: ../src/mate-nettool.glade.h:79
+msgid "_Help"
+msgstr "मदत करा(_H)"
+
+#: ../src/mate-nettool.glade.h:80
+msgid "_Information type:"
+msgstr "_माहिती प्रकार:"
+
+#: ../src/mate-nettool.glade.h:81
+msgid "_Network address:"
+msgstr "_संजाळ प्रकार:"
+
+#: ../src/mate-nettool.glade.h:82
+msgid "_Network device:"
+msgstr "_जाले साधन:"
+
+#: ../src/mate-nettool.glade.h:83
+msgid "_Tool"
+msgstr "_साधन"
+
+#: ../src/mate-nettool.glade.h:84
+msgid "_Username:"
+msgstr "वापरकर्त्याचे नाव (_U):"
+
+#. Translators: this is the abbreviation for milliseconds
+#: ../src/mate-nettool.glade.h:86
+msgid "ms"
+msgstr "एमएस"
+
+#: ../src/mate-nettool.glade.h:87
+msgid "requests"
+msgstr "विनंत्या"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "अन्य प्रकार"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "इथरनेट संवादमंच"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "बिनतारी सेवादमंच"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "आधुनिक संवादमंच"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "समांतर ओळीचा संवादमंच"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "इन्फ्रारेड संवादमंच"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "संवाद"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "अज्ञात संवाद"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "माजाल उपकरण उपलब्ध नाही"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "क्रियाशील"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "निष्क्रीय"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "लुपबॅक"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "कार्यक्षम"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "अकार्यक्षम"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "संजाळ उपकरण:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "हार्डवेअर पत्ता:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "बहुप्रसारण:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "जुळवणी वेग:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "स्थिती:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "स्थानांतरीत पॅकेट:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "स्थानांतरीत चुका:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "प्राप्त पॅकेट:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "प्राप्ती चुका:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "टक्कराव:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "उपलब्ध नाही"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "शोधत आहे %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "नाव"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "पत्ता प्रकार"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "नोंदणी प्रकार"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "पत्ता"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "स्त्रोत\tTTL\tपत्ता प्रकार\tनोंदणी Type1\tनिर्धार\n"
+
+#: ../src/main.c:83
+msgid "Load information for a network device"
+msgstr "संजाळ साधनाकरीता माहिती दाखल करा"
+
+#: ../src/main.c:84
+msgid "DEVICE"
+msgstr "साधन"
+
+#: ../src/main.c:87
+msgid "Send a ping to a network address"
+msgstr "संजाळ पत्त्यावर पींग पाठवा"
+
+#: ../src/main.c:88 ../src/main.c:96 ../src/main.c:100 ../src/main.c:104
+msgid "HOST"
+msgstr "यजमान"
+
+#: ../src/main.c:91
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "नेटस्टॅट माहिती मिळवा.  वैध पर्याय या प्रकारे आहे: मार्ग, सक्रीय, बहुप्रसारण."
+
+#: ../src/main.c:92
+msgid "COMMAND"
+msgstr "आज्ञा"
+
+#: ../src/main.c:95
+msgid "Trace a route to a network address"
+msgstr "संजाळ पत्ता मिळविण्यासाठी मार्ग शोधा"
+
+#: ../src/main.c:99
+msgid "Port scan a network address"
+msgstr "पोर्टवरील संजाळ पत्ता शोधा"
+
+#: ../src/main.c:103
+msgid "Look up a network address"
+msgstr "संजाळ पत्ता शोधा"
+
+#: ../src/main.c:107
+msgid "Finger command to run"
+msgstr "फींगर आदेश चालवा"
+
+#: ../src/main.c:108
+msgid "USER"
+msgstr "वापरकर्ता"
+
+#: ../src/main.c:111
+msgid "Perform a whois lookup for a network domain"
+msgstr "संजाळ क्षेत्राकरीता whois शोध कार्यान्वीत करा"
+
+#: ../src/main.c:112
+msgid "DOMAIN"
+msgstr "क्षेत्र"
+
+#: ../src/main.c:131
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"फाइल %s अस्तीत्वात नाही, कृपया mate-nettool योग्यरीत्या प्रतिष्ठापीत आहे याची "
+"तपासणी घ्या"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "शिष्टाचार"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP पत्ता"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "नेटमास्क / पूर्वपद"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "प्रसारण"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "मर्यादा"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "मुलभूत माहिती"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "IP पत्ता"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "अधिकृत नाव"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "CPU / OS प्रकार"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "मेलबॉक्स अदलाबदल"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "मेलबॉक्स माहिती"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "नाव सर्वर"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "पत्ता करीता हजमान नाव"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "अधिप्रमाणन-ची-सुरवात"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "पाठ्य माहिती"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "प्रचलीत सेवा"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "काहीक / सर्व माहिती"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "राउटींग कोष्टक प्राप्त करीत आहे"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "संक्रीय संजाळ संपर्क मिळवित आहे"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "गट सदस्यता प्राप्त करीत आहे"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP स्त्रोत"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "संपर्कस्थळ/सेवा"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "स्थिती"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "लक्ष्य/पूर्वपद"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "लक्ष्य"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "प्रवेशद्वार"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "नेटमास्क"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "संवाद"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "सदस्य"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "गट"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "शिष्टाचार\tIP स्त्रोत\tपोर्ट/सेवा\tस्थिती\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "लक्ष्य\tप्रवेशद्वार\tनेटमास्क\tसंवाद\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "संवाद\tसदस्य\tगट\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "संजाळ पत्ता निश्चित केले गेले नाही"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "कृपया योग्य संजाळ पत्ता प्रविष्ट करा व पुन्ह प्रयत्न करा."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "'%s' पत्ता आढळला नाही"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "क्षेत्र पत्ता निश्चित केले गेले नाही"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "कृपया योग्य क्षेत्राचा पत्ता प्रविष्ट करा व पुन्हा प्रयत्न करा."
+
+#: ../src/nettool.c:406
+msgid "Information not available"
+msgstr "माहिती उपलब्ध नाही"
+
+#: ../src/nettool.c:526
+msgid "Stop"
+msgstr "थांबा"
+
+#: ../src/nettool.c:532
+msgid "Run"
+msgstr "चालवा"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "वेळ (ms):"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "श्रृंखला क्रमांक:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "%s करीता पींग विनंती पाठवित आहे"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "बाईट्स"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "स्त्रोत"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "क्रम"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "वेळ"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "गुणांक"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "बाईट्स\tस्त्रोत\tक्रम\tवेळ\tगुणांक\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "किमान वेळ:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "सरासरी वेळी:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "कमाल वेळ:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "स्थानांतरीत पॅकेट:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "प्राप्त पॅकेट:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "यशस्वी पॅकेट:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "उघडे पोर्टकरीता %s शोधीत आहे"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "अपरिचीत"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "उघडा"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "पोर्ट"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "सेवा"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "पोर्ट\tस्थिती\tसेवा\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "%s ला जाणारा मार्ग शोधत आहे"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "हॉप"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "यजमाननाव"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "वेळ 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "वेळ 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "हॉप\tयजमान\tIP\tवेळ 1\tवेळ 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "कार्यक्रमाचा हा पर्याय वापरण्याकरीता, %s तुमच्या प्रणालीवर प्रतिष्ठापीत असायला हवे"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "तुमच्या संजाळाविष्यी माहिती पहा"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "\"%s\" संबंधी %s कडून माहिती प्राप्त करीत आहे"
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "\"%s\" संबंधी सर्व वापरकर्त्यांकडून माहिती प्राप्त करीत आहे"
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "%s ची whois माहिती प्राप्त करीत आहे"

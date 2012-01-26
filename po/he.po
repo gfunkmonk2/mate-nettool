@@ -1,0 +1,1790 @@
+# translation of Mate-network.txt.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mate-network.txt\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
+"nettool&component=general\n"
+"POT-Creation-Date: 2009-07-15 16:03+0000\n"
+"PO-Revision-Date: 2009-07-17 17:23+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr ""
+"גיל אשר <dolfin@rgp.org.il>\n"
+"ירון שהרבני·<sh.yaron@gmail.com>\n"
+"יאיר הרשקוביץ <yairhr@gmail.com>\n"
+"פרוייקט תרגום MATE לעברית:\n"
+"‏http://mate-il.berlios.de"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Copyright © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "כלי רשת"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "ממשק משתמש גרפי לשרותי רשת נפוצים"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "בהמתנה"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "‏%s - כלי רשת"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "לא ניתן לפתוח קובץ עזרה"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "‏<b>מידע IP</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "‏<b>מידע התקן</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>סטטיסטיקות התקן</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "‏<b>סטטיסטיקות זמן Round Trip</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "‏<b>סטטיסטיקות שליחה</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "שירותי רשת פעילים"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "ממוצע:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "צפצוף עם פינג"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "_נקה היסטוריה"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "התנגשויות:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "העתק כ_דוח טקסטואלי"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "פרטים"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "התקנים"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "התקנים - כלי רשת"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "תצוגה:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "כתובת מתחם"
+
+#: ../src/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"הכנס את כתובת המתחם עבורה לחפש את מידע whois. לדוגמה: www.domain.com או "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"הכנס את כתובת הרשת בה לבצע finger עבור משתמש זה. לדוגמה: auth.domain.com או "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"הכנס את כתובת הרשת עבורה לבצע lookup. לדוגמה: www.domain.com או 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"הכנס את כתובת הרשת עבורה לבצע ping. לדוגמה: www.domain.com או 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"הכנס את כתובת הרשת בה לחפש שערים פתוחים. לדוגמה: www.domain.com או "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"הכנס את כתובת הרשת עבורה יש למצוא את הנתיב. לדוגמה: www.domain.com או "
+"192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "הכנס את שם המשתמש עבורו לבצע finger"
+
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "פלט Finger"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "כתובת חומרה:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "מארח"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "מהירות ערוץ:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "Lookup"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "פלט Lookup"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "‏MTU:"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "מקסימום:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "מינימום:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "מידע Multicast"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "‏Multicast:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "פלט Netstat"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "כתובת רשת"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "לא זמין"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "רק"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "פלט עבור finger"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "פלט עבור lookup"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "פלט עבור net stat"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "פלט עבור port scan"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "פלט עבור traceroute"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "פלט עבור whois"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "חבילות שנתקבלו:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "חבילות שנשלחו"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "סריקת שערים"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "פלט סריקת שערים"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "בתים שנתקבלו:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "חבילות שנתקבלו:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "שגיאות קבלה:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "מידע טבלת ניתוב"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "סרוק"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "שלח:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "מצב:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "חבילות מוצלחות:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "Trace"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "פלט Traceroute"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "שגיאות שליחה:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "בתים שנשלחו:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "חבילות שנשלחו:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "בקשות ללא הגבלה"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "משתמש"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "שם משתמש"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "פלט Whois"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_הגדר"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_כתובת מתחם:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_עריכה"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "_סוג מידע:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_כתובת רשת:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "התקן _רשת:"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_כלי"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "שם _משתמש:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "מילי-שניות"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "בקשות"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "סוג אחר"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "התקן Ethernet"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "התקן אל-חוטי"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "התקן מודם"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "התקן קו טורי"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "התקן אינפרא אדום"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "התקן Loopback"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "התקן לא ידוע"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "לא נימצאו התקני רשת"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "פעיל"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Loopback"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "פועל"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "כבוי"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "Network device:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "Hardware address:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "Multicast:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "Link speed:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "State:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "Transmitted packets:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "Transmission errors:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "Received packets:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "Reception errors:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "Collisions:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "לא זמין"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "מחפש את %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "שם"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "סוג כתובת"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "סוג רשומה"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "כתובת"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "Load information for a network device"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "DEVICE"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "Send a ping to a network address"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "HOST"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "Get netstat information.  Valid options are: route, active, multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "Trace a route to a network address"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "Port scan a network address"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "Look up a network address"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "Finger command to run"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "USER"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "Perform a whois lookup for a network domain"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "DOMAIN"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "פרוטוקול"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "כתובת IP"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Netmask / Prefix"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "Broadcast"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "טווח"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "מידע ברירת המחדל"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "כתובת אינטרנת"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "שם קנוני"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "מעבד / סוג מערכת הפעלה"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "Mailbox Exchange"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "מידע תיבת דואר"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "שרת שמות מתחם"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "שם מארח עבור הכתובת"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Start-of-authority"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "מידע טקסט"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "שירותים ידועים"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "כל המידע / מידע כלשהו"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "מקבל טבלת ניתוב"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "מקבל חיבור אינטרנט פעיל"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "מקבל חברויות בקבוצה"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP מקור"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "שער/שרות"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "מצב"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "יעד/קידומת"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "יעד"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "Gateway"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Netmask"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "התקן"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "חבר"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "קבוצה"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "Protocol\tIP Source\tPort/Service\tState\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "Destination\tGateway\tNetmask\tInterface\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "Interface\tMember\tGroup\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "לא צויינה כתובת רשת"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "אנא הכנס כתובת רשת תקינה ונסה שוב."
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "הכתובת '%s' לא נימצאה"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "לא צויינה כתובת מתחם"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "אנא הכנס כתובת מתחם תקינה ונסה שוב."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "מידע לא זמין"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "הפסק"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "הפעל"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "זמן (אלפיות שניה)"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "מספר רצף:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "שולח בקשת ping אל %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "בתים"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "מקור"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "מס'"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "זמן"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "יחידות"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "Bytes\tSource\tSeq\tTime\tUnits\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "Time minimum:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "Time average:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "Time maximum:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "Packets transmitted:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "Packets received:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "Successful packets:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "סורק את %s עבור שערים פתוחים"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "לא ידוע"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "פתח"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "שער"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "שירות"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "Port\tState\tService\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "מחפש נתיב אל %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "מס'"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "שם מארח"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "זמן 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "זמן 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "על מנת להשתמש בתכונה זו של התוכנה, על החבילה %s להיות מותקנת במחשבך"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "צפה במידע אודות הרשת שלך"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "מקבל מידע עבור %s ב-\"%s\""
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "מקבל מידע עבור כל המשתמשים ב-\"%s\""
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "מקבל מידע whois עבור %s"
+
+#~ msgid "Broadcast:"
+#~ msgstr "‏Broadcast:"
+
+#~ msgid "IP Address:"
+#~ msgstr "כתובת IP:"
+
+#~ msgid "Netmask:"
+#~ msgstr "‏Netmask:"
+
+#~ msgid "IP address:\t%s\n"
+#~ msgstr "IP address:\t%s\n"
+
+#~ msgid "Netmask:\t%s\n"
+#~ msgstr "Netmask:\t%s\n"
+
+#~ msgid "Broadcast:\t%s\n"
+#~ msgstr "Broadcast:\t%s\n"
+
+#~ msgid "Network Information Tools"
+#~ msgstr "כלי מידע רשת"
+
+#~ msgid "Network Tools - Devices"
+#~ msgstr "כלי רשת - התקנים"
+
+#~ msgid "Packets loss:"
+#~ msgstr "אובדן חבילות:"
+
+#~ msgid "Packet loss:\t%s\n"
+#~ msgstr "Packet loss:\t%s\n"
+
+#~ msgid "%s: Command not found"
+#~ msgstr "‏%s: פקודה לא נימצאה"
+
+#~ msgid "Network Information"
+#~ msgstr "מידע רשת"
+
+#, fuzzy
+#~ msgid "(for example: domain.com)"
+#~ msgstr "לדוגמא: www.domain.com או 192.168.2.1"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid ""
+#~ "<span weight=\"bold\">Select the network device to get information on</"
+#~ "span>"
+#~ msgstr "קבע את ממשק הרשת לקבלת המידע"
+
+#, fuzzy
+#~ msgid "IP address:"
+#~ msgstr "כתובת IP"
+
+#, fuzzy
+#~ msgid "Send only"
+#~ msgstr "שליחה בלבד"
+
+#, fuzzy
+#~ msgid "MATE Remote Desktop Applet"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#, fuzzy
+#~ msgid "Connect to a remote desktop computer"
+#~ msgstr "המודם איבד את החיבור עם המארח המרוחק."
+
+#, fuzzy
+#~ msgid "Remote Desktop Client"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#~ msgid "MATE Remote Desktop"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#, fuzzy
+#~ msgid "_More"
+#~ msgstr "מודם"
+
+#, fuzzy
+#~ msgid "Co_nnect"
+#~ msgstr "התחבר"
+
+#, fuzzy
+#~ msgid "Connection Profile"
+#~ msgstr "חיבור"
+
+#, fuzzy
+#~ msgid "Pass_word:"
+#~ msgstr "סיסמא"
+
+#, fuzzy
+#~ msgid "Do_main:"
+#~ msgstr "שם התחום"
+
+#, fuzzy
+#~ msgid "C_lient Hostname:"
+#~ msgstr "מארח"
+
+#, fuzzy
+#~ msgid "Remote Desktop Size"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#, fuzzy
+#~ msgid "_Display"
+#~ msgstr "תצוגה"
+
+#, fuzzy
+#~ msgid "MATE Remote Desktop Error"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#, fuzzy
+#~ msgid "Whether to enable desktop sharing"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Connection settings</b>\n"
+#~ "Type the name of the computer to open a new desktop session and/or the "
+#~ "display number to connect to an already running session."
+#~ msgstr ""
+#~ "כתוב את שם המחשב כדי לפתוח תצורת שולחן עבודה חדשה ו/או את מספר התצוגה כדי "
+#~ "להתחבר לתצורה פועלת"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Desktop settings</b>\n"
+#~ "Select the size and color depth (not supported for all cases, so use with "
+#~ "care) of you remote desktop."
+#~ msgstr ""
+#~ "בחר את הגודל ועומק הצבע (לא נתמך בכל המקרים, לכן השתמש בזהירות) של שולחן "
+#~ "העבודה המרוחק שלך"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Method</b>\n"
+#~ "Select the method for connecting to the remote host. For Windows systems, "
+#~ "you want to choose VNC. For UNIX systems, usually X11, though VNC will "
+#~ "also work."
+#~ msgstr ""
+#~ "בחר את שיטת החיבור למארח המרוחק. למערכות חלונות, תרצה לבחור VNC. למערכות "
+#~ "UNIX, בדרך-כלל X11, למרות ש VNC גם יעבוד."
+
+#~ msgid "Color depth"
+#~ msgstr "עומק צבע"
+
+#, fuzzy
+#~ msgid "Connect Now ..."
+#~ msgstr "מתחבר..."
+
+#~ msgid "Display size"
+#~ msgstr "גודל התצוגה"
+
+#~ msgid "VNC"
+#~ msgstr "VNC"
+
+#~ msgid "X11"
+#~ msgstr "X11"
+
+#~ msgid "by"
+#~ msgstr "על-ידי"
+
+#, fuzzy
+#~ msgid "Desktop Sharing"
+#~ msgstr "שולחן עבודה"
+
+#~ msgid "Password"
+#~ msgstr "סיסמא"
+
+#, fuzzy
+#~ msgid "Orientation"
+#~ msgstr "הזדהות"
+
+#, fuzzy
+#~ msgid "Remote Desktop Sharing"
+#~ msgstr "שולחן העבודה המרוחק של MATE"
+
+#~ msgid "Receive"
+#~ msgstr "קבל"
+
+#~ msgid "Enter transmission string"
+#~ msgstr "כתוב מחרוזת שליחה"
+
+#~ msgid "Send User Name"
+#~ msgstr "שלח שם משתמש"
+
+#~ msgid "Username taken from Authentication"
+#~ msgstr "שם המשתמש נלקח מההזדהות"
+
+#~ msgid "Send User Password"
+#~ msgstr "שלח את סיסמת המשתמש"
+
+#~ msgid "Password taken from Authentication"
+#~ msgstr "הסיסמה נלקחה מההזדהות"
+
+#~ msgid "Dialog Box Input"
+#~ msgstr "קלט תיבת דו-שיח"
+
+#~ msgid "Enter text to be used as a dialog message when prompted for input"
+#~ msgstr "כתוב מלל שישמש כהודעת דו-שיח כאשר תתבקש לקלט"
+
+#~ msgid "Dial"
+#~ msgstr "חייג"
+
+#~ msgid "Authentication"
+#~ msgstr "הזדהות"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "PPP"
+#~ msgstr "PPP"
+
+#~ msgid "Modem"
+#~ msgstr "מודם"
+
+#~ msgid "Account Name"
+#~ msgstr "שם החשבון"
+
+#~ msgid "Redial Maximum"
+#~ msgstr "מספר מקסימלי של חיוגים חוזרים"
+
+#~ msgid "Dial Timeout (sec)"
+#~ msgstr "סף זמן החיוג (בשניות)"
+
+#~ msgid "Phone Numbers"
+#~ msgstr "מספרי טלפון"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Add"
+#~ msgstr "הוסף"
+
+#~ msgid "Remove"
+#~ msgstr "הסר"
+
+#~ msgid "PAP/CHAP"
+#~ msgstr "PAP/CHAP"
+
+#~ msgid "Remote Name"
+#~ msgstr "שם מרוחק"
+
+#~ msgid "Hidden Password"
+#~ msgstr "סיסמא מוסתרת"
+
+#~ msgid "Dynamic"
+#~ msgstr "דינמי"
+
+#~ msgid "Static"
+#~ msgstr "סטטי"
+
+#~ msgid "Remote IP Address"
+#~ msgstr "כתובת IP מרוחקת"
+
+#~ msgid "DNS Servers"
+#~ msgstr "שרתי DNS"
+
+#~ msgid "Search Domains"
+#~ msgstr "תחומי חיפוש"
+
+#~ msgid "Domain Name"
+#~ msgstr "שם התחום"
+
+#~ msgid "Action"
+#~ msgstr "פעולה"
+
+#~ msgid "Text"
+#~ msgstr "מלל"
+
+#~ msgid "Insert"
+#~ msgstr "הכנס"
+
+#~ msgid "Add Default Route"
+#~ msgstr "הוסף נתיב ברירת מחדל"
+
+#~ msgid "Lock Dialout Device"
+#~ msgstr "התקן נעילת החיוג היוצא"
+
+#~ msgid "Maximum Transmission Unit"
+#~ msgstr "יחידת תמסורת מקסימלית"
+
+#~ msgid "Maximum Receive Unit"
+#~ msgstr "יחידת קבלה מקסימלית"
+
+#~ msgid "Run Program After Connect"
+#~ msgstr "הפעל תוכנית לאחר החיבור"
+
+#~ msgid "Run Program After Disconnect"
+#~ msgstr "הפעל תוכנית לאחר הניתוק"
+
+#~ msgid "Connection Speed"
+#~ msgstr "מהירות החיבור"
+
+#~ msgid "Flow Control"
+#~ msgstr "בקרת זרימה"
+
+#~ msgid "Line Termination"
+#~ msgstr "סיום קו"
+
+#~ msgid "Modem Speaker Volume"
+#~ msgstr "עוצמת רמקול המודם"
+
+#~ msgid " Edit Modem Commands "
+#~ msgstr " ערוך את פקודות המודם "
+
+#~ msgid "**PASSWORD**"
+#~ msgstr "**סיסמא**"
+
+#~ msgid "_Debug Terminal"
+#~ msgstr "מסוף _ניפוי"
+
+#~ msgid "_New..."
+#~ msgstr "_חדש..."
+
+#~ msgid "D_uplicate..."
+#~ msgstr "_שכפל..."
+
+#~ msgid "_Edit..."
+#~ msgstr "_ערוך..."
+
+#~ msgid "_Delete..."
+#~ msgstr "_מחק..."
+
+#~ msgid "_Account"
+#~ msgstr "_חשבון"
+
+#~ msgid "mate-ppp"
+#~ msgstr "mate-ppp"
+
+#~ msgid "Dialing"
+#~ msgstr "מתקשר"
+
+#~ msgid "Connected"
+#~ msgstr "מחובר"
+
+#~ msgid "refresh_dial_app(): gtk_clist_append failed."
+#~ msgstr "refresh_dial_app(): gtk_clist_append נכשל."
+
+#~ msgid "Connect"
+#~ msgstr "התחבר"
+
+#~ msgid "Cancel"
+#~ msgstr "ביטול"
+
+#~ msgid "Disconnect"
+#~ msgstr "התנתק"
+
+#~ msgid "You must disconnect before closing."
+#~ msgstr "אתה חייב להתנתק לפני הסגירה."
+
+#~ msgid "Are you sure you want to delete this account?\n"
+#~ msgstr "האם אתה בטוח שברצונך למחוק את החשבון הזה?\n"
+
+#~ msgid "The account cannot be deleted."
+#~ msgstr "החשבון לא יכול להמחק."
+
+#~ msgid "The account is in use and cannot be deleted."
+#~ msgstr "החשבון בשימוש ולכן אינו יכול להמחק."
+
+#~ msgid "MATE Internet Dialer"
+#~ msgstr "חייגן האינטרנט של MATE"
+
+#~ msgid "About..."
+#~ msgstr "אודות..."
+
+#~ msgid "Properties..."
+#~ msgstr "מאפיינים..."
+
+#~ msgid "Offline"
+#~ msgstr "מנותק"
+
+#~ msgid "Connecting..."
+#~ msgstr "מתחבר..."
+
+#~ msgid "PPP Connected"
+#~ msgstr "PPP מחובר"
+
+#~ msgid "PPP Error!"
+#~ msgstr "שגיאת PPP!"
+
+#~ msgid "That account is already in use.\n"
+#~ msgstr "החשבון הזה כבר בשימוש.\n"
+
+#~ msgid "MATE PPP Dialer Applet"
+#~ msgstr "יישומון חיוג PPP בעבור MATE"
+
+#~ msgid ""
+#~ "An unnecessarily nice looking applet for MATE's panel for easy control "
+#~ "of PPP network links."
+#~ msgstr ""
+#~ "יישומון נאה ולא נחוץ ללוח של MATE לשליטה קלה על חיבורי רשת באמצעות PPP."
+
+#~ msgid "PPP Applet Properties"
+#~ msgstr "מאפייני יישומון PPP"
+
+#~ msgid "Animation"
+#~ msgstr "הנפשה"
+
+#~ msgid "Small"
+#~ msgstr "קטן"
+
+#~ msgid "Large"
+#~ msgstr "גדול"
+
+#~ msgid "None"
+#~ msgstr "ללא"
+
+#~ msgid "Options"
+#~ msgstr "אפשרויות"
+
+#~ msgid "Freeze Animation on Connect"
+#~ msgstr "הקפא את ההנפשה בהתחברות"
+
+#~ msgid "Disconnect PPP on MATE logout"
+#~ msgstr "נתק את PPP בהתנתקות מ MATE"
+
+#~ msgid "Timer"
+#~ msgstr "מד זמן"
+
+#~ msgid "Label"
+#~ msgstr "תווית"
+
+#~ msgid "Animation Speed"
+#~ msgstr "מהירות ההנפשה"
+
+#~ msgid "PPP Applet"
+#~ msgstr "יישומון PPP"
+
+#~ msgid "---NEW CONNECTION---"
+#~ msgstr "---חיבור חדש---"
+
+#~ msgid "Account already connected."
+#~ msgstr "החשבון כבר מחובר."
+
+#~ msgid "Starting PPP Connection."
+#~ msgstr "מתחיל בתקשורת PPP."
+
+#~ msgid "You don't have permission to execute pppd."
+#~ msgstr "אין לך הרשאות להפעלת pppd."
+
+#~ msgid "The modem is in use by another program."
+#~ msgstr "המודם בשימוש על-ידי תוכנית אחרת."
+
+#~ msgid "Running pppd."
+#~ msgstr "מפעיל את pppd."
+
+#~ msgid "Closing connection."
+#~ msgstr "מסיים את החיבור."
+
+#~ msgid "The pppd program failed to run mate-ppp-chat."
+#~ msgstr "התוכנית pppd נכשלה להפעית את mate-ppp-chat."
+
+#~ msgid "The modem could not be hung up."
+#~ msgstr "לא ניתן לנתק את המודם."
+
+#~ msgid "Initalizing modem."
+#~ msgstr "מאתחל את המודם."
+
+#~ msgid "Your modem is not responding to initalization."
+#~ msgstr "המודם שלך אינו מגיב לאתחול."
+
+#~ msgid "The command to set the volume on your modem's speaker failed."
+#~ msgstr "הפקודה לקביעת עוצמת רמקול המודם שלך נכשלה."
+
+#~ msgid "No answer after maximum number of re-dial attempts."
+#~ msgstr "אין תשובה לאחר מספר ניסיונות החיוג החוזר המקסימלי."
+
+#~ msgid "No phone numbers specified for this account."
+#~ msgstr "לא צויינו מספרי טלפון לחשבון זה."
+
+#~ msgid "Dialing."
+#~ msgstr "מחייג."
+
+#~ msgid "No dialtone."
+#~ msgstr "אין צליל חיוג."
+
+#~ msgid "Number busy."
+#~ msgstr "המספר תפוס."
+
+#~ msgid "Ring, but no answer."
+#~ msgstr "מצלצל, אך אין תשובה."
+
+#~ msgid "Connection failure, reason unknown."
+#~ msgstr "החיבור נכשל, הסיבה איננה ידועה."
+
+#~ msgid "Connected."
+#~ msgstr "מחובר."
+
+#~ msgid "The modem lost connection with remote host."
+#~ msgstr "המודם איבד את החיבור עם המארח המרוחק."
+
+#~ msgid "PPP connection established."
+#~ msgstr "חיבור PPP נוסד."
+
+#~ msgid "Failed to establish a PPP connection."
+#~ msgstr "נכשל ביסוד חיבור PPP."
+
+#~ msgid "open_modem_window(): account=NULL"
+#~ msgstr "open_modem_window(): account=NULL"
+
+#~ msgid "Commands"
+#~ msgstr "פקודות"
+
+#~ msgid "Responses"
+#~ msgstr "תגובות"
+
+#~ msgid "Initialization"
+#~ msgstr "אתחול"
+
+#~ msgid "Hangup"
+#~ msgstr "ניתוק"
+
+#~ msgid "Volume Mute"
+#~ msgstr "השתקת עוצמה"
+
+#~ msgid "Volume Low"
+#~ msgstr "הנמכת עוצמה"
+
+#~ msgid "Volume High"
+#~ msgstr "הגברת עוצמה"
+
+#~ msgid "Connection"
+#~ msgstr "חיבור"
+
+#~ msgid "Busy"
+#~ msgstr "עסוק"
+
+#~ msgid "No Answer"
+#~ msgstr "אין תשובה"
+
+#~ msgid "No Carrier"
+#~ msgstr "אין צליל תקשורת"
+
+#~ msgid "No Dialtone"
+#~ msgstr "אין צליל חיוג"
+
+#, fuzzy
+#~ msgid "No host specified."
+#~ msgstr "לא צויין מארח"
+
+#~ msgid "A user name is required for SSH"
+#~ msgstr "שם משתמש דרוש ל SSH"
+
+#, fuzzy
+#~ msgid "The host cannot be found."
+#~ msgstr "החשבון לא יכול להמחק."
+
+#, fuzzy
+#~ msgid "Connect to remote host"
+#~ msgstr "המודם איבד את החיבור עם המארח המרוחק."
+
+#, fuzzy
+#~ msgid "H_eight:"
+#~ msgstr "גובה"
+
+#, fuzzy
+#~ msgid "H_ost:"
+#~ msgstr "מארח"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "פתחה"
+
+#, fuzzy
+#~ msgid "_Width:"
+#~ msgstr "רוחב"
+
+#, fuzzy
+#~ msgid "Additional options"
+#~ msgstr "אפשרויות סנכרון"
+
+#, fuzzy
+#~ msgid "Port number:"
+#~ msgstr "מספרי טלפון"
+
+#, fuzzy
+#~ msgid "/_Quit"
+#~ msgstr "עריכה"
+
+#~ msgid "Could not load UI for entry configuration dialog"
+#~ msgstr "לא ניתן לטעון את ממשק המשתמש של תיבת דו-השיח הגדרות הערך"
+
+#~ msgid "Entry name"
+#~ msgstr "שם הערך"
+
+#~ msgid "Local path"
+#~ msgstr "נתיב מקומי"
+
+#~ msgid "Preserve group"
+#~ msgstr "שמר קבוצה"
+
+#~ msgid "Preserve permissions"
+#~ msgstr "שמר הרשאות"
+
+#~ msgid "Preserve times"
+#~ msgstr "שמר זמנים"
+
+#~ msgid "Recurse into directories"
+#~ msgstr "השתמש ברקורסיה לתוך הסיפריות"
+
+#~ msgid "Remote host"
+#~ msgstr "מארח מרוחק"
+
+#~ msgid "Remote path"
+#~ msgstr "נתיב מרוחק"
+
+#~ msgid "Synchronization options"
+#~ msgstr "אפשרויות סנכרון"
+
+#~ msgid "Update only (don't overwrite newer files)"
+#~ msgstr "עדכן בלבד (אל תחליף קבצים חדשים יותר)"
+
+#~ msgid "Use relative path names"
+#~ msgstr "השתמש בשמות נתיבים יחסיים"
+
+#~ msgid "Use rsync"
+#~ msgstr "השתמש ב rsync"
+
+#~ msgid "Use unison"
+#~ msgstr "השתמש ב unison"
+
+#~ msgid "dialog1"
+#~ msgstr "דו-שיח1"
+
+#~ msgid "rsync"
+#~ msgstr "rsync"
+
+#~ msgid "unison"
+#~ msgstr "unison"
+
+#~ msgid "Local"
+#~ msgstr "מקומי"
+
+#~ msgid "Remote"
+#~ msgstr "מרוחק"
+
+#~ msgid "Last sync"
+#~ msgstr "סנכרון אחרון"
+
+#~ msgid "_Synchronize"
+#~ msgstr "_סנכרן"
+
+#~ msgid "New entry..."
+#~ msgstr "ערך חדש..."
+
+#~ msgid "Edit..."
+#~ msgstr "ערוך..."
+
+#~ msgid "Synchronize"
+#~ msgstr "סנכרן"
+
+#~ msgid "Mate Synchronize"
+#~ msgstr "סנכרון Mate"
+
+#~ msgid "The MATE file synchronization program."
+#~ msgstr "תוכנית סנכרון הקבצים של MATE."
+
+#~ msgid "New"
+#~ msgstr "חדש"
+
+#~ msgid "Create new synchronization entry"
+#~ msgstr "צור ערך סנכרון חדש"
+
+#~ msgid "Start synchronization for selected entries"
+#~ msgstr "התחל סנכרון לערכים הנבחרים"
+
+#~ msgid "Edit selected entry"
+#~ msgstr "ערוך ערך נבחר"
+
+#~ msgid "Delete"
+#~ msgstr "מחק"
+
+#~ msgid "Delete selected entries"
+#~ msgstr "מחק ערכים נבחרים"
+
+#, fuzzy
+#~ msgid "<b>Desktop Sharing</b>"
+#~ msgstr "<b>הגדרות שולחן העבודה</b>"
+
+#~ msgid "You don't have the Xnest program installed in the system"
+#~ msgstr "אין לך את תוכנת Xnest מותקנת במערכת"
+
+#~ msgid "You have to specify at least a host or display name"
+#~ msgstr "עליך לציין לפחות מארח או שם תצוגה"
+
+#~ msgid "You don't have a VNC viewer installed in the system"
+#~ msgstr "אין לך מציג VNC מותקן במערכת"
+
+#~ msgid "Could not load UI for remote desktop client"
+#~ msgstr "לא ניתן לטעון או ממשק המשתמש ללקוח שולחן העבודה המרוחק"
+
+#, fuzzy
+#~ msgid "/Edit/_Properties"
+#~ msgstr "מאפיינים..."
+
+#, fuzzy
+#~ msgid "/Help/_About"
+#~ msgstr "_אודות"
+
+#, fuzzy
+#~ msgid "Set options for selected backup destination"
+#~ msgstr "התחל סנכרון לערכים הנבחרים"
+
+#~ msgid "<b>Method</b>"
+#~ msgstr "<b>שיטה</b>"
+
+#~ msgid "(for instance: 192.168.2.1 or www.domain.com)"
+#~ msgstr "(לדוגמא: 192.168.2.1 או www.domain.com)"
+
+#~ msgid "Statistics"
+#~ msgstr "סטטיסטיקה"
+
+#, fuzzy
+#~ msgid "Transmission"
+#~ msgstr "שגיאות שליחה"
+
+#~ msgid "Method"
+#~ msgstr "שיטה"
+
+#~ msgid "Terminal Window"
+#~ msgstr "חלון מסוף"
+
+#~ msgid "MATE Remote Shell"
+#~ msgstr "מעטפת מרוחקת ל MATE"
+
+#~ msgid "<b>About MATE Remote Desktop</b>"
+#~ msgstr "<b>אודות שולחן העבודה המרוחק של Mate</b>"
+
+#~ msgid "About"
+#~ msgstr "אודות"
+
+#~ msgid ""
+#~ "MATE Remote Desktop\n"
+#~ "By Rodrigo Moya <rodrigo@mate-db.org>\n"
+#~ "Copyright 2002. All Rights Reserved.\n"
+#~ "\n"
+#~ "MATE Remote Desktop lets you connect to remote desktops by using many "
+#~ "different available protocols, such as UNIX's X11 or VNC.\n"
+#~ "\n"
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+#~ msgstr ""
+#~ "שולחן העבודה המרוחק של MATE\n"
+#~ "על-ידי Rodrigo Moya <rodrigo@mate-db.org>\n"
+#~ "כל הזכויות שמורות 2002.\n"
+#~ "\n"
+#~ "שולחן העבודה המרוחק של MATE נותן לך להתחבר לשולחנות עבודה מרוחקים על-ידי "
+#~ "שימוש בהרבה פרוטוקולים זמינים, כמו X11 של UNIX או VNC.\n"
+#~ "\n"
+#~ "תוכנית זו היא יישום חופשי; אתה רשאי להפיצה ו/או לשנותה תחת התנאים של "
+#~ "הרישיון הציבורי הכללי של GNU כפי שפורסם על-ידי ארגון התוכנה החופשית; או "
+#~ "גירסה 2 של הרישיון, או (לפי בחירתך) כל גירסה מאוחרת יותר.\n"
+#~ "\n"
+#~ "תוכנית זו מופצת בתקווה שהיא תיהיה שימושית, אך ללא כל אחריות; אפילו ללא "
+#~ "האחריות הנרמזת ליכולת ההסחרות או התאמה למטרה מסויימת.  ראה את הרישיון "
+#~ "הציבורי הכללי של GNU לעוד פרטים.\n"
+#~ "\n"
+#~ "אתה אמור לקבל עותק של הרישיון הציבורי הכללי של GNU יחד עם תוכנה זו; אם "
+#~ "לא, כתוב לארגון התוכנה החופשית, טמפל פלייס 59, סוייטה 330, בוסטון, MA  "
+#~ "02111-1307  ארה\"ב.\n"
+#~ "Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  "
+#~ "02111-1307  USA\n"
+
+#~ msgid "Only one connection allowed.\n"
+#~ msgstr "רק חיבור אחד מותר.\n"
+
+#~ msgid "Fullscreen updates are disabled"
+#~ msgstr "עידכוני מסך-מלא כבויים"
+
+#~ msgid "RFB server already initialized"
+#~ msgstr "שרת RFB כבר מאותחל"
+
+#~ msgid "Display does not support the XTest extension"
+#~ msgstr "התצוגה לא תומכת בתוסף XTest"
+
+#~ msgid "Display does not support XShm extension (must be local)"
+#~ msgstr "התצוגה לא תומכת בתוסף XShm (חייב להיות מקומי)"
+
+#~ msgid "Read initial data from display into framebuffer"
+#~ msgstr "קרא מידע איתחול מהתצוגה לאוגר המסגרות"
+
+#~ msgid "24 bpp may have poor performance"
+#~ msgstr "ל 24 סל\"פ ייתכנו ביצועים נמוכים"
+
+#~ msgid "Info about this program"
+#~ msgstr "מידע אודות התוכנה"
+
+#~ msgid "Talk"
+#~ msgstr "דבר"
+
+#~ msgid "Talk to"
+#~ msgstr "דבר אל"
+
+#~ msgid "Specify TTY"
+#~ msgstr "ציין TTY"
+
+#~ msgid "Error"
+#~ msgstr "שגיאה"
+
+#~ msgid "Error sending"
+#~ msgstr "שגיאה בשליחה"
+
+#~ msgid "Lost connection"
+#~ msgstr "החיבור נאבד"
+
+#~ msgid "Target machine is too confused to talk to us"
+#~ msgstr "מכונת היעד מבולבלת מידי כדי לדבר איתנו"
+
+#~ msgid "Target machine does not recognize us"
+#~ msgstr "מכונת היעד לא מזהה אותנו"

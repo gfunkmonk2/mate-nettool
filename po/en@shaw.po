@@ -1,0 +1,981 @@
+# Shavian translation for mate-nettool.
+# Copyright (C) 2009 The Mate Foundation.
+# Thomas Thurman <tthurman@mate.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-nettool&component=general\n"
+"POT-Creation-Date: 2010-04-21 21:30+0000\n"
+"PO-Revision-Date: 2010-05-12 18:36 -0400\n"
+"Last-Translator: Thomas Thurman <tthurman@mate.org>\n"
+"Language-Team: Shavian <ubuntu-l10n-en-shaw@launchpad.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr "·𐑑𐑪𐑥𐑩𐑕 ·𐑔𐑻𐑥𐑩𐑯"
+
+#. Translators: %s is the name of the copyright holder
+#, c-format
+#: ../src/callbacks.c:330
+msgid "Copyright © 2003-2008 %s"
+msgstr "𐑒𐑪𐑐𐑦𐑮𐑲𐑑 © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../data/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑑𐑵𐑤𐑟"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "𐑜𐑮𐑨𐑓𐑦𐑒𐑩𐑤 𐑿𐑟𐑼 𐑦𐑯𐑑𐑼𐑓𐑱𐑕 𐑓𐑹 𐑒𐑪𐑥𐑩𐑯 𐑯𐑧𐑑𐑢𐑻𐑒 𐑘𐑵𐑑𐑦𐑤𐑩𐑑𐑰𐑟"
+
+#: ../src/callbacks.c:449 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "𐑲𐑛𐑩𐑤"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#, c-format
+#: ../src/callbacks.c:454
+msgid "%s - Network Tools"
+msgstr "%s - 𐑯𐑧𐑑𐑢𐑻𐑒 𐑑𐑵𐑤𐑟"
+
+#: ../src/callbacks.c:478
+msgid "Unable to open help file"
+msgstr "𐑳𐑯𐑱𐑚𐑩𐑤 𐑑 𐑴𐑐𐑩𐑯 𐑣𐑧𐑤𐑐 𐑓𐑲𐑤"
+
+#: ../data/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "𐑝𐑿 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑩𐑚𐑬𐑑 𐑿𐑼 𐑯𐑧𐑑𐑢𐑻𐑒"
+
+#: ../data/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#, no-c-format
+#: ../data/mate-nettool.ui.h:3
+msgid "0%"
+msgstr "0%"
+
+#: ../data/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../data/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>IP 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯</b>"
+
+#: ../data/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>𐑦𐑯𐑑𐑼𐑓𐑱𐑕 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯</b>"
+
+#: ../data/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>𐑦𐑯𐑑𐑼𐑓𐑱𐑕 𐑕𐑑𐑩𐑑𐑦𐑕𐑑𐑦𐑒𐑕</b>"
+
+#: ../data/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>𐑮𐑬𐑯𐑛 𐑑𐑮𐑦𐑐 𐑑𐑲𐑥 𐑕𐑑𐑩𐑑𐑦𐑕𐑑𐑦𐑒𐑕</b>"
+
+#: ../data/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>𐑑𐑮𐑨𐑯𐑟𐑥𐑦𐑖𐑩𐑯 𐑕𐑑𐑩𐑑𐑦𐑕𐑑𐑦𐑒𐑕</b>"
+
+#: ../data/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "𐑨𐑒𐑑𐑦𐑝 𐑯𐑧𐑑𐑢𐑻𐑒 𐑕𐑻𐑝𐑦𐑕𐑩𐑟"
+
+#: ../data/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "𐑨𐑝𐑼𐑦𐑡:"
+
+#: ../data/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "𐑚𐑰𐑐 𐑪𐑯 𐑐𐑦𐑙"
+
+#: ../data/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "𐑒𐑤𐑽 _𐑣𐑦𐑕𐑑𐑼𐑦"
+
+#: ../data/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "𐑒𐑩𐑤𐑦𐑠𐑩𐑯𐑟:"
+
+#: ../data/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "𐑒𐑪𐑐𐑦 𐑨𐑟 𐑑𐑧𐑒𐑕𐑑 _𐑮𐑩𐑐𐑹𐑑"
+
+#: ../data/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "𐑛𐑰𐑑𐑱𐑤𐑟"
+
+#: ../data/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "𐑛𐑦𐑝𐑲𐑕𐑩𐑟"
+
+#: ../data/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "𐑛𐑦𐑝𐑲𐑕𐑩𐑟 - 𐑯𐑧𐑑𐑢𐑻𐑒 𐑑𐑵𐑤𐑟"
+
+#: ../data/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "𐑛𐑩𐑕𐑐𐑤𐑱:"
+
+#: ../data/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "𐑛𐑴𐑥𐑱𐑯 𐑩𐑛𐑮𐑧𐑕"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: "
+"www.domain.com or 192.168.2.1"
+msgstr ""
+"𐑧𐑯𐑑𐑼 𐑩 𐑛𐑴𐑥𐑱𐑯 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑤𐑫𐑒𐑩𐑐 𐑦𐑑𐑕 whois 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: ·𐑢·𐑢·𐑢.𐑛𐑴𐑥𐑱𐑯.𐑒𐑪𐑥 "
+"𐑹 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"𐑧𐑯𐑑𐑼 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑓𐑦𐑙𐑜𐑼 𐑞𐑨𐑑 𐑿𐑟𐑼. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: www.domain.com 𐑹 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"𐑧𐑯𐑑𐑼 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑤𐑫𐑒𐑩𐑐. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: www.domain.com 𐑹 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr "𐑧𐑯𐑑𐑼 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑐𐑦𐑙. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: www.domain.com 𐑹 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"𐑧𐑯𐑑𐑼 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑕𐑒𐑨𐑯 𐑓𐑹 𐑴𐑐𐑩𐑯 𐑐𐑹𐑑𐑕. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: www.domain.com 𐑹 "
+"192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"𐑧𐑯𐑑𐑼 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑑 𐑑𐑮𐑱𐑕 𐑩 𐑮𐑵𐑑 𐑑. 𐑓𐑹 𐑦𐑜𐑟𐑭𐑥𐑐𐑩𐑤: www.domain.com 𐑹 192.168.2.1"
+
+#: ../data/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "𐑧𐑯𐑑𐑼 𐑞 𐑿𐑟𐑼 𐑑 𐑓𐑦𐑙𐑜𐑼"
+
+#: ../data/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "𐑓𐑦𐑙𐑜𐑼"
+
+#: ../data/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "𐑓𐑦𐑙𐑜𐑼 𐑬𐑑𐑐𐑫𐑑"
+
+#: ../data/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "𐑣𐑭𐑮𐑛𐑢𐑧𐑮 𐑩𐑛𐑮𐑧𐑕:"
+
+#: ../data/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "𐑣𐑴𐑕𐑑"
+
+#: ../data/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "𐑤𐑦𐑙𐑒 𐑕𐑐𐑰𐑛:"
+
+#: ../data/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "𐑤𐑫𐑒𐑩𐑐"
+
+#: ../data/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "𐑤𐑫𐑒𐑩𐑐 𐑬𐑑𐑐𐑫𐑑"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../data/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "𐑥𐑨𐑒𐑕𐑦𐑥𐑩𐑥:"
+
+#: ../data/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "𐑥𐑦𐑯𐑩𐑥𐑩𐑥:"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "Multicast 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "Multicast:"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "Netstat 𐑬𐑑𐑐𐑫𐑑"
+
+#: ../data/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../data/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "𐑯𐑪𐑑 𐑩𐑝𐑱𐑤𐑩𐑚𐑩𐑤"
+
+#: ../data/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "𐑴𐑯𐑤𐑦"
+
+#: ../data/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 𐑓𐑦𐑙𐑜𐑼"
+
+#: ../data/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 𐑤𐑫𐑒𐑩𐑐"
+
+#: ../data/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 𐑯𐑧𐑑 𐑕𐑑𐑨𐑑"
+
+#: ../data/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 𐑐𐑹𐑑 𐑕𐑒𐑨𐑯"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 traceroute"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "𐑬𐑑𐑐𐑫𐑑 𐑓𐑹 whois"
+
+#: ../data/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "𐑐𐑨𐑒𐑦𐑑𐑕 𐑮𐑦𐑕𐑰𐑝𐑛:"
+
+#: ../data/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "𐑐𐑨𐑒𐑦𐑑𐑕 𐑑𐑮𐑨𐑯𐑕𐑥𐑦𐑑𐑩𐑛:"
+
+#: ../data/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "𐑐𐑦𐑙"
+
+#: ../data/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "𐑐𐑹𐑑 𐑕𐑒𐑨𐑯"
+
+#: ../data/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "𐑐𐑹𐑑 𐑕𐑒𐑨𐑯 𐑬𐑑𐑐𐑫𐑑"
+
+#: ../data/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "𐑮𐑦𐑕𐑰𐑝𐑛 𐑚𐑲𐑑𐑕:"
+
+#: ../data/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "𐑮𐑦𐑕𐑰𐑝𐑛 𐑐𐑨𐑒𐑦𐑑𐑕:"
+
+#: ../data/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "𐑮𐑦𐑕𐑧𐑐𐑖𐑩𐑯 𐑻𐑼𐑟:"
+
+#: ../data/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "𐑮𐑵𐑑𐑦𐑙 𐑑𐑱𐑚𐑩𐑤 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#: ../data/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "𐑕𐑒𐑨𐑯"
+
+#: ../data/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "𐑕𐑧𐑯𐑛:"
+
+#: ../data/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "𐑕𐑑𐑱𐑑:"
+
+#: ../data/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "𐑕𐑩𐑒𐑕𐑧𐑕𐑓𐑩𐑤 𐑐𐑨𐑒𐑦𐑑𐑕:"
+
+#: ../data/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "𐑑𐑮𐑱𐑕"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "Traceroute 𐑬𐑑𐑐𐑫𐑑"
+
+#: ../data/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "𐑑𐑮𐑨𐑯𐑟𐑥𐑦𐑖𐑩𐑯 𐑻𐑼𐑟:"
+
+#: ../data/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "𐑑𐑮𐑨𐑯𐑕𐑥𐑦𐑑𐑩𐑛 𐑚𐑲𐑑𐑕:"
+
+#: ../data/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "𐑑𐑮𐑨𐑯𐑕𐑥𐑦𐑑𐑩𐑛 𐑐𐑨𐑒𐑦𐑑𐑕:"
+
+#: ../data/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "𐑩𐑯𐑤𐑦𐑥𐑩𐑑𐑩𐑛 𐑮𐑦𐑒𐑢𐑧𐑕𐑑𐑕"
+
+#: ../data/mate-nettool.ui.h:71
+msgid "User"
+msgstr "𐑿𐑟𐑼"
+
+#: ../data/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "𐑿𐑟𐑼 𐑯𐑱𐑥"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#, fuzzy
+#: ../data/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "Whois 𐑬𐑑𐑐𐑫𐑑"
+
+#: ../data/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_𐑒𐑩𐑯𐑓𐑦𐑜𐑘𐑼"
+
+#: ../data/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_𐑛𐑴𐑥𐑱𐑯 𐑩𐑛𐑮𐑧𐑕:"
+
+#: ../data/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "_𐑧𐑛𐑦𐑑"
+
+#: ../data/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_𐑣𐑧𐑤𐑐"
+
+#: ../data/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "_𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑑𐑲𐑐:"
+
+#: ../data/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕:"
+
+#: ../data/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "_𐑯𐑧𐑑𐑢𐑻𐑒 𐑛𐑦𐑝𐑲𐑕:"
+
+#: ../data/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "_𐑑𐑵𐑤"
+
+#: ../data/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_𐑿𐑟𐑼𐑯𐑱𐑥:"
+
+#: ../data/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../data/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "𐑮𐑦𐑒𐑢𐑧𐑕𐑑𐑕"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "𐑳𐑞𐑼 𐑑𐑲𐑐"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "𐑧𐑔𐑻𐑯𐑧𐑑 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "𐑢𐑲𐑮𐑤𐑦𐑕 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "𐑥𐑴𐑛𐑧𐑥 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "𐑐𐑸𐑩𐑤𐑧𐑤 𐑤𐑲𐑯 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "𐑦𐑯𐑓𐑮𐑻𐑧𐑛 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#, fuzzy
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "Loopback 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "𐑳𐑯𐑴𐑯 𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑛𐑦𐑝𐑲𐑕𐑩𐑟 𐑯𐑪𐑑 𐑓𐑬𐑯𐑛"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "𐑳𐑯𐑴𐑯"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "𐑨𐑒𐑑𐑦𐑝"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "𐑦𐑯𐑨𐑒𐑑𐑦𐑝"
+
+#, fuzzy
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "Loopback"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "𐑦𐑯𐑱𐑚𐑩𐑤𐑛"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤𐑛"
+
+#. The info output in a text format (to copy on clipboard)
+#, c-format
+#: ../src/info.c:573
+msgid "Network device:\t%s\n"
+msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑛𐑦𐑝𐑲𐑕:\t%s\n"
+
+#, c-format
+#: ../src/info.c:574
+msgid "Hardware address:\t%s\n"
+msgstr "𐑣𐑭𐑮𐑛𐑢𐑧𐑮 𐑩𐑛𐑮𐑧𐑕:\t%s\n"
+
+#, fuzzy, c-format
+#: ../src/info.c:575
+msgid "Multicast:\t%s\n"
+msgstr "𐑕𐑑𐑱𐑑:\t%s\n"
+
+#, fuzzy, c-format
+#: ../src/info.c:576
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#, c-format
+#: ../src/info.c:577
+msgid "Link speed:\t%s\n"
+msgstr "𐑤𐑦𐑙𐑒 𐑕𐑐𐑰𐑛:\t%s\n"
+
+#, c-format
+#: ../src/info.c:578
+msgid "State:\t%s\n"
+msgstr "𐑕𐑑𐑱𐑑:\t%s\n"
+
+#, c-format
+#: ../src/info.c:580
+msgid "Transmitted packets:\t%s\n"
+msgstr "𐑑𐑮𐑨𐑯𐑕𐑥𐑦𐑑𐑩𐑛 𐑐𐑨𐑒𐑦𐑑𐑕:\t%s\n"
+
+#, c-format
+#: ../src/info.c:581
+msgid "Transmission errors:\t%s\n"
+msgstr "𐑑𐑮𐑨𐑯𐑟𐑥𐑦𐑖𐑩𐑯 𐑻𐑼𐑟:\t%s\n"
+
+#, c-format
+#: ../src/info.c:582
+msgid "Received packets:\t%s\n"
+msgstr "𐑮𐑦𐑕𐑰𐑝𐑛 𐑐𐑨𐑒𐑦𐑑𐑕:\t%s\n"
+
+#, c-format
+#: ../src/info.c:583
+msgid "Reception errors:\t%s\n"
+msgstr "𐑮𐑦𐑕𐑧𐑐𐑖𐑩𐑯 𐑻𐑼𐑟:\t%s\n"
+
+#, c-format
+#: ../src/info.c:584
+msgid "Collisions:\t%s\n"
+msgstr "𐑒𐑩𐑤𐑦𐑠𐑩𐑯𐑟:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "𐑯𐑪𐑑 𐑩𐑝𐑱𐑤𐑩𐑚𐑩𐑤"
+
+#, c-format
+#: ../src/lookup.c:80
+msgid "Looking up %s"
+msgstr "𐑤𐑫𐑒𐑦𐑙 𐑳𐑐 %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "𐑯𐑱𐑥"
+
+#. Time To Live of a hostname in a name server
+#, fuzzy
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "𐑩𐑛𐑮𐑧𐑕 𐑑𐑲𐑐"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "𐑮𐑩𐑒𐑹𐑛 𐑑𐑲𐑐"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "𐑩𐑛𐑮𐑧𐑕"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#, fuzzy
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "𐑕𐑹𐑕\tTTL\t𐑩𐑛𐑮𐑧𐑕 𐑑𐑲𐑐\t𐑮𐑩𐑒𐑹𐑛 Type1\t𐑮𐑧𐑟𐑩𐑤𐑵𐑖𐑩𐑯\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "𐑤𐑴𐑛 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑓𐑹 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑛𐑦𐑝𐑲𐑕"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "𐑛𐑦𐑝𐑲𐑕"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "𐑕𐑧𐑯𐑛 𐑩 𐑐𐑦𐑙 𐑑 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "𐑣𐑴𐑕𐑑"
+
+#, fuzzy
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "𐑜𐑧𐑑 netstat 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯.  𐑝𐑨𐑤𐑦𐑛 𐑪𐑐𐑖𐑩𐑯𐑟 𐑸: 𐑮𐑵𐑑, 𐑨𐑒𐑑𐑦𐑝, multicast."
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "𐑒𐑩𐑥𐑭𐑯𐑛"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "𐑑𐑮𐑱𐑕 𐑩 𐑮𐑵𐑑 𐑑 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "𐑐𐑹𐑑 𐑕𐑒𐑨𐑯 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "𐑤𐑫𐑒 𐑳𐑐 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "𐑓𐑦𐑙𐑜𐑼 𐑒𐑩𐑥𐑭𐑯𐑛 𐑑 𐑮𐑳𐑯"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "𐑿𐑟𐑼"
+
+#, fuzzy
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "𐑐𐑼𐑓𐑹𐑥 𐑩 whois 𐑤𐑫𐑒𐑩𐑐 𐑓𐑹 𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑛𐑴𐑥𐑱𐑯"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "𐑛𐑴𐑥𐑱𐑯"
+
+#, fuzzy, c-format
+#: ../src/main.c:130
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr "𐑞 𐑓𐑲𐑤 %s 𐑛𐑳𐑟𐑯𐑑 𐑧𐑒𐑟𐑦𐑕𐑑, 𐑐𐑤𐑰𐑟 𐑗𐑧𐑒 𐑦𐑓 𐑯𐑴𐑥-nettool 𐑦𐑟 𐑒𐑩𐑮𐑧𐑒𐑑𐑤𐑦 𐑦𐑯𐑕𐑑𐑷𐑤𐑛"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "𐑐𐑮𐑴𐑑𐑩𐑒𐑪𐑤"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "IP 𐑩𐑛𐑮𐑧𐑕"
+
+#, fuzzy
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "Netmask / 𐑐𐑮𐑰𐑓𐑦𐑒𐑕"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "𐑚𐑮𐑷𐑛𐑒𐑭𐑕𐑑"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "𐑕𐑒𐑴𐑐"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "𐑛𐑦𐑓𐑷𐑤𐑑 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "·𐑦𐑯𐑑𐑼𐑯𐑧𐑑 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "𐑒𐑩𐑯𐑪𐑯𐑦𐑒𐑩𐑤 𐑯𐑱𐑥"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "·𐑕·𐑐·𐑿 / 𐑭𐑕 𐑑𐑲𐑐"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "𐑥𐑱𐑤𐑚𐑪𐑒𐑕 𐑧𐑒𐑕𐑗𐑱𐑯𐑡"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "𐑥𐑱𐑤𐑚𐑪𐑒𐑕 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "𐑯𐑱𐑥 𐑕𐑻𐑝𐑼"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "𐑣𐑴𐑕𐑑 𐑯𐑱𐑥 𐑓𐑹 𐑩𐑛𐑮𐑧𐑕"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "𐑕𐑑𐑸𐑑-𐑝-𐑷𐑔𐑪𐑮𐑦𐑑𐑰"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "𐑑𐑧𐑒𐑕𐑑 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "𐑢𐑧𐑤 𐑯𐑴𐑯 𐑕𐑻𐑝𐑦𐑕𐑩𐑟"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "𐑧𐑯𐑦 / 𐑷𐑤 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑮𐑵𐑑𐑦𐑙 𐑑𐑱𐑚𐑩𐑤"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑨𐑒𐑑𐑦𐑝 ·𐑦𐑯𐑑𐑼𐑯𐑧𐑑 𐑒𐑩𐑯𐑧𐑒𐑖𐑩𐑯𐑟"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑜𐑮𐑵𐑐 𐑥𐑧𐑥𐑚𐑻𐑖𐑦𐑐𐑕"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "IP 𐑕𐑹𐑕"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "𐑐𐑹𐑑/𐑕𐑻𐑝𐑦𐑕"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "𐑕𐑑𐑱𐑑"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "𐑛𐑧𐑕𐑑𐑦𐑯𐑱𐑖𐑩𐑯/𐑐𐑮𐑰𐑓𐑦𐑒𐑕"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "𐑛𐑧𐑕𐑑𐑦𐑯𐑱𐑖𐑩𐑯"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "𐑜𐑱𐑑𐑢𐑱"
+
+#, fuzzy
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "Netmask"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "𐑦𐑯𐑑𐑼𐑓𐑱𐑕"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "𐑥𐑧𐑥𐑚𐑼"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "𐑜𐑮𐑵𐑐"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "𐑐𐑮𐑴𐑑𐑩𐑒𐑪𐑤\tIP 𐑕𐑹𐑕\t𐑐𐑹𐑑/𐑕𐑻𐑝𐑦𐑕\t𐑕𐑑𐑱𐑑\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#, fuzzy
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "𐑛𐑧𐑕𐑑𐑦𐑯𐑱𐑖𐑩𐑯\t𐑜𐑱𐑑𐑢𐑱\tNetmask\t𐑦𐑯𐑑𐑼𐑓𐑱𐑕\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "𐑦𐑯𐑑𐑼𐑓𐑱𐑕\t𐑥𐑧𐑥𐑚𐑼\t𐑜𐑮𐑵𐑐\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "𐑩 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑢𐑪𐑟 𐑯𐑪𐑑 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑛"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "𐑐𐑤𐑰𐑟 𐑧𐑯𐑑𐑼 𐑩 𐑝𐑨𐑤𐑦𐑛 𐑯𐑧𐑑𐑢𐑻𐑒 𐑩𐑛𐑮𐑧𐑕 𐑯 𐑑𐑮𐑲 𐑩𐑜𐑱𐑯."
+
+#, c-format
+#: ../src/nettool.c:207
+msgid "The address '%s' cannot be found"
+msgstr "𐑞 𐑩𐑛𐑮𐑧𐑕 '%s' 𐑒𐑨𐑯𐑪𐑑 𐑚𐑰 𐑓𐑬𐑯𐑛"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "𐑩 𐑛𐑴𐑥𐑱𐑯 𐑩𐑛𐑮𐑧𐑕 𐑢𐑪𐑟 𐑯𐑪𐑑 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑛"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "𐑐𐑤𐑰𐑟 𐑧𐑯𐑑𐑼 𐑩 𐑝𐑨𐑤𐑦𐑛 𐑛𐑴𐑥𐑱𐑯 𐑩𐑛𐑮𐑧𐑕 𐑯 𐑑𐑮𐑲 𐑩𐑜𐑱𐑯."
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑯𐑪𐑑 𐑩𐑝𐑱𐑤𐑩𐑚𐑩𐑤"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "𐑕𐑑𐑪𐑐"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "𐑮𐑳𐑯"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "𐑑𐑲𐑥 (ms):"
+
+#, fuzzy
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "Seq. 𐑯𐑴.:"
+
+#, c-format
+#: ../src/ping.c:254
+msgid "Sending ping requests to %s"
+msgstr "𐑕𐑧𐑯𐑛𐑦𐑙 𐑐𐑦𐑙 𐑮𐑦𐑒𐑢𐑧𐑕𐑑𐑕 𐑑 %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "𐑚𐑲𐑑𐑕"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "𐑕𐑹𐑕"
+
+#, fuzzy
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "Seq"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "𐑑𐑲𐑥"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "𐑿𐑯𐑦𐑑𐑕"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#, fuzzy
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "𐑚𐑲𐑑𐑕\t𐑕𐑹𐑕\tSeq\t𐑑𐑲𐑥\t𐑿𐑯𐑦𐑑𐑕\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#, c-format
+#: ../src/ping.c:643
+msgid "Time minimum:\t%s ms\n"
+msgstr "𐑑𐑲𐑥 𐑥𐑦𐑯𐑩𐑥𐑩𐑥:\t%s 𐑥𐑦𐑟\n"
+
+#, c-format
+#: ../src/ping.c:644
+msgid "Time average:\t%s ms\n"
+msgstr "𐑑𐑲𐑥 𐑨𐑝𐑼𐑦𐑡:\t%s 𐑥𐑦𐑟\n"
+
+#, c-format
+#: ../src/ping.c:645
+msgid "Time maximum:\t%s ms\n"
+msgstr "𐑑𐑲𐑥 𐑥𐑨𐑒𐑕𐑦𐑥𐑩𐑥:\t%s 𐑥𐑦𐑟\n"
+
+#, c-format
+#: ../src/ping.c:647
+msgid "Packets transmitted:\t%s\n"
+msgstr "𐑐𐑨𐑒𐑦𐑑𐑕 𐑑𐑮𐑨𐑯𐑕𐑥𐑦𐑑𐑩𐑛:\t%s\n"
+
+#, c-format
+#: ../src/ping.c:649
+msgid "Packets received:\t%s\n"
+msgstr "𐑐𐑨𐑒𐑦𐑑𐑕 𐑮𐑦𐑕𐑰𐑝𐑛:\t%s\n"
+
+#, c-format
+#: ../src/ping.c:652
+msgid "Successful packets:\t%s\n"
+msgstr "𐑕𐑩𐑒𐑕𐑧𐑕𐑓𐑩𐑤 𐑐𐑨𐑒𐑦𐑑𐑕:\t%s\n"
+
+#, c-format
+#: ../src/scan.c:94
+msgid "Scanning %s for open ports"
+msgstr "𐑕𐑒𐑨𐑯𐑦𐑙 %s 𐑓𐑹 𐑴𐑐𐑩𐑯 𐑐𐑹𐑑𐑕"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "𐑳𐑯𐑴𐑯"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "𐑴𐑐𐑩𐑯"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "𐑐𐑹𐑑"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "𐑕𐑻𐑝𐑦𐑕"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "𐑐𐑹𐑑\t𐑕𐑑𐑱𐑑\t𐑕𐑻𐑝𐑦𐑕\n"
+
+#, c-format
+#: ../src/traceroute.c:62
+msgid "Tracing route to %s"
+msgstr "𐑑𐑮𐑱𐑕𐑦𐑙 𐑮𐑵𐑑 𐑑 %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "𐑣𐑪𐑐"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "𐑣𐑴𐑕𐑑𐑯𐑱𐑥"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "IP"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "𐑑𐑲𐑥 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "𐑑𐑲𐑥 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "𐑣𐑪𐑐\t𐑣𐑴𐑕𐑑𐑯𐑱𐑥\tIP\t𐑑𐑲𐑥 1\t𐑑𐑲𐑥 2\n"
+
+#, c-format
+#: ../src/utils.c:227
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "𐑦𐑯 𐑹𐑛𐑼 𐑑 𐑿𐑕 𐑞𐑦𐑕 𐑓𐑰𐑗𐑼 𐑝 𐑞 𐑐𐑮𐑴𐑜𐑮𐑨𐑥, %s 𐑥𐑳𐑕𐑑 𐑚𐑰 𐑦𐑯𐑕𐑑𐑷𐑤𐑛 𐑦𐑯 𐑿𐑼 𐑕𐑦𐑕𐑑𐑩𐑥"
+
+#, c-format
+#: ../src/finger.c:63
+msgid "Getting information of %s on \"%s\""
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑝 %s 𐑪𐑯 \"%s\""
+
+#, c-format
+#: ../src/finger.c:67
+msgid "Getting information of all users on \"%s\""
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑝 𐑷𐑤 𐑿𐑟𐑼𐑟 𐑪𐑯 \"%s\""
+
+#, fuzzy, c-format
+#: ../src/whois.c:58
+msgid "Getting the whois information of %s"
+msgstr "𐑜𐑧𐑑𐑦𐑙 𐑦𐑯𐑓𐑼𐑥𐑱𐑖𐑩𐑯 𐑝 %s 𐑪𐑯 \"%s\""

@@ -1,0 +1,991 @@
+# Thai translation of mate-nettool.
+# Copyright (C) 2005-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-nettool package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-nettool 2.23.3\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
+"nettool&component=general\n"
+"POT-Creation-Date: 2009-08-23 13:26+0700\n"
+"PO-Revision-Date: 2009-08-23 13:31+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/callbacks.c:323
+msgid "translator-credits"
+msgstr "เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>"
+
+#. Translators: %s is the name of the copyright holder
+#: ../src/callbacks.c:330
+#, c-format
+msgid "Copyright © 2003-2008 %s"
+msgstr "Copyright © 2003-2008 %s"
+
+#. Dear translator: This is the name of the application
+#: ../src/callbacks.c:334 ../src/callbacks.c:335
+#: ../src/mate-nettool.desktop.in.in.h:1
+msgid "Network Tools"
+msgstr "เครื่องมือตรวจสอบเครือข่าย"
+
+#: ../src/callbacks.c:337
+msgid "Graphical user interface for common network utilities"
+msgstr "เครื่องมือตรวจสอบเครือข่ายในแบบกราฟิก"
+
+#: ../src/callbacks.c:450 ../src/main.c:142 ../src/nettool.c:483
+msgid "Idle"
+msgstr "ไม่ใช้งาน"
+
+#. Dear Translator: This is the Window Title. 'Network Tools' is the
+#. * name of the application
+#: ../src/callbacks.c:455
+#, c-format
+msgid "%s - Network Tools"
+msgstr "%s - เครื่องมือตรวจสอบเครือข่าย"
+
+#: ../src/callbacks.c:479
+msgid "Unable to open help file"
+msgstr "ไม่สามารถเปิดแฟ้มเอกสารวิธีใช้"
+
+#: ../src/mate-nettool.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../src/mate-nettool.ui.h:3
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../src/mate-nettool.ui.h:4
+msgid "0.0"
+msgstr "0.0"
+
+#: ../src/mate-nettool.ui.h:5
+msgid "<b>IP Information</b>"
+msgstr "<b>ข้อมูลไอพี</b>"
+
+#: ../src/mate-nettool.ui.h:6
+msgid "<b>Interface Information</b>"
+msgstr "<b>ข้อมูลอินเทอร์เฟซ</b>"
+
+#: ../src/mate-nettool.ui.h:7
+msgid "<b>Interface Statistics</b>"
+msgstr "<b>สถิติของอินเทอร์เฟซ</b>"
+
+#: ../src/mate-nettool.ui.h:8
+msgid "<b>Round Trip Time Statistics</b>"
+msgstr "<b>สถิติเวลาไป-กลับ</b>"
+
+#: ../src/mate-nettool.ui.h:9
+msgid "<b>Transmission Statistics</b>"
+msgstr "<b>สถิติการส่ง</b>"
+
+#: ../src/mate-nettool.ui.h:10
+msgid "Active Network Services"
+msgstr "บริการเครือข่ายที่ทำงานอยู่"
+
+#: ../src/mate-nettool.ui.h:11
+msgid "Average:"
+msgstr "เฉลี่ย:"
+
+#: ../src/mate-nettool.ui.h:12
+msgid "Beep on ping"
+msgstr "ส่งเสียงบี๊ปเมื่อ ping"
+
+#: ../src/mate-nettool.ui.h:13
+msgid "Clear _History"
+msgstr "_ล้างข้อมูลเก่า"
+
+#: ../src/mate-nettool.ui.h:14
+msgid "Collisions:"
+msgstr "การชน:"
+
+#: ../src/mate-nettool.ui.h:15
+msgid "Copy as text _report"
+msgstr "คัดลอก_รายงานแบบข้อความเปล่า"
+
+#: ../src/mate-nettool.ui.h:16
+msgid "Details"
+msgstr "รายละเอียด"
+
+#: ../src/mate-nettool.ui.h:17
+msgid "Devices"
+msgstr "อุปกรณ์"
+
+#: ../src/mate-nettool.ui.h:18
+msgid "Devices - Network Tools"
+msgstr "อุปกรณ์ - เครื่องมือตรวจสอบเครือข่าย"
+
+#: ../src/mate-nettool.ui.h:19
+msgid "Display:"
+msgstr "แสดง:"
+
+#: ../src/mate-nettool.ui.h:20
+msgid "Domain address"
+msgstr "ที่อยู่โดเมน"
+
+#: ../src/mate-nettool.ui.h:21
+msgid ""
+"Enter a domain address to lookup its whois information. For example: www."
+"domain.com or 192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่โดเมนที่จะเปิดหาข้อมูล whois ตัวอย่างเช่น: www.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:22
+msgid ""
+"Enter the network address to finger that user. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่เครือข่ายที่จะ finger ไปหาผู้ใช้นั้น ตัวอย่างเช่น: auth.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:23
+msgid ""
+"Enter the network address to lookup. For example: www.domain.com or "
+"192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่เครือข่ายที่จะเปิดหาชื่อ ตัวอย่างเช่น: www.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:24
+msgid ""
+"Enter the network address to ping. For example: www.domain.com or 192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่เครือข่ายที่จะ ping ตัวอย่างเช่น: www.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:25
+msgid ""
+"Enter the network address to scan for open ports. For example: www.domain."
+"com or 192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่เครือข่ายที่จะตรวจพอร์ตที่เปิดอยู่ ตัวอย่างเช่น: www.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:26
+msgid ""
+"Enter the network address to trace a route to. For example: www.domain.com "
+"or 192.168.2.1"
+msgstr ""
+"ป้อนที่อยู่เครือข่ายที่จะแกะรอยเส้นทางไป ตัวอย่างเช่น: www.domain.com หรือ 192.168.2.1"
+
+#: ../src/mate-nettool.ui.h:27
+msgid "Enter the user to finger"
+msgstr "ป้อนชื่อผู้ใช้ที่จะ finger"
+
+#: ../src/mate-nettool.ui.h:28 ../src/main.c:814
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/mate-nettool.ui.h:29
+msgid "Finger output"
+msgstr "ผลลัพธ์ของ finger"
+
+#: ../src/mate-nettool.ui.h:30
+msgid "Hardware address:"
+msgstr "หมายเลขฮาร์ดแวร์:"
+
+#: ../src/mate-nettool.ui.h:31
+msgid "Host"
+msgstr "โฮสต์"
+
+#: ../src/mate-nettool.ui.h:32
+msgid "Link speed:"
+msgstr "ความเร็วเชื่อมต่อ:"
+
+#: ../src/mate-nettool.ui.h:33 ../src/main.c:734
+msgid "Lookup"
+msgstr "ชื่อเครื่อง"
+
+#: ../src/mate-nettool.ui.h:34
+msgid "Lookup output"
+msgstr "ผลลัพธ์การเปิดหาที่อยู่ชื่อเครื่อง"
+
+#: ../src/mate-nettool.ui.h:35
+msgid "MTU:"
+msgstr "MTU:"
+
+#: ../src/mate-nettool.ui.h:36
+msgid "Maximum:"
+msgstr "สูงสุด:"
+
+#: ../src/mate-nettool.ui.h:37
+msgid "Minimum:"
+msgstr "ต่ำสุด:"
+
+#: ../src/mate-nettool.ui.h:38
+msgid "Multicast Information"
+msgstr "ข้อมูลมัลติแคสต์"
+
+#: ../src/mate-nettool.ui.h:39
+msgid "Multicast:"
+msgstr "มัลติแคสต์:"
+
+#: ../src/mate-nettool.ui.h:40 ../src/main.c:446
+msgid "Netstat"
+msgstr "Netstat"
+
+#: ../src/mate-nettool.ui.h:41
+msgid "Netstat output"
+msgstr "ผลลัพธ์ของ netstat"
+
+#: ../src/mate-nettool.ui.h:42
+msgid "Network address"
+msgstr "ที่อยู่เครือข่าย"
+
+#: ../src/mate-nettool.ui.h:43
+msgid "Not Available"
+msgstr "ไม่มีข้อมูล"
+
+#: ../src/mate-nettool.ui.h:44
+msgid "Only"
+msgstr "เพียง"
+
+#: ../src/mate-nettool.ui.h:45
+msgid "Output for finger"
+msgstr "ผลลัพธ์ของ finger"
+
+#: ../src/mate-nettool.ui.h:46
+msgid "Output for lookup"
+msgstr "ผลลัพธ์การเปิดหาที่อยู่ชื่อเครื่อง"
+
+#: ../src/mate-nettool.ui.h:47
+msgid "Output for net stat"
+msgstr "ผลลัพธ์ของ netstat"
+
+#: ../src/mate-nettool.ui.h:48
+msgid "Output for port scan"
+msgstr "ผลลัพธ์ของการตรวจพอร์ต"
+
+#: ../src/mate-nettool.ui.h:49
+msgid "Output for traceroute"
+msgstr "ผลลัพธ์ของ traceroute"
+
+#: ../src/mate-nettool.ui.h:50
+msgid "Output for whois"
+msgstr "ผลลัพธ์ของ whois"
+
+#: ../src/mate-nettool.ui.h:51
+msgid "Packets received:"
+msgstr "จำนวนแพ็กเก็ตที่ได้รับ:"
+
+#: ../src/mate-nettool.ui.h:52
+msgid "Packets transmitted:"
+msgstr "จำนวนแพ็กเก็ตที่ส่ง:"
+
+#: ../src/mate-nettool.ui.h:53 ../src/main.c:290
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/mate-nettool.ui.h:54
+msgid "Port Scan"
+msgstr "ตรวจพอร์ต"
+
+#: ../src/mate-nettool.ui.h:55
+msgid "Port scan output"
+msgstr "ผลลัพธ์ของการตรวจพอร์ต"
+
+#: ../src/mate-nettool.ui.h:56
+msgid "Received bytes:"
+msgstr "จำนวนไบต์ที่รับ:"
+
+#: ../src/mate-nettool.ui.h:57
+msgid "Received packets:"
+msgstr "จำนวนแพ็กเก็ตที่รับ:"
+
+#: ../src/mate-nettool.ui.h:58
+msgid "Reception errors:"
+msgstr "รับผิดพลาด:"
+
+#: ../src/mate-nettool.ui.h:59
+msgid "Routing Table Information"
+msgstr "ข้อมูลตารางเส้นทาง"
+
+#: ../src/mate-nettool.ui.h:60 ../src/main.c:619
+msgid "Scan"
+msgstr "ตรวจ"
+
+#: ../src/mate-nettool.ui.h:61
+msgid "Send:"
+msgstr "ส่ง:"
+
+#: ../src/mate-nettool.ui.h:62
+msgid "State:"
+msgstr "สถานะ:"
+
+#: ../src/mate-nettool.ui.h:63
+msgid "Successful packets:"
+msgstr "จำนวนแพ็กเก็ตที่สำเร็จ:"
+
+#: ../src/mate-nettool.ui.h:64 ../src/main.c:375
+msgid "Trace"
+msgstr "แกะรอย"
+
+#: ../src/mate-nettool.ui.h:65
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/mate-nettool.ui.h:66
+msgid "Traceroute output"
+msgstr "ผลลัพธ์ของ traceroute"
+
+#: ../src/mate-nettool.ui.h:67
+msgid "Transmission errors:"
+msgstr "ส่งผิดพลาด:"
+
+#: ../src/mate-nettool.ui.h:68
+msgid "Transmitted bytes:"
+msgstr "จำนวนไบต์ที่ส่ง:"
+
+#: ../src/mate-nettool.ui.h:69
+msgid "Transmitted packets:"
+msgstr "จำนวนแพ็กเก็ตที่ส่ง:"
+
+#: ../src/mate-nettool.ui.h:70
+msgid "Unlimited requests"
+msgstr "ไม่จำกัดจำนวนครั้ง"
+
+#: ../src/mate-nettool.ui.h:71
+msgid "User"
+msgstr "ผู้ใช้"
+
+#: ../src/mate-nettool.ui.h:72
+msgid "User name"
+msgstr "ชื่อผู้ใช้"
+
+#: ../src/mate-nettool.ui.h:73 ../src/main.c:920
+msgid "Whois"
+msgstr "Whois"
+
+#: ../src/mate-nettool.ui.h:74
+msgid "Whois output"
+msgstr "ผลลัพธ์ของ whois"
+
+#: ../src/mate-nettool.ui.h:75
+msgid "_Configure"
+msgstr "_ตั้งค่า"
+
+#: ../src/mate-nettool.ui.h:76
+msgid "_Domain address:"
+msgstr "_ที่อยู่โดเมน:"
+
+#: ../src/mate-nettool.ui.h:77
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: ../src/mate-nettool.ui.h:78
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: ../src/mate-nettool.ui.h:79
+msgid "_Information type:"
+msgstr "ชนิด_ข้อมูล:"
+
+#: ../src/mate-nettool.ui.h:80
+msgid "_Network address:"
+msgstr "_ที่อยู่เครือข่าย:"
+
+#: ../src/mate-nettool.ui.h:81
+msgid "_Network device:"
+msgstr "_อุปกรณ์เครือข่าย"
+
+#: ../src/mate-nettool.ui.h:82
+msgid "_Tool"
+msgstr "เ_ครื่องมือ"
+
+#: ../src/mate-nettool.ui.h:83
+msgid "_Username:"
+msgstr "_ชื่อผู้ใช้:"
+
+#: ../src/mate-nettool.ui.h:84
+msgid "ms"
+msgstr "ms"
+
+#: ../src/mate-nettool.ui.h:85
+msgid "requests"
+msgstr "ครั้ง"
+
+#. Interface Name                 Interface Type           icon          Device prefix  Pixbuf
+#: ../src/info.c:60
+msgid "Other type"
+msgstr "อินเทอร์เฟซชนิดอื่น"
+
+#: ../src/info.c:61
+msgid "Ethernet Interface"
+msgstr "อินเทอร์เฟซแบบอีเทอร์เน็ต"
+
+#: ../src/info.c:62
+msgid "Wireless Interface"
+msgstr "อินเทอร์เฟซแบบไร้สาย"
+
+#: ../src/info.c:63
+msgid "Modem Interface"
+msgstr "อินเทอร์เฟซแบบโมเด็ม"
+
+#: ../src/info.c:64
+msgid "Parallel Line Interface"
+msgstr "อินเทอร์เฟซแบบพอร์ตขนาน"
+
+#: ../src/info.c:65
+msgid "Infrared Interface"
+msgstr "อินเทอร์เฟซแบบอินฟราเรด"
+
+#: ../src/info.c:66
+msgid "Loopback Interface"
+msgstr "อินเทอร์เฟซแบบวนกลับ"
+
+#: ../src/info.c:67
+msgid "Unknown Interface"
+msgstr "ไม่รู้ชนิดอินเทอร์เฟซ"
+
+#: ../src/info.c:165
+msgid "Network Devices Not Found"
+msgstr "ไม่พบอุปกรณ์เครือข่าย"
+
+#: ../src/info.c:392 ../src/info.c:395
+msgid "Unknown"
+msgstr "ไม่รู้จัก"
+
+#: ../src/info.c:466
+msgid "Active"
+msgstr "ทำงาน"
+
+#: ../src/info.c:468
+msgid "Inactive"
+msgstr "ไม่ทำงาน"
+
+#: ../src/info.c:473
+msgid "Loopback"
+msgstr "วนกลับ"
+
+#: ../src/info.c:482
+msgid "Enabled"
+msgstr "เปิดใช้อยู่"
+
+#: ../src/info.c:484
+msgid "Disabled"
+msgstr "ไม่ได้เปิดใช้"
+
+#. The info output in a text format (to copy on clipboard)
+#: ../src/info.c:573
+#, c-format
+msgid "Network device:\t%s\n"
+msgstr "อุปกรณ์เครือข่าย:\t%s\n"
+
+#: ../src/info.c:574
+#, c-format
+msgid "Hardware address:\t%s\n"
+msgstr "หมายเลขฮาร์ดแวร์:\t%s\n"
+
+#: ../src/info.c:575
+#, c-format
+msgid "Multicast:\t%s\n"
+msgstr "มัลติแคสต์:\t%s\n"
+
+#: ../src/info.c:576
+#, c-format
+msgid "MTU:\t%s\n"
+msgstr "MTU:\t%s\n"
+
+#: ../src/info.c:577
+#, c-format
+msgid "Link speed:\t%s\n"
+msgstr "ความเร็วเชื่อมต่อ:\t%s\n"
+
+#: ../src/info.c:578
+#, c-format
+msgid "State:\t%s\n"
+msgstr "สถานะ:\t%s\n"
+
+#: ../src/info.c:580
+#, c-format
+msgid "Transmitted packets:\t%s\n"
+msgstr "จำนวนแพ็กเก็ตที่ส่ง:\t%s\n"
+
+#: ../src/info.c:581
+#, c-format
+msgid "Transmission errors:\t%s\n"
+msgstr "ส่งผิดพลาด:\t%s\n"
+
+#: ../src/info.c:582
+#, c-format
+msgid "Received packets:\t%s\n"
+msgstr "จำนวนแพ็กเก็ตที่รับ:\t%s\n"
+
+#: ../src/info.c:583
+#, c-format
+msgid "Reception errors:\t%s\n"
+msgstr "รับผิดพลาด:\t%s\n"
+
+#: ../src/info.c:584
+#, c-format
+msgid "Collisions:\t%s\n"
+msgstr "การชน:\t%s\n"
+
+#: ../src/info.h:27
+msgid "not available"
+msgstr "ไม่มีข้อมูล"
+
+#: ../src/lookup.c:80
+#, c-format
+msgid "Looking up %s"
+msgstr "กำลังเปิดข้อมูลชื่อเครื่อง %s"
+
+#: ../src/lookup.c:274
+msgid "Name"
+msgstr "ชื่อ"
+
+#. Time To Live of a hostname in a name server
+#: ../src/lookup.c:283
+msgid "TTL"
+msgstr "TTL"
+
+#: ../src/lookup.c:292
+msgid "Address Type"
+msgstr "ชนิดที่อยู่"
+
+#: ../src/lookup.c:302
+msgid "Record Type"
+msgstr "ชนิดระเบียน"
+
+#: ../src/lookup.c:311
+msgid "Address"
+msgstr "ที่อยู่"
+
+#. The lookup output in text format:
+#. Source of query (hostname/ip address),
+#. Time To Live (TTL), Address Type,
+#. Record Type (A, PTR, HINFO, NS, TXT, etc.),
+#. Resolution (results of the query)
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/lookup.c:339
+msgid "Source\tTTL\tAddress Type\tRecord Type1\tResolution\n"
+msgstr "แหล่ง\tTTL\tชนิดที่อยู่\tชนิดระเบียน\tผลลัพธ์\n"
+
+#: ../src/main.c:82
+msgid "Load information for a network device"
+msgstr "แสดงข้อมูลของอุปกรณ์เครือข่าย"
+
+#: ../src/main.c:83
+msgid "DEVICE"
+msgstr "อุปกรณ์"
+
+#: ../src/main.c:86
+msgid "Send a ping to a network address"
+msgstr "ส่ง ping ไปยังที่อยู่เครือข่าย"
+
+#: ../src/main.c:87 ../src/main.c:95 ../src/main.c:99 ../src/main.c:103
+msgid "HOST"
+msgstr "โฮสต์"
+
+#: ../src/main.c:90
+msgid "Get netstat information.  Valid options are: route, active, multicast."
+msgstr "อ่านข้อมูล netstat  ตัวเลือกที่เป็นไปได้คือ: route, active, multicast"
+
+#: ../src/main.c:91
+msgid "COMMAND"
+msgstr "คำสั่ง"
+
+#: ../src/main.c:94
+msgid "Trace a route to a network address"
+msgstr "แกะรอยเส้นทางไปยังที่อยู่เครือข่าย"
+
+#: ../src/main.c:98
+msgid "Port scan a network address"
+msgstr "ตรวจพอร์ตที่เปิดอยู่ในที่อยู่เครือข่าย"
+
+#: ../src/main.c:102
+msgid "Look up a network address"
+msgstr "เปิดหาชื่อที่อยู่เครือข่าย"
+
+#: ../src/main.c:106
+msgid "Finger command to run"
+msgstr "เรียกคำสั่ง finger"
+
+#: ../src/main.c:107
+msgid "USER"
+msgstr "ผู้ใช้"
+
+#: ../src/main.c:110
+msgid "Perform a whois lookup for a network domain"
+msgstr "เปิดหาข้อมูล whois ของโดเมนเครือข่าย"
+
+#: ../src/main.c:111
+msgid "DOMAIN"
+msgstr "โดเมน"
+
+#: ../src/main.c:130
+#, c-format
+msgid ""
+"The file %s doesn't exist, please check if mate-nettool is correctly "
+"installed"
+msgstr "ไม่มีแฟ้ม %s  กรุณาตรวจสอบการติดตั้งของ mate-nettool"
+
+#: ../src/main.c:482 ../src/netstat.c:443
+msgid "Protocol"
+msgstr "โพรโทคอล"
+
+#: ../src/main.c:489
+msgid "IP Address"
+msgstr "หมายเลขไอพี"
+
+#: ../src/main.c:496
+msgid "Netmask / Prefix"
+msgstr "เน็ตแมสก์ / พรีฟิกซ์"
+
+#: ../src/main.c:503
+msgid "Broadcast"
+msgstr "กระจายสัญญาณ"
+
+#: ../src/main.c:510
+msgid "Scope"
+msgstr "สโคป"
+
+#: ../src/main.c:669
+msgid "Default Information"
+msgstr "ข้อมูลปริยาย"
+
+#: ../src/main.c:670
+msgid "Internet Address"
+msgstr "ที่อยู่อินเทอร์เน็ต"
+
+#: ../src/main.c:671
+msgid "Canonical Name"
+msgstr "ชื่อแบบแผน"
+
+#: ../src/main.c:672
+msgid "CPU / OS Type"
+msgstr "ชนิดซีพียู/ระบบปฏิบัติการ"
+
+#. When asking for MX record in DNS context
+#: ../src/main.c:674
+msgid "Mailbox Exchange"
+msgstr "การแลกเปลี่ยนเมล"
+
+#: ../src/main.c:675
+msgid "Mailbox Information"
+msgstr "ข้อมูลกล่องเมล"
+
+#. When asking for NS record in DNS context
+#: ../src/main.c:677
+msgid "Name Server"
+msgstr "เซิร์ฟเวอร์ชื่อเครื่อง"
+
+#: ../src/main.c:678
+msgid "Host name for Address"
+msgstr "ชื่อเครื่องสำหรับหมายเลขไอพี"
+
+#: ../src/main.c:679
+msgid "Start-of-authority"
+msgstr "Start-of-authority"
+
+#: ../src/main.c:680
+msgid "Text Information"
+msgstr "ข้อมูลข้อความ"
+
+#: ../src/main.c:681
+msgid "Well Known Services"
+msgstr "บริการที่รู้จัก"
+
+#: ../src/main.c:682
+msgid "Any / All Information"
+msgstr "ข้อมูลทั้งหมด"
+
+#: ../src/netstat.c:122
+msgid "Getting routing table"
+msgstr "กำลังอ่านตารางเส้นทาง"
+
+#: ../src/netstat.c:137
+msgid "Getting active Internet connections"
+msgstr "กำลังตรวจหาการเชื่อมต่ออินเทอร์เน็ตที่ทำงานอยู่"
+
+#: ../src/netstat.c:146
+msgid "Getting group memberships"
+msgstr "กำลังตรวจหาการเป็นสมาชิกกลุ่ม"
+
+#: ../src/netstat.c:450
+msgid "IP Source"
+msgstr "ไอพีต้นทาง"
+
+#: ../src/netstat.c:458
+msgid "Port/Service"
+msgstr "พอร์ต/บริการ"
+
+#: ../src/netstat.c:466 ../src/scan.c:314
+msgid "State"
+msgstr "สถานะ"
+
+#: ../src/netstat.c:609
+msgid "Destination/Prefix"
+msgstr "ปลายทาง/พรีฟิกซ์"
+
+#: ../src/netstat.c:611
+msgid "Destination"
+msgstr "ปลายทาง"
+
+#: ../src/netstat.c:618
+msgid "Gateway"
+msgstr "เกตเวย์"
+
+#: ../src/netstat.c:626
+msgid "Netmask"
+msgstr "เน็ตแมสก์"
+
+#: ../src/netstat.c:634 ../src/netstat.c:741
+msgid "Interface"
+msgstr "อินเทอร์เฟซ"
+
+#: ../src/netstat.c:748
+msgid "Member"
+msgstr "สมาชิก"
+
+#: ../src/netstat.c:756
+msgid "Group"
+msgstr "กลุ่ม"
+
+#. The netstat "Display active network services" output in
+#. text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:798
+msgid "Protocol\tIP Source\tPort/Service\tState\n"
+msgstr "โพรโทคอล\tไอพีต้นทาง\tพอร์ต/บริการ\tสถานะ\n"
+
+#. The netstat "Display routing" output in text format.
+#. This seems as a route table.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:804
+msgid "Destination\tGateway\tNetmask\tInterface\n"
+msgstr "ปลายทาง\tเกตเวย์\tเน็ตแมสก์\tอินเทอร์เฟซ\n"
+
+#. The netstat "Multicast information" output in text format.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/netstat.c:809
+msgid "Interface\tMember\tGroup\n"
+msgstr "อินเทอร์เฟซ\tสมาชิก\tกลุ่ม\n"
+
+#: ../src/nettool.c:199
+msgid "A network address was not specified"
+msgstr "ไม่ได้กำหนดที่อยู่เครือข่าย"
+
+#: ../src/nettool.c:200 ../src/nettool.c:209
+msgid "Please enter a valid network address and try again."
+msgstr "กรุณาป้อนที่อยู่เครือข่ายที่ถูกต้องและลองอีกครั้ง"
+
+#: ../src/nettool.c:207
+#, c-format
+msgid "The address '%s' cannot be found"
+msgstr "ไม่พบที่อยู่ '%s'"
+
+#: ../src/nettool.c:236
+msgid "A domain address was not specified"
+msgstr "ไม่ได้กำหนดที่อยู่โดเมน"
+
+#: ../src/nettool.c:237
+msgid "Please enter a valid domain address and try again."
+msgstr "กรุณาป้อนที่อยู่โดเมนที่ถูกต้องแล้วลองใหม่อีกครั้ง"
+
+#: ../src/nettool.c:428
+msgid "Information not available"
+msgstr "ไม่มีข้อมูล"
+
+#: ../src/nettool.c:548
+msgid "Stop"
+msgstr "หยุด"
+
+#: ../src/nettool.c:554
+msgid "Run"
+msgstr "ทำงาน"
+
+#. Created up here so we can get the geometry info.
+#: ../src/ping.c:151
+msgid "Time (ms):"
+msgstr "เวลา (ms)"
+
+#: ../src/ping.c:171
+msgid "Seq. No.:"
+msgstr "ลำดับที่:"
+
+#: ../src/ping.c:254
+#, c-format
+msgid "Sending ping requests to %s"
+msgstr "กำลังส่งข้อความ ping ไปยัง %s"
+
+#: ../src/ping.c:569
+msgid "Bytes"
+msgstr "จำนวนไบต์"
+
+#: ../src/ping.c:576
+msgid "Source"
+msgstr "ต้นทาง"
+
+#: ../src/ping.c:584
+msgid "Seq"
+msgstr "ลำดับ"
+
+#: ../src/ping.c:594
+msgid "Time"
+msgstr "เวลา"
+
+#: ../src/ping.c:602
+msgid "Units"
+msgstr "หน่วย"
+
+#. The ping output in text format:
+#. Bytes received, Address Source, Number of Sequence,
+#. Round Trip Time (Time), Units of Time.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/ping.c:628
+msgid "Bytes\tSource\tSeq\tTime\tUnits\n"
+msgstr "จำนวนไบต์\tต้นทาง\tลำดับ\tเวลา\tหน่วย\n"
+
+#. The ping output in a text format (to copy on clipboard)
+#: ../src/ping.c:643
+#, c-format
+msgid "Time minimum:\t%s ms\n"
+msgstr "เวลาต่ำสุด:\t%s ms\n"
+
+#: ../src/ping.c:644
+#, c-format
+msgid "Time average:\t%s ms\n"
+msgstr "เวลาเฉลี่ย:\t%s ms\n"
+
+#: ../src/ping.c:645
+#, c-format
+msgid "Time maximum:\t%s ms\n"
+msgstr "เวลาสูงสุด:\t%s ms\n"
+
+#: ../src/ping.c:647
+#, c-format
+msgid "Packets transmitted:\t%s\n"
+msgstr "จำนวนแพ็กเก็ตที่ส่ง:\t%s\n"
+
+#: ../src/ping.c:649
+#, c-format
+msgid "Packets received:\t%s\n"
+msgstr "จำนวนแพ็กเก็ตที่ได้รับ:\t%s\n"
+
+#: ../src/ping.c:652
+#, c-format
+msgid "Successful packets:\t%s\n"
+msgstr "จำนวนแพ็กเก็ตที่สำเร็จ:\t%s\n"
+
+#: ../src/scan.c:94
+#, c-format
+msgid "Scanning %s for open ports"
+msgstr "กำลังตรวจ %s เพื่อหาพอร์ตที่เปิดอยู่"
+
+#: ../src/scan.c:169
+msgid "unknown"
+msgstr "ไม่ทราบ"
+
+#. Translators: "open" is a network status and should be one word.
+#: ../src/scan.c:173
+msgid "open"
+msgstr "เปิด"
+
+#: ../src/scan.c:306
+msgid "Port"
+msgstr "พอร์ต"
+
+#: ../src/scan.c:322
+msgid "Service"
+msgstr "บริการ"
+
+#. The portscan output in text format:
+#. Port, State, Service.
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/scan.c:344
+msgid "Port\tState\tService\n"
+msgstr "พอร์ต\tสถานะ\tบริการ\n"
+
+#: ../src/traceroute.c:62
+#, c-format
+msgid "Tracing route to %s"
+msgstr "กำลังแกะรอยเส้นทางไปยัง %s"
+
+#: ../src/traceroute.c:265
+msgid "Hop"
+msgstr "ฮ็อป"
+
+#: ../src/traceroute.c:273
+msgid "Hostname"
+msgstr "ชื่อเครื่อง"
+
+#: ../src/traceroute.c:281
+msgid "IP"
+msgstr "ไอพี"
+
+#: ../src/traceroute.c:292
+msgid "Time 1"
+msgstr "เวลา 1"
+
+#: ../src/traceroute.c:302
+msgid "Time 2"
+msgstr "เวลา 2"
+
+#. The traceroute output in text format:
+#. Hop count, Hostname, IP, Round Trip Time 1 (Time1),
+#. Round Trip Time 2 (Time2),
+#. It's a tabular output, and these belongs to the column titles
+#: ../src/traceroute.c:328
+msgid "Hop\tHostname\tIP\tTime 1\tTime 2\n"
+msgstr "ฮ็อป\tชื่อเครื่อง\tไอพี\tเวลา 1\tเวลา 2\n"
+
+#: ../src/utils.c:227
+#, c-format
+msgid ""
+"In order to use this feature of the program, %s must be installed in your "
+"system"
+msgstr "หากจะใช้ความสามารถนี้ของโปรแกรม จะต้องติดตั้ง %s ในระบบของคุณด้วย"
+
+#: ../src/mate-nettool.desktop.in.in.h:2
+msgid "View information about your network"
+msgstr "ดูข้อมูลเกี่ยวกับเครือข่ายของคุณ"
+
+#: ../src/finger.c:63
+#, c-format
+msgid "Getting information of %s on \"%s\""
+msgstr "กำลังอ่านข้อมูลผู้ใช้ %s จาก \"%s\""
+
+#: ../src/finger.c:67
+#, c-format
+msgid "Getting information of all users on \"%s\""
+msgstr "กำลังอ่านข้อมูลผู้ใช้ทุกคนจาก \"%s\""
+
+#: ../src/whois.c:58
+#, c-format
+msgid "Getting the whois information of %s"
+msgstr "กำลังอ่านข้อมูล whois ของ %s"
+
+#~ msgid "Broadcast:"
+#~ msgstr "กระจายสัญญาณ:"
+
+#~ msgid "IP Address:"
+#~ msgstr "หมายเลขไอพี:"
+
+#~ msgid "Netmask:"
+#~ msgstr "เน็ตแมสก์:"
+
+#~ msgid "IP address:\t%s\n"
+#~ msgstr "หมายเลขไอพี:\t%s\n"
+
+#~ msgid "Netmask:\t%s\n"
+#~ msgstr "เน็ตแมสก์:\t%s\n"
+
+#~ msgid "Broadcast:\t%s\n"
+#~ msgstr "กระจายสัญญาณ:\t%s\n"
+
+#~ msgid "Network Information Tools"
+#~ msgstr "เครื่องมือตรวจสอบข้อมูลเครือข่าย"
+
+#~ msgid "Packets loss:"
+#~ msgstr "จำนวนแพ็กเก็ตสูญหาย:"
+
+#~ msgid "Packet loss:\t%s\n"
+#~ msgstr "จำนวนแพ็กเก็ตสูญหาย:\t%s\n"
+
+#~ msgid "%s: Command not found"
+#~ msgstr "%s: ไม่พบคำสั่งนี้"
+
+#~ msgid "Network Tools - Devices"
+#~ msgstr "ตรวจสอบเครือข่าย - อุปกรณ์"
